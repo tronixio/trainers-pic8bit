@@ -6,6 +6,12 @@ Docs/
 Kicad/*/gerber/
 Kicad/*/*-backups/
 Kicad/*/fp-info-cache
+MplabX/PICAS-P16F1779.X/main.s
+MplabX/PICAS-P16F1779.X/Makefile
+MplabX/PICAS-P16F1779.X/build/
+MplabX/PICAS-P16F1779.X/disassembly/
+MplabX/PICAS-P16F1779.X/dist/
+MplabX/PICAS-P16F1779.X/nbproject/
 MplabX/XC8-P16F1779.X/main.c
 MplabX/XC8-P16F1779.X/Makefile
 MplabX/XC8-P16F1779.X/build/
