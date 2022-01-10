@@ -1,5 +1,7 @@
 # Trainers Boards PIC 8-Bit.
 
+## Schematics.
+
 - [Schematic Nano Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/pdf/schematic.pdf)
 <!-- - [PIC 8-Bit Mini Trainer.]() -->
 <!--- [PIC 8-Bit Trainer.]() -->
@@ -8,7 +10,7 @@
 
 <!-- - [PIC16F1777/8/9 Features](https://github.com/tronixio/trainers-pic8bit/tree/main/features#readme) -->
 
-## PIC 8-Bit MCU Features.
+## Features.
 
 ### PIC-AS PIC16F.
 
@@ -24,7 +26,6 @@
 <!--- [PIC16F1777/8/9 - SPI](https://github.com/tronixio/trainers-pic8bit/blob/main/features/pic16f177x//spi.md) -->
 <!--- [PIC16F1777/8/9 - EUSART](https://github.com/tronixio/trainers-pic8bit/blob/main/features/pic16f177x//eusart.md) -->
 
-
 ## NANO Trainer top.
 
 ![NANO Trainer top.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/pics/nano-top.png)
@@ -32,7 +33,6 @@
 ## NANO Trainer bottom.
 
 ![NANO Trainer bottom.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/pics/nano-bottom.png)
-
 
 ## Notes.
 
