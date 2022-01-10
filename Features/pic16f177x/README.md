@@ -1,6 +1,6 @@
-# PIC 8-Bit MCU Features.
+# Trainers Boards PIC 8-Bit.
 
-- [PIC 8-Bit MCU Features.](https://github.com/tronixio/trainers-pic8bit/tree/main/features#readme)
+- [Trainers Boards PIC 8-Bit.](https://github.com/tronixio/trainers-pic8bit)
 
 ## Notes.
 
