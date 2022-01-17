@@ -25,13 +25,21 @@
 <!--- [PIC16F1777/8/9 - SPI](https://github.com/tronixio/trainers-pic8bit/blob/main/features/pic16f177x//spi.md) -->
 <!--- [PIC16F1777/8/9 - EUSART](https://github.com/tronixio/trainers-pic8bit/blob/main/features/pic16f177x//eusart.md) -->
 
-## NANO Trainer top.
+## Nano Trainer top.
 
-![NANO Trainer top.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/pics/nano-top.png)
+![Nano Trainer top.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/pics/top.png)
 
-## NANO Trainer bottom.
+## Nano Trainer bottom.
 
-![NANO Trainer bottom.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/pics/nano-bottom.png)
+![Nano Trainer bottom.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/pics/bottom.png)
+
+## Mini Trainer top.
+
+![Mini Trainer top.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/mini/pics/top.png)
+
+## Mini Trainer bottom.
+
+![Mini Trainer bottom.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/mini/pics/bottom.png)
 
 ## Notes.
 
