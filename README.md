@@ -3,8 +3,7 @@
 ## Schematics.
 
 - [Schematic Nano Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/pdf/schematic.pdf)
-<!-- - [PIC 8-Bit Mini Trainer.]() -->
-<!--- [PIC 8-Bit Trainer.]() -->
+- [Schematic Mini Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/mini/pdf/schematic.pdf)
 
 <!-- ## PIC 8-Bit MCU Features. -->
 
