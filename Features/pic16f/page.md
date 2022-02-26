@@ -45,8 +45,6 @@ CONFIG LVP=ON
 ; PIC16F1778 - @8MHz Internal Oscillator.
 ; -preset_vec=0000h, -pcinit=0005h, -pfunction1=0800h, -pfunction2=1000h, -pfunction3=1800h.
 
-;./XC8-P16F1778-TBOT-DEBUG.X/dist/default/production/XC8-P16F1778-TBOT-DEBUG.X.production.map
-
 ; GPR BANK0.
 PSECT cstackBANK0,class=BANK0,space=1,delta=1
 delay:   DS  1
