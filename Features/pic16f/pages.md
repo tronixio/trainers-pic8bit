@@ -18,7 +18,7 @@
 
 - Configure PIC-AS Linker Program Sector.
 
-<p align="center"><img alt=="" src="./pics/picas-02.png"></p>
+<p align="center"><img alt=="" src="./pics/picas-07.png"></p>
 
 ## 2.Code.
 
