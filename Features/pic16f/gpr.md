@@ -44,7 +44,7 @@ CONFIG LVP=ON
 ; PIC16F1778 - Compile with PIC-AS(v2.32).
 ; PIC16F1778 - @1MHz Internal Oscillator.
 
-; This code is a demonstration code to show how to access the variables present in the different GPR Bank memories.
+; This is a demonstration code to show how to access the variables present in the different GPR Bank memories.
 
 ; GPR BANK0.
 PSECT cstackBANK0,class=BANK0,space=1,delta=1
@@ -72,7 +72,7 @@ delay25:     DS  1
 ; Reset Vector.
 PSECT reset_vec,class=CODE,space=0,delta=2
 resetVector:
-    bra    initialize
+    goto    initialize
 
 ; Main.
 PSECT cinit,class=CODE,space=0,delta=2
