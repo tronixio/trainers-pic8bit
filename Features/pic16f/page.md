@@ -12,11 +12,11 @@
 
 - Configure PIC-AS Summary output.
 
-<p align="center"><img alt=="" src="./pics/picas-00.png"></p>
+<p align="center"><img alt="" src="./pics/picas-00.png"></p>
 
 - Configure PIC-AS Linker Program Sector.
 
-<p align="center"><img alt=="" src="./pics/picas-07.png"></p>
+<p align="center"><img alt="" src="./pics/picas-07.png" width="50%"></p>
 
 ## 2.Code.
 
