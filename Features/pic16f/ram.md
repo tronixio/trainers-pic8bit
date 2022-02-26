@@ -44,7 +44,7 @@ CONFIG LVP=ON
 ; PIC16F1778 - Compile with PIC-AS(v2.32).
 ; PIC16F1778 - @1MHz Internal Oscillator.
 
-; This code is a demonstration code to show how to access the variables present in the different Common RAM memories.
+; This is a demonstration code to show how to access the variables present in the different Common RAM memories.
 
 ; Common RAM.
 PSECT cstackCOMM,class=COMMON,space=1,delta=1
@@ -57,7 +57,7 @@ delay:	    DS  1
 ; Reset Vector.
 PSECT reset_vec,class=CODE,space=0,delta=2
 reset_vec:
-    bra    initialize
+    goto    initialize
 
 ; Main.
 PSECT cinit,class=CODE,space=0,delta=2
