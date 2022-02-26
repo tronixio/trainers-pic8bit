@@ -16,6 +16,7 @@
 
 - [PIC16F - PIC-AS General Purpose Register (GPR) Bank.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f/gpr.md)
 - [PIC16F - PIC-AS Common RAM Memories.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f/ram.md)
+- [PIC16F - PIC-AS Page ACCESS.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f/page.md)
 
 ### PIC16F1777/8/9.
 
