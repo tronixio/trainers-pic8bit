@@ -82,7 +82,7 @@ loop:
     END	    reset_vec
 ```
 
-## 2.Build & Load Output.
+## 3.Build & Load Output.
 
 ```diff
 Psect Usage Map:
@@ -137,7 +137,7 @@ Data space:
     ABS1                 used     0h (     0) of   7E0h bytes   (  0.0%)
 ```
 
-## 3.Simulation & Debug.
+## 4.Simulation & Debug.
 
 - Common RAM: variable **delay**.
 
