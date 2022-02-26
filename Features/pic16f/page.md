@@ -1,4 +1,4 @@
-# PIC16F - GPR Bank.
+# PIC16F - Pages ACCESS.
 
 ## 0.Contents.
 
@@ -7,8 +7,6 @@
 - [2.Code.](#2code)
 
 - [3.Build & Load Output.](#3build--load-output)
-
-- [4.Simulation & Debug.](#4simulation--debug)
 
 ## 1.Configuration.
 
