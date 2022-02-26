@@ -2,13 +2,15 @@
 
 ## 0.Contents.
 
-- [1.Configuration & Code.](#1configuration--code)
+- [1.Configuration.](#1configuration)
 
-- [2.Build & Load Output.](#2build--load-output)
+- [2.Code.](#2code)
 
-- [3.Simulation & Debug.](#3simulation--debug)
+- [3.Build & Load Output.](#3build--load-output)
 
-## 1.Configuration & Code.
+- [4.Simulation & Debug.](#4simulation--debug)
+
+## 1.Configuration.
 
 - Configure PIC-AS Summary output.
 
@@ -18,7 +20,7 @@
 
 <p align="center"><img alt=="" src="./pics/picas-01.png"></p>
 
-- Code.
+## 2.Code.
 
 ```as
 ; Configuration Registers.
@@ -117,7 +119,7 @@ loop:
     END	    resetVector
 ```
 
-## 2.Build & Load Output.
+## 3.Build & Load Output.
 
 ```diff
 Psect Usage Map:
@@ -179,7 +181,7 @@ Data space:
     ABS1                 used     0h (     0) of   7E0h bytes   (  0.0%)
 ```
 
-## 3.Simulation & Debug.
+## 4.Simulation & Debug.
 
 - GPR Bank0: variable **delay0**.
 
