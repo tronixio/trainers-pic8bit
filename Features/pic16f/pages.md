@@ -1,6 +1,28 @@
-# Code
+# PIC16F - GPR Bank.
 
-```
+## 0.Contents.
+
+- [1.Configuration.](#1configuration)
+
+- [2.Code.](#2code)
+
+- [3.Build & Load Output.](#3build--load-output)
+
+- [4.Simulation & Debug.](#4simulation--debug)
+
+## 1.Configuration.
+
+- Configure PIC-AS Summary output.
+
+<p align="center"><img alt=="" src="./pics/picas-00.png"></p>
+
+- Configure PIC-AS Linker Program Sector.
+
+<p align="center"><img alt=="" src="./pics/picas-02.png"></p>
+
+## 2.Code.
+
+```as
 ; Configuration Registers.
 CONFIG FOSC=INTOSC
 CONFIG WDTE=OFF
