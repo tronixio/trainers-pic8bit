@@ -45,6 +45,10 @@ CONFIG LVP=ON
 ; PIC16F1778 - @8MHz Internal Oscillator.
 ; -preset_vec=0000h, -pcinit=0005h, -ppage1=0800h, -ppage2=1000h, -ppage3=1800h.
 
+; This is a demonstration code to show how to access the PAGES Program Space.
+
+: LED or Oscilloscope Probe on MCU.RA0 Pin.
+
 ; GPR BANK0.
 PSECT cstackBANK0,class=BANK0,space=1,delta=1
 delay:   DS  1
@@ -98,7 +102,7 @@ main:
     ; MCU Initialization.
     ; Internal Oscillator Settings.
     MOVLB   BANK1
-    MOVLW   0b00000110
+    MOVLW   0b00000000
     MOVWF   OSCTUNE
     MOVLW   0x70
     MOVWF   OSCCON
@@ -191,7 +195,7 @@ loop:
 PSECT page1,class=CODE,space=0,delta=2
 _led_on:
     MOVLB   BANK2
-    BSF	    LATA, 0x6
+    BSF	    LATA, 0x0
     MOVLW   255
     MOVLP   HIGH _delay
     CALL    LOW _delay
@@ -201,7 +205,7 @@ _led_on:
 PSECT page2,class=CODE,space=0,delta=2
 _led_off:
     MOVLB   BANK2
-    BCF	    LATA, 0x6
+    BCF	    LATA, 0x0
     MOVLW   255
     MOVLP   HIGH _delay
     CALL    LOW _delay
