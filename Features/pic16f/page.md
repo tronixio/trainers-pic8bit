@@ -224,7 +224,7 @@ _delay:
 
 ## 3.Build & Load Output.
 
-```bash
+```text
 Psect      | Contents            | Memory Range  | Size
 ------------|---------------------|---------------|------------
 reset_vec  | Reset vector        | 0000h - 0000h |  1 word   
