@@ -28,7 +28,7 @@ CONFIG PWRTE=OFF
 CONFIG MCLRE=ON
 CONFIG CP=OFF
 CONFIG BOREN=OFF
-CONFIG CLKOUTEN=ON
+CONFIG CLKOUTEN=OFF
 CONFIG IESO=OFF
 CONFIG FCMEN=OFF
 CONFIG WRT=OFF
@@ -43,7 +43,7 @@ CONFIG LVP=ON
 #include <xc.inc>
 ; PIC16F1778 - Compile with PIC-AS(v2.36).
 ; PIC16F1778 - @8MHz Internal Oscillator.
-; -preset_vec=0000h, -pcinit=0005h, -pfunction1=0800h, -pfunction2=1000h, -pfunction3=1800h.
+; -preset_vec=0000h, -pcinit=0005h, -ppage1=0800h, -ppage2=1000h, -ppage3=1800h.
 
 ; GPR BANK0.
 PSECT cstackBANK0,class=BANK0,space=1,delta=1
@@ -188,27 +188,27 @@ loop:
     BRA	    loop
 
 ; Function PAGE1.
-PSECT function1,global,class=CODE,merge=1,delta=2
+PSECT page1,class=CODE,space=0,delta=2
 _led_on:
     MOVLB   BANK2
     BSF	    LATA, 0x6
-    MOVLW   259
+    MOVLW   255
     MOVLP   HIGH _delay
     CALL    LOW _delay
     RETURN
 
 ; Function PAGE2.
-PSECT function2,global,class=CODE,merge=1,delta=2
+PSECT page2,class=CODE,space=0,delta=2
 _led_off:
     MOVLB   BANK2
     BCF	    LATA, 0x6
-    MOVLW   250
+    MOVLW   255
     MOVLP   HIGH _delay
     CALL    LOW _delay
     RETURN
 
 ; Function PAGE3.
-PSECT function3,global,class=CODE,merge=1,delta=2
+PSECT page3,class=CODE,space=0,delta=2
 _delay:
     MOVLB   BANK0
     MOVWF   delay
@@ -225,6 +225,19 @@ _delay:
 ## 3.Build & Load Output.
 
 ```diff
+Psect      | Contents            | Memory Range  | Size
+------------|---------------------|---------------|------------
+reset_vec  | Reset vector        | 0000h - 0000h |  1 word   
+cinit      | Initialization code | 0005h - 0051h | 4D words  
+page1      |                     | 0800h - 0805h |  6 words  
+page2      |                     | 1000h - 1005h |  6 words  
+page3      |                     | 1800h - 1807h |  8 words  
+------------|---------------------|---------------|------------
+           |                     |               |            
+cstackBANK | Stack in bank 0     | 0020h - 0020h |  1 byte   
+------------|---------------------|---------------|------------
+config     |                     | 8007h - 8008h |  2 words  
+------------|---------------------|---------------|------------
 ```
 
 ---
