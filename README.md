@@ -2,10 +2,11 @@
 
 ## Schematics.
 
-- [Nano Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/pdf/schematic.pdf)
+- [Nano Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/extras/schematic.pdf)
+<!--
 - [DRAFT - Mini Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/mini/pdf/schematic.pdf)
 - [DRAFT - PIC 8-Bit Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/trainer/pdf/schematic.pdf)
-
+-->
 <!-- ## PIC 8-Bit MCU Features. -->
 
 <!-- - [PIC16F1777/8/9 Features](https://github.com/tronixio/trainers-pic8bit/tree/main/features#readme) -->
@@ -29,27 +30,27 @@
 
 ## Nano Trainer top.
 
-![Nano Trainer top.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/pics/top.png)
+![Nano Trainer top.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/extras/top.png)
 
 ## Nano Trainer bottom.
 
-![Nano Trainer bottom.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/pics/bottom.png)
+![Nano Trainer bottom.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/extras/bottom.png)
 
 ## DRAFT - Mini Trainer top.
 
-![Mini Trainer top.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/mini/pics/top.png)
+![Mini Trainer top.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/mini/extras/top.png)
 
 ## DRAFT - Mini Trainer bottom.
 
-![Mini Trainer bottom.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/mini/pics/bottom.png)
+![Mini Trainer bottom.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/mini/extras/bottom.png)
 
 ## DRAFT - PIC 8-Bit Trainer top.
 
-![PIC 8-Bit Trainer top.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/trainer/pics/top.png)
+![PIC 8-Bit Trainer top.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/trainer/extras/top.png)
 
 ## DRAFT - PIC 8-Bit Trainer bottom.
 
-![PIC 8-Bit Trainer bottom.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/trainer/pics/bottom.png)
+![PIC 8-Bit Trainer bottom.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/trainer/extras/bottom.png)
 
 ## Notes.
 
