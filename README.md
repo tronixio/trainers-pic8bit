@@ -36,6 +36,14 @@
 
 ![Nano Trainer bottom.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/extras/bottom.png)
 
+## Micro Trainer top.
+
+![Micro Trainer top.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/micros/extras/top.png)
+
+## Micro Trainer bottom.
+
+![Micro Trainer bottom.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/micros/extras/bottom.png)
+
 ## DRAFT - Mini Trainer top.
 
 ![Mini Trainer top.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/mini/extras/top.png)
