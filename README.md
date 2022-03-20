@@ -2,7 +2,7 @@
 
 ## Schematics.
 
-- [Nano Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/extras/schematic.pdf)
+- [**Nano** Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/nano/extras/schematic.pdf)
 - [TODO - Micro Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/micro/extras/schematic.pdf)
 - [DRAFT - Mini Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/mini/extras/schematic.pdf)
 - [DRAFT - PIC 8-Bit Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/trainer/extras/schematic.pdf)
