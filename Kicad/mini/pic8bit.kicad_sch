@@ -468,6 +468,9 @@
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/4729242a-02fb-42e4-9a5a-53bdf70afd2c"
       (reference "#FLG0201") (unit 1) (value "PWR_FLAG") (footprint "")
     )
+    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/0cd77f7d-d460-4f33-acea-ec52b8800920"
+      (reference "#PWR0101") (unit 1) (value "POWER-GND") (footprint "")
+    )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/f8704056-9374-4c6f-b68c-8a92ea9f2fee"
       (reference "#PWR0201") (unit 1) (value "POWER-GND") (footprint "")
     )
@@ -840,44 +843,47 @@
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/06e9f46f-7e4c-4bed-b773-9e488e693926"
       (reference "R306") (unit 1) (value "1K") (footprint "tronixio:RESISTOR-1206")
     )
-    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/c0c29c26-bf3e-4c51-9e2e-c56140cbf94a"
+    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/45472bb6-324f-458e-9081-e3a7656dc643"
       (reference "R307") (unit 1) (value "2K4") (footprint "tronixio:RESISTOR-1206")
     )
+    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/c0c29c26-bf3e-4c51-9e2e-c56140cbf94a"
+      (reference "R308") (unit 1) (value "2K4") (footprint "tronixio:RESISTOR-1206")
+    )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/d7c3e985-bc82-4d7c-8d2e-533d7ecfd562"
-      (reference "R308") (unit 1) (value "1K") (footprint "tronixio:RESISTOR-1206")
+      (reference "R309") (unit 1) (value "1K") (footprint "tronixio:RESISTOR-1206")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/ffecd68c-c34f-42ba-9a8b-4590333b714c"
-      (reference "R309") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
-    )
-    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/455f8c04-e1da-434c-ab20-39164d1b2dc0"
       (reference "R310") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
     )
-    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/79c9c3ec-cbfe-4c66-af16-1a4d9910a649"
+    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/455f8c04-e1da-434c-ab20-39164d1b2dc0"
       (reference "R311") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
     )
-    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/3de56383-f2b0-4cd0-9a46-6838739f3426"
+    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/79c9c3ec-cbfe-4c66-af16-1a4d9910a649"
       (reference "R312") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
     )
-    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/664c73c5-bddc-422e-9b5c-68a23bc28633"
+    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/3de56383-f2b0-4cd0-9a46-6838739f3426"
       (reference "R313") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
     )
-    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/e60ba7f3-9b7c-4420-8c63-5afe6c50232c"
+    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/664c73c5-bddc-422e-9b5c-68a23bc28633"
       (reference "R314") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
     )
-    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/ba9d7be2-a498-4ea6-bfa9-3798135b3eec"
+    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/e60ba7f3-9b7c-4420-8c63-5afe6c50232c"
       (reference "R315") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
     )
-    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/b9cad6ce-c6ed-4a76-9d23-f660e91262df"
+    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/ba9d7be2-a498-4ea6-bfa9-3798135b3eec"
       (reference "R316") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
     )
-    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/ac20018c-912f-4a10-a6a7-a8083633335f"
-      (reference "R317") (unit 1) (value "4K7") (footprint "tronixio:RESISTOR-1206")
+    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/b9cad6ce-c6ed-4a76-9d23-f660e91262df"
+      (reference "R317") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
     )
-    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/9b7d39ee-2d23-4644-ad92-ecffb4ffdd66"
+    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/ac20018c-912f-4a10-a6a7-a8083633335f"
       (reference "R318") (unit 1) (value "4K7") (footprint "tronixio:RESISTOR-1206")
     )
+    (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/9b7d39ee-2d23-4644-ad92-ecffb4ffdd66"
+      (reference "R319") (unit 1) (value "4K7") (footprint "tronixio:RESISTOR-1206")
+    )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/4790101c-700d-40cb-8e55-6b2a24c43566"
-      (reference "R319") (unit 1) (value "1K") (footprint "tronixio:RESISTOR-1206")
+      (reference "R320") (unit 1) (value "1K") (footprint "tronixio:RESISTOR-1206")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/cd8bddaf-c746-41ce-944b-266ce9f17a95"
       (reference "S201") (unit 1) (value "Reset") (footprint "tronixio:ALPS-SKRPAC")

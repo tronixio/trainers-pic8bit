@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.8,
-          "width": 1.8
+          "drill": 0.0,
+          "height": 1.75,
+          "width": 1.3
         },
         "silk_line_width": 0.19999999999999998,
         "silk_text_italic": false,
@@ -363,8 +363,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "tronixio"
+    ],
+    "pinned_symbol_libs": [
+      "tronixio"
+    ]
   },
   "meta": {
     "filename": "pic8bit.kicad_pro",
@@ -448,7 +452,6 @@
           "Net-(C301-Pad1)",
           "Net-(C302-Pad1)",
           "Net-(C303-Pad1)",
-          "Net-(C303-Pad2)",
           "Net-(IC202-Pad10)",
           "Net-(IC202-Pad11)",
           "Net-(IC202-Pad12)",
@@ -485,9 +488,6 @@
           "Net-(LED302-Pad2)",
           "Net-(P301-Pad2)",
           "Net-(P302-Pad2)",
-          "Net-(R301-Pad2)",
-          "Net-(R304-Pad2)",
-          "Net-(R308-Pad2)",
           "PGC",
           "PGD",
           "ROTARY_A",

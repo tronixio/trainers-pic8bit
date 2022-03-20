@@ -1480,7 +1480,6 @@
   )
 
   (no_connect (at 43.18 177.8) (uuid 42d2d7f3-f0de-43f2-a1f9-ef10d0e946fa))
-  (no_connect (at 147.32 125.73) (uuid faf4f5a5-e20f-4158-8be9-7c1390889fec))
 
   (wire (pts (xy 190.5 78.74) (xy 190.5 123.19))
     (stroke (width 0) (type solid) (color 0 0 0 0))
