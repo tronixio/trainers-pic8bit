@@ -366,9 +366,7 @@
     "pinned_footprint_libs": [
       "tronixio"
     ],
-    "pinned_symbol_libs": [
-      "tronixio"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "pic8bit.kicad_pro",
@@ -472,13 +470,6 @@
           "Net-(IC202-Pad6)",
           "Net-(IC202-Pad7)",
           "Net-(IC202-Pad9)",
-          "Net-(IC301-Pad1)",
-          "Net-(IC301-Pad5)",
-          "Net-(IC302-Pad2)",
-          "Net-(IC302-Pad3)",
-          "Net-(IC302-Pad4)",
-          "Net-(IC302-Pad5)",
-          "Net-(IC302-Pad6)",
           "Net-(K301-Pad1)",
           "Net-(K301-Pad2)",
           "Net-(K301-Pad3)",
@@ -493,9 +484,6 @@
           "ROTARY_A",
           "ROTARY_B",
           "ROTARY_S",
-          "unconnected-(IC301-Pad4)",
-          "unconnected-(IC302-Pad7)",
-          "unconnected-(IC302-Pad8)",
           "unconnected-(K201-Pad4)",
           "unconnected-(K204-Pad1)",
           "~{MCLR}"
