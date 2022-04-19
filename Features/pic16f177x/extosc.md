@@ -47,7 +47,7 @@ void main(void)
 
 - FOSC=24.576MHz, SPLLEN=0.
 
-<p align="center"><img alt=="LF" src="./pics/TEK00018.PNG"></p>
+<p align="center"><img alt="LF" src="./pics/TEK00018.PNG"></p>
 
 ---
 DISCLAIMER: THIS CODE IS PROVIDED WITHOUT ANY WARRANTY OR GUARANTEES.

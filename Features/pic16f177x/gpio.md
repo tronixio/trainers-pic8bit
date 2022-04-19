@@ -95,7 +95,7 @@ void main(void)
 
 - Port A/B/C.
 
-<p align="center"><img alt=="GPIO" src="./pics/gpio.png"></p>
+<p align="center"><img alt="GPIO" src="./pics/gpio.png"></p>
 
 ## 2.XC8 - PIC16F1777/9 GPIO.
 
@@ -190,11 +190,11 @@ void main(void)
 
 - Port A/B/C/D.
 
-<p align="center"><img alt=="GPIO" src="./pics/gpio.png"></p>
+<p align="center"><img alt="GPIO" src="./pics/gpio.png"></p>
 
 - Port E.
 
-<p align="center"><img alt=="GPIO" src="./pics/gpio-e.png"></p>
+<p align="center"><img alt="GPIO" src="./pics/gpio-e.png"></p>
 
 ## 3.PICAS - PIC16F1778 GPIO.
 
@@ -361,7 +361,7 @@ loop:
 
 - Port A/B/C.
 
-<p align="center"><img alt=="GPIO" src="./pics/pic-as-gpio.png"></p>
+<p align="center"><img alt="GPIO" src="./pics/pic-as-gpio.png"></p>
 
 ## 4.PICAS - PIC16F1777/9 GPIO.
 
@@ -562,11 +562,11 @@ loop:
 
 - Port A/B/C/D.
 
-<p align="center"><img alt=="GPIO" src="./pics/pic-as-gpio.png"></p>
+<p align="center"><img alt="GPIO" src="./pics/pic-as-gpio.png"></p>
 
 - Port E.
 
-<p align="center"><img alt=="GPIO" src="./pics/pic-as-gpio-e.png"></p>
+<p align="center"><img alt="GPIO" src="./pics/pic-as-gpio-e.png"></p>
 
 ---
 DISCLAIMER: THIS CODE IS PROVIDED WITHOUT ANY WARRANTY OR GUARANTEES.

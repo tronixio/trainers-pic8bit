@@ -67,7 +67,7 @@ void main(void)
 
 - FOSC=31kHz, IRCF=0000.
 
-<p align="center"><img alt=="LFINTOSC" src="./pics/TEK00000.PNG"></p>
+<p align="center"><img alt="LFINTOSC" src="./pics/TEK00000.PNG"></p>
 
 ## 2.MFINTOSC - Medium-Frequency Internal Oscillator.
 
@@ -140,23 +140,23 @@ void main(void)
 
 - FOSC=31.25kHz, IRCF=0010, TUN=000000.
 
-<p align="center"><img alt=="MFINTOSC" src="./pics/TEK00001.PNG"></p>
+<p align="center"><img alt="MFINTOSC" src="./pics/TEK00001.PNG"></p>
 
 - FOSC=62.5kHz, IRCF=0100, TUN=000000.
 
-<p align="center"><img alt=="MFINTOSC" src="./pics/TEK00002.PNG"></p>
+<p align="center"><img alt="MFINTOSC" src="./pics/TEK00002.PNG"></p>
 
 - FOSC=125kHz, IRCF=0101, TUN=000000.
 
-<p align="center"><img alt=="MFINTOSC" src="./pics/TEK00003.PNG"></p>
+<p align="center"><img alt="MFINTOSC" src="./pics/TEK00003.PNG"></p>
 
 - FOSC=250kHz, IRCF=0110, TUN=000000.
 
-<p align="center"><img alt=="MFINTOSC" src="./pics/TEK00004.PNG"></p>
+<p align="center"><img alt="MFINTOSC" src="./pics/TEK00004.PNG"></p>
 
 - FOSC=500kHz, IRCF=0111, TUN=000000.
 
-<p align="center"><img alt=="MFINTOSC" src="./pics/TEK00005.PNG"></p>
+<p align="center"><img alt="MFINTOSC" src="./pics/TEK00005.PNG"></p>
 
 ## 3.HFINTOSC - High-Frequency Internal Oscillator.
 
@@ -233,47 +233,47 @@ void main(void)
 
 - FOSC=31.25kHz, IRCF=0011, TUN=000000.
 
-<p align="center"><img alt=="HFINTOSC" src="./pics/TEK00006.PNG"></p>
+<p align="center"><img alt="HFINTOSC" src="./pics/TEK00006.PNG"></p>
 
 - FOSC=125kHz, IRCF=1000, TUN=000000.
 
-<p align="center"><img alt=="HFINTOSC" src="./pics/TEK00007.PNG"></p>
+<p align="center"><img alt="HFINTOSC" src="./pics/TEK00007.PNG"></p>
 
 - FOSC=250kHz, IRCF=1001, TUN=000000.
 
-<p align="center"><img alt=="HFINTOSC" src="./pics/TEK00008.PNG"></p>
+<p align="center"><img alt="HFINTOSC" src="./pics/TEK00008.PNG"></p>
 
 - FOSC=500kHz, IRCF=1010, TUN=000000.
 
-<p align="center"><img alt=="HFINTOSC" src="./pics/TEK00009.PNG"></p>
+<p align="center"><img alt="HFINTOSC" src="./pics/TEK00009.PNG"></p>
 
 - FOSC=1MHz, IRCF=1011, TUN=000000.
 
-<p align="center"><img alt=="HFINTOSC" src="./pics/TEK00010.PNG"></p>
+<p align="center"><img alt="HFINTOSC" src="./pics/TEK00010.PNG"></p>
 
 - FOSC=2MHz, IRCF=1100, TUN=000000.
 
-<p align="center"><img alt=="HFINTOSC" src="./pics/TEK00011.PNG"></p>
+<p align="center"><img alt="HFINTOSC" src="./pics/TEK00011.PNG"></p>
 
 - FOSC=4MHz, IRCF=1101, TUN=000000.
 
-<p align="center"><img alt=="HFINTOSC" src="./pics/TEK00012.PNG"></p>
+<p align="center"><img alt="HFINTOSC" src="./pics/TEK00012.PNG"></p>
 
 - FOSC=8MHz, IRCF=1110, TUN=100000.
 
-<p align="center"><img alt=="HFINTOSC" src="./pics/TEK00013.PNG"></p>
+<p align="center"><img alt="HFINTOSC" src="./pics/TEK00013.PNG"></p>
 
 - FOSC=8MHz, IRCF=1110, TUN=000000.
 
-<p align="center"><img alt=="HFINTOSC" src="./pics/TEK00014.PNG"></p>
+<p align="center"><img alt="HFINTOSC" src="./pics/TEK00014.PNG"></p>
 
 - FOSC=8MHz, IRCF=1110, TUN=011111.
 
-<p align="center"><img alt=="HFINTOSC" src="./pics/TEK00015.PNG"></p>
+<p align="center"><img alt="HFINTOSC" src="./pics/TEK00015.PNG"></p>
 
 - FOSC=16MHz, IRCF=1111, TUN=000000.
 
-<p align="center"><img alt=="HFINTOSC" src="./pics/TEK00016.PNG"></p>
+<p align="center"><img alt="HFINTOSC" src="./pics/TEK00016.PNG"></p>
 
 ## 4.HFINTOSC - High-Frequency Internal Oscillator with PLL.
 
@@ -348,7 +348,7 @@ void main(void)
 
 - FOSC=32MHz, SPLLEN=1, IRCF=1110, TUN=000000.
 
-<p align="center"><img alt=="HFINTOSC" src="./pics/TEK00017.PNG"></p>
+<p align="center"><img alt="HFINTOSC" src="./pics/TEK00017.PNG"></p>
 
 ---
 DISCLAIMER: THIS CODE IS PROVIDED WITHOUT ANY WARRANTY OR GUARANTEES.
