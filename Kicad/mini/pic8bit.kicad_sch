@@ -724,10 +724,10 @@
       (reference "IC202") (unit 1) (value "MICROCHIP-PIC16F1778-ISP") (footprint "tronixio:DIP-28-W762-SOCKET")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/aaac6ca3-9aba-4f82-b45d-8eb04e78b4e9"
-      (reference "IC301") (unit 1) (value "ONSEMI-CAT4002A-SOT-23") (footprint "tronixio:SOT-23-6")
+      (reference "IC301") (unit 1) (value "CAT4002A") (footprint "tronixio:SOT-23-6")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/62241e61-fae0-4fcf-92ee-1276a4ab7387"
-      (reference "IC302") (unit 1) (value "MICROCHIP-MCP2221A-ISL") (footprint "tronixio:SOIC-SL-14")
+      (reference "IC302") (unit 1) (value "MCP2221A") (footprint "tronixio:SOIC-SL-14")
     )
     (path "/55795f44-b358-4de2-a286-91a0aa0ebc8a"
       (reference "JP101") (unit 1) (value "HARWIN-JUMPER-0254-06MM-BLACK") (footprint "tronixio:HARWIN-M20-7580-7583")
