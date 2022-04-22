@@ -471,6 +471,9 @@
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/0cd77f7d-d460-4f33-acea-ec52b8800920"
       (reference "#PWR0101") (unit 1) (value "POWER-GND") (footprint "")
     )
+    (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/5e25d914-20d1-414a-a128-b79a39469e2d"
+      (reference "#PWR0102") (unit 1) (value "POWER-GND") (footprint "")
+    )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/f8704056-9374-4c6f-b68c-8a92ea9f2fee"
       (reference "#PWR0201") (unit 1) (value "POWER-GND") (footprint "")
     )
@@ -654,9 +657,6 @@
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/93f57085-e144-4171-aa6e-7f54d532ff93"
       (reference "#PWR0337") (unit 1) (value "POWER-GND") (footprint "")
     )
-    (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/5e25d914-20d1-414a-a128-b79a39469e2d"
-      (reference "#PWR?") (unit 1) (value "POWER-GND") (footprint "")
-    )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/36380bba-c7ac-4db6-bbd7-e4b4cc9c6541"
       (reference "BB301") (unit 1) (value "BREADBOARD-170") (footprint "tronixio:BREADBOARD-170")
     )
@@ -760,7 +760,7 @@
       (reference "JP204") (unit 1) (value "SDA") (footprint "tronixio:HARWIN-M20-999024x")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/decd714e-c32f-40e5-b629-c0d4257717ea"
-      (reference "JP301") (unit 1) (value "EN BCKL") (footprint "tronixio:HARWIN-M20-999024x")
+      (reference "JP301") (unit 1) (value "BCKL") (footprint "tronixio:HARWIN-M20-999024x")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/5b2a7490-73c4-49fc-bb18-277203ce33eb"
       (reference "JP302") (unit 1) (value "UTX") (footprint "tronixio:HARWIN-M20-999024x")
@@ -802,10 +802,10 @@
       (reference "LED201") (unit 1) (value "Power") (footprint "tronixio:LED-1206")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/aebba99c-334c-4929-a5a1-891c48d14b31"
-      (reference "LED301") (unit 1) (value "URX") (footprint "tronixio:FUSE-1206")
+      (reference "LED301") (unit 1) (value "URX") (footprint "tronixio:LED-1206")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/8b71b4b0-c289-4468-a7ee-4a6409128d8d"
-      (reference "LED302") (unit 1) (value "UTX") (footprint "tronixio:FUSE-1206")
+      (reference "LED302") (unit 1) (value "UTX") (footprint "tronixio:LED-1206")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/f08bf669-a7e1-403b-a155-13b894bbc40b"
       (reference "P301") (unit 1) (value "PIHER-PT10MV-10K") (footprint "tronixio:PIHER-PT10MV")
@@ -847,7 +847,7 @@
       (reference "R306") (unit 1) (value "1K") (footprint "tronixio:RESISTOR-1206")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/45472bb6-324f-458e-9081-e3a7656dc643"
-      (reference "R307") (unit 1) (value "2K4") (footprint "tronixio:RESISTOR-1206")
+      (reference "R307") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/c0c29c26-bf3e-4c51-9e2e-c56140cbf94a"
       (reference "R308") (unit 1) (value "2K4") (footprint "tronixio:RESISTOR-1206")
