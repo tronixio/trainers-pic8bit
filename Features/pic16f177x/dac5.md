@@ -18,7 +18,7 @@
 
 #include <xc.h>
 #define _XTAL_FREQ 8000000
-// PIC16F1778 - Compile with XC8(v2.32).
+// PIC16F1778 - Compile with XC8(v2.36).
 // PIC16F1778 - @8MHz Internal Oscillator.
 
 // 5-BIT DAC3/4/7.
@@ -121,6 +121,7 @@ void main(void)
     }
 }
 ```
+- DAC3 Output.
 
 <p align="center"><img alt="5-Bit DAC" src="./pics/xc8-dac5.png"></p>
 
@@ -135,7 +136,7 @@ void main(void)
 
 #include <xc.h>
 #define _XTAL_FREQ 8000000
-// PIC16F1778 - Compile with XC8(v2.32).
+// PIC16F1778 - Compile with XC8(v2.36).
 // PIC16F1778 - @8MHz Internal Oscillator.
 
 // 5-BIT DAC3/4/7.
@@ -280,6 +281,8 @@ void main(void)
     }
 }
 ```
+
+- DAC3 Output.
 
 <p align="center"><img alt="5-Bit DAC" src="./pics/xc8-dac5.png"></p>
 
@@ -467,6 +470,8 @@ loop:
     END	    reset_vec
 ```
 
+- DAC3 Output.
+
 <p align="center"><img alt="5-Bit DAC" src="./pics/picas-dac5.png"></p>
 
 ## 4.PICAS - PIC16F1777/9 - 5-Bit DAC.
@@ -492,7 +497,7 @@ CONFIG LPBOR=OFF
 CONFIG LVP=ON
 
 #include <xc.inc>
-; PIC16F1777/9 - Compile with PIC-AS(v2.32).
+; PIC16F1777/9 - Compile with PIC-AS(v2.36).
 ; PIC16F1777/9 - @8MHz Internal Oscillator.
 ; Custom linker options: -preset_vec=0000h, -pcinit=0005h.
 
@@ -670,6 +675,8 @@ loop:
 
     END	    reset_vec
 ```
+
+- DAC3 Output.
 
 <p align="center"><img alt="5-Bit DAC" src="./pics/picas-dac5.png"></p>
 
