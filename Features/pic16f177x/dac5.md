@@ -3,9 +3,9 @@
 ## 0.Contents.
 
 - [1.XC8 - PIC16F1778 5-Bit DAC.](#1xc8---pic16f1778-5-bit-dac)
-- [2.XC8 - PIC16F1777/9 5-Bit DAC.](##2xc8---pic16f17789-5-bit-dac)
+- [2.XC8 - PIC16F1777/9 5-Bit DAC.](##2xc8---pic16f1779-5-bit-dac)
 - [3.PICAS - PIC16F1778 5-Bit DAC.](##13picas---pic16f1778-5-bit-dac)
-- [4.PICAS - PIC16F1777/9 5-Bit DAC.](##4picas---pic16f17789-5-bit-dac)
+- [4.PICAS - PIC16F1777/9 5-Bit DAC.](##4picas---pic16f1779-5-bit-dac)
 
 ## 1.XC8 - PIC16F1778 5-Bit DAC.
 
