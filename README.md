@@ -21,6 +21,7 @@
 <!--- [PIC16F1777/8/9 - CPP-PWM](https://github.com/tronixio/trainers-pic8bit/blob/main/features/pic16f177x//cpp-pwm.md) -->
 <!--- [PIC16F1777/8/9 - SPI](https://github.com/tronixio/trainers-pic8bit/blob/main/features/pic16f177x//spi.md) -->
 <!--- [PIC16F1777/8/9 - EUSART](https://github.com/tronixio/trainers-pic8bit/blob/main/features/pic16f177x//eusart.md) -->
+- [PIC16F1777/8/9 - DAC 5-Bit.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/dac5.md)
 
 ## NANO Trainer Top.
 
