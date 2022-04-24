@@ -2,12 +2,12 @@
 
 ## 0.Contents.
 
-- [1.XC8 - PIC16F1778 GPIO.](#1xc8---pic16f1778-gpio)
-- [2.XC8 - PIC16F1777/9 GPIO.](#2xc8---pic16f17779-gpio)
-- [3.PICAS - PIC16F1778 GPIO.](#3picas---pic16f1778-gpio)
-- [4.PICAS - PIC16F1777/9 GPIO.](#4picas---pic16f17779-gpio)
+- [1.XC8 - PIC16F1778 - GPIO.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/gpio.md#1xc8---pic16f1778---gpio)
+- [2.XC8 - PIC16F1777/9 - GPIO.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/gpio.md#2xc8---pic16f17779---gpio)
+- [3.PICAS - PIC16F1778 - GPIO.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/gpio.md#3picas---pic16f1778---gpio)
+- [4.PICAS - PIC16F1777/9 - GPIO.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/gpio.md#4picas---pic16f17779---gpio)
 
-## 1.XC8 - PIC16F1778 GPIO.
+## 1.XC8 - PIC16F1778 - GPIO.
 
 ```c
 // Configuration Registers.
@@ -18,26 +18,26 @@
 
 #include <xc.h>
 #define _XTAL_FREQ 8000000
-// PIC16F1778 - Compile with XC8(v2.32).
+// PIC16F1778 - Compile with XC8(v2.36).
 // PIC16F1778 - @8MHz Internal Oscillator.
 
 // I/O Ports.
 
 // PIC8-Bit Mini Trainer.
-// JUMPER.URX - Open.
-// JUMPER.UTX - Open.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
-// JUMPER.VCAP - Open.
-// JUMPER.BCKL - Open.
+// JUMPER.URX - Not Use.
+// JUMPER.UTX - Not Use.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
+// JUMPER.VCAP - Not Use.
+// JUMPER.BCKL - Not Use.
 
 // PIC8-Bit Trainer.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
-// JUMPER.VEE - Open.
-// JUMPER.BCKL - Open.
-// JUMPER.VCAP - Open.
-// JUMPER.SPI/I2C - Open.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
+// JUMPER.VEE - Not Use.
+// JUMPER.BCKL - Not Use.
+// JUMPER.VCAP - Not Use.
+// JUMPER.SPI/I2C - Not Use.
 
 // Main.
 void main(void)
@@ -97,7 +97,7 @@ void main(void)
 
 <p align="center"><img alt="GPIO" src="./pics/gpio.png"></p>
 
-## 2.XC8 - PIC16F1777/9 GPIO.
+## 2.XC8 - PIC16F1777/9 - GPIO.
 
 ```c
 // Configuration Registers.
@@ -108,14 +108,14 @@ void main(void)
 
 #include <xc.h>
 #define _XTAL_FREQ 8000000
-// PIC16F1777/9 - Compile with XC8(v2.32).
+// PIC16F1777/9 - Compile with XC8(v2.36).
 // PIC16F1777/9 - @8MHz Internal Oscillator.
 
 // I/O Ports.
 
 // PIC8-Bit Nano Trainer.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
 
 // Main.
 void main(void)
@@ -190,13 +190,13 @@ void main(void)
 
 - Port A/B/C/D.
 
-<p align="center"><img alt="GPIO" src="./pics/gpio.png"></p>
+<p align="center"><img alt="GPIO" src="./pics/xc8-gpio.png"></p>
 
 - Port E.
 
-<p align="center"><img alt="GPIO" src="./pics/gpio-e.png"></p>
+<p align="center"><img alt="GPIO" src="./pics/xc8-gpio-e.png"></p>
 
-## 3.PICAS - PIC16F1778 GPIO.
+## 3.PICAS - PIC16F1778 - GPIO.
 
 ```as
 ; Configuration Registers.
@@ -219,7 +219,7 @@ CONFIG LPBOR=OFF
 CONFIG LVP=ON
 
 #include <xc.inc>
-; PIC16F1778 - Compile with PIC-AS(v2.32).
+; PIC16F1778 - Compile with PIC-AS(v2.36).
 ; PIC16F1778 - @8MHz Internal Oscillator.
 ; Custom linker options: -preset_vec=0000h, -pcinit=0005h.
 
@@ -361,9 +361,9 @@ loop:
 
 - Port A/B/C.
 
-<p align="center"><img alt="GPIO" src="./pics/pic-as-gpio.png"></p>
+<p align="center"><img alt="GPIO" src="./pics/picas-gpio.png"></p>
 
-## 4.PICAS - PIC16F1777/9 GPIO.
+## 4.PICAS - PIC16F1777/9 - GPIO.
 
 ```as
 ; Configuration Registers.
@@ -386,7 +386,7 @@ CONFIG LPBOR=OFF
 CONFIG LVP=ON
 
 #include <xc.inc>
-; PIC16F1777/9 - Compile with PIC-AS(v2.32).
+; PIC16F1777/9 - Compile with PIC-AS(v2.36).
 ; PIC16F1777/9 - @8MHz Internal Oscillator.
 ; Custom linker options: -preset_vec=0000h, -pcinit=0005h.
 
@@ -562,11 +562,11 @@ loop:
 
 - Port A/B/C/D.
 
-<p align="center"><img alt="GPIO" src="./pics/pic-as-gpio.png"></p>
+<p align="center"><img alt="GPIO" src="./pics/picas-gpio.png"></p>
 
 - Port E.
 
-<p align="center"><img alt="GPIO" src="./pics/pic-as-gpio-e.png"></p>
+<p align="center"><img alt="GPIO" src="./pics/picas-gpio-e.png"></p>
 
 ---
 DISCLAIMER: THIS CODE IS PROVIDED WITHOUT ANY WARRANTY OR GUARANTEES.
