@@ -2,10 +2,10 @@
 
 ## 0.Contents.
 
-- [1.XC8 - PIC16F1778 5-Bit DAC.](#1xc8---pic16f1778-5-bit-dac)
-- [2.XC8 - PIC16F1777/9 5-Bit DAC.](#2xc8---pic16f1779-5-bit-dac)
-- [3.PICAS - PIC16F1778 5-Bit DAC.](#3picas---pic16f1778-5-bit-dac)
-- [4.PICAS - PIC16F1777/9 5-Bit DAC.](#4picas---pic16f1779-5-bit-dac)
+- [1.XC8 - PIC16F1778 5-Bit DAC.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/dac5.md#1xc8---pic16f1778---5-bit-dac)
+- [2.XC8 - PIC16F1777/9 5-Bit DAC.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/dac5.md#2xc8---pic16f17779---5-bit-dac)
+- [3.PICAS - PIC16F1778 5-Bit DAC.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/dac5.md#3picas---pic16f1778---5-bit-dac)
+- [4.PICAS - PIC16F1777/9 5-Bit DAC.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/dac5.md#4picas---pic16f17779---5-bit-dac)
 
 ## 1.XC8 - PIC16F1778 - 5-Bit DAC.
 
@@ -26,20 +26,20 @@
 // MCU.RB2 -> OSCILLOSCOPE.PROBE.A.
 
 // PIC8-Bit Mini Trainer.
-// JUMPER.URX - Open.
-// JUMPER.UTX - Open.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
-// JUMPER.VCAP - Open.
-// JUMPER.BCKL - Open.
+// JUMPER.URX - Not Use.
+// JUMPER.UTX - Not Use.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
+// JUMPER.VCAP - Not Use.
+// JUMPER.BCKL - Not Use.
 
 // PIC8-Bit Trainer.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
-// JUMPER.VEE - Open.
-// JUMPER.BCKL - Open.
-// JUMPER.VCAP - Open.
-// JUMPER.SPI/I2C - Open.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
+// JUMPER.VEE - Not Use.
+// JUMPER.BCKL - Not Use.
+// JUMPER.VCAP - Not Use.
+// JUMPER.SPI/I2C - Not Use.
 
 // Main.
 void main(void)
@@ -120,7 +120,6 @@ void main(void)
         DAC3REF++;
     }
 }
-
 ```
 
 <p align="center"><img alt="5-Bit DAC" src="./pics/xc8-dac5.png"></p>
@@ -128,7 +127,158 @@ void main(void)
 ## 2.XC8 - PIC16F1777/9 - 5-Bit DAC.
 
 ```c
+// Configuration Registers.
+#pragma config FOSC = INTOSC, WDTE = OFF, PWRTE = OFF, MCLRE = ON, CP = OFF
+#pragma config BOREN = OFF, CLKOUTEN = OFF, IESO = OFF, FCMEN = OFF
+#pragma config WRT = OFF, PPS1WAY = ON, ZCD = OFF, PLLEN = OFF
+#pragma config STVREN = ON, BORV = LO, LPBOR = OFF, LVP = ON
 
+#include <xc.h>
+#define _XTAL_FREQ 8000000
+// PIC16F1778 - Compile with XC8(v2.32).
+// PIC16F1778 - @8MHz Internal Oscillator.
+
+// 5-BIT DAC3/4/7.
+
+// MCU.RB2 -> .
+
+// PIC8-Bit Mini Trainer.
+// JUMPER.URX - Open.
+// JUMPER.UTX - Open.
+// JUMPER.SDA - Open.
+// JUMPER.SCL - Open.
+// JUMPER.VCAP - Open.
+// JUMPER.BCKL - Open.
+
+// PIC8-Bit Trainer.
+// JUMPER.SDA - Open.
+// JUMPER.SCL - Open.
+// JUMPER.VEE - Open.
+// JUMPER.BCKL - Open.
+// JUMPER.VCAP - Open.
+// JUMPER.SPI/I2C - Open.
+
+// Main.
+void main(void)
+{
+    // MCU Initialization.
+    // Oscillator Settings.
+    OSCTUNE = 0b00000000;
+    OSCCON = 0x70;
+    while(!OSCSTATbits.HFIOFR){};
+    // Ports Settings.
+    // PORT Data Register.
+    PORTA = 0b00000000;
+    PORTB = 0b00000000;
+    PORTC = 0b00000000;
+    PORTD = 0b00000000;
+    PORTE = 0b00000000;
+    // TRIS Data Direction.
+    TRISA = 0b00000000;
+    TRISB = 0b00000000;
+    TRISD = 0b00000000;
+    TRISE = 0b00001000;
+    // WPU Disable.
+    OPTION_REGbits.nWPUEN = 0b1;
+    // LATCH Outputs.
+    LATA = 0b00000000;
+    LATB = 0b00000000;
+    LATC = 0b00000000;
+    LATD = 0b00000000;
+    LATE = 0b00000000;
+    // ANSEL Analog.
+    ANSELA = 0b00000000;
+    ANSELB = 0b00000000;
+    ANSELC = 0b00000000;
+    ANSELD = 0b00000000;
+    ANSELE = 0b00000000;
+    // WPU Weak Pull-up.
+    WPUA = 0b00000000;
+    WPUB = 0b00000000;
+    WPUC = 0b00000000;
+    WPUD = 0b00000000;
+    WPUE = 0b00000000;
+    // ODCON Open-drain.
+    ODCONA = 0b00000000;
+    ODCONB = 0b00000000;
+    ODCONC = 0b00000000;
+    ODCOND = 0b00000000;
+    ODCONE = 0b00000000;
+    // SRLCON Slew Rate.
+    SLRCONA = 0b11111111;
+    SLRCONB = 0b11111111;
+    SLRCONC = 0b11111111;
+    SLRCOND = 0b11111111;
+    SLRCONE = 0b11111111;
+    // INLVL Input Level.
+    INLVLA = 0b00000000;
+    INLVLB = 0b00000000;
+    INLVLC = 0b00000000;
+    INLVLD = 0b00000000;
+    // HIDRVB High Drive.
+    HIDRVB = 0b00000000;
+
+    // DAC3/4/7 - Control.
+    // OE1 - Voltage Output Enable.
+    // OE1.0 = 1 - Enable Voltage Level Output DACxOUT1 Pin.
+    // OE1.0 = 0 - Disable Voltage Level Output DACxOUT1 Pin.
+    DAC3CON0bits.OE1 = 0b1;
+    // OE2 - Voltage Output Enable.
+    // OE2.0 = 1 - Enable Voltage Level Output DACxOUT2 Pin.
+    // OE2.0 = 0 - Disable Voltage Level Output DACxOUT2 Pin.
+    DAC3CON0bits.OE2 = 0b0;
+    // PSS - Positive Source.
+    // PSS1.0 = 1 0 = FVR Buffer2 Output.
+    // PSS1.0 = 0 1 - VREF+ Pin.
+    // PSS1.0 = 0 0 - VDD.
+    DAC3CON0bits.PSS = 0b00;
+    // NSS - Negative Source.
+    // NSS1.0 = 0 1 - DACxREF0-.
+    // NSS1.0 = 0 0 - AVSS.
+    DAC3CON0bits.NSS = 0b00;
+    // DACxR - Reference Voltage Output.
+    // DAC Vout = VDD / 32.
+    // DAC3R4.0 = 1 1 1 1 1 - 3V18.
+    // DAC3R4.0 =  - 3V08.
+    // DAC3R4.0 = ...
+    // DAC3R4.0 =  - 0V10.
+    // DAC3R4.0 =  - 0V.
+    DAC3REFbits.DAC3R = 0b00000;
+    // DAC3/4/7 Enable.
+    DAC3CON0bits.EN = 0b1;
+    // DAC3/4/7 - Control.
+    // OE1 - Voltage Output Enable.
+    // OE1.0 = 1 - Enable Voltage Level Output DACxOUT1 Pin.
+    // OE1.0 = 0 - Disable Voltage Level Output DACxOUT1 Pin.
+    DAC3CON0bits.OE1 = 0b1;
+    // OE2 - Voltage Output Enable.
+    // OE2.0 = 1 - Enable Voltage Level Output DACxOUT2 Pin.
+    // OE2.0 = 0 - Disable Voltage Level Output DACxOUT2 Pin.
+    DAC3CON0bits.OE2 = 0b0;
+    // PSS - Positive Source.
+    // PSS1.0 = 1 0 = FVR Buffer2 Output.
+    // PSS1.0 = 0 1 - VREF+ Pin.
+    // PSS1.0 = 0 0 - VDD.
+    DAC3CON0bits.PSS = 0b00;
+    // NSS - Negative Source.
+    // NSS1.0 = 0 1 - DACxREF0-.
+    // NSS1.0 = 0 0 - AVSS.
+    DAC3CON0bits.NSS = 0b00;
+    // DACxR - Reference Voltage Output.
+    // DAC Vout = VDD / 32.
+    // DAC3R4.0 = 1 1 1 1 1 - 3V18.
+    // DAC3R4.0 =  - 3V08.
+    // DAC3R4.0 = ...
+    // DAC3R4.0 =  - 0V10.
+    // DAC3R4.0 =  - 0V.
+    DAC3REFbits.DAC3R = 0b00000;
+    // DAC3/4/7 Enable.
+    DAC3CON0bits.EN = 0b1;
+
+    while(1){
+        DAC3REF++;
+    }
+}
 ```
 
 <p align="center"><img alt="5-Bit DAC" src="./pics/xc8-dac5.png"></p>
@@ -163,6 +313,22 @@ CONFIG LVP=ON
 ; 5-BIT DAC3/4/7.
 
 ; MCU.RB2 -> OSCILLOSCOPE.PROBE.A.
+
+; PIC8-Bit Mini Trainer.
+; JUMPER.URX - Not Use.
+; JUMPER.UTX - Not Use.
+; JUMPER.SDA - Not Use.
+; JUMPER.SCL - Not Use.
+; JUMPER.VCAP - Not Use.
+; JUMPER.BCKL - Not Use.
+
+; PIC8-Bit Trainer.
+; JUMPER.SDA - Not Use.
+; JUMPER.SCL - Not Use.
+; JUMPER.VEE - Not Use.
+; JUMPER.BCKL - Not Use.
+; JUMPER.VCAP - Not Use.
+; JUMPER.SPI/I2C - Not Use.
 
 ; MCU Definitions.
 ; BANKS.
@@ -333,6 +499,10 @@ CONFIG LVP=ON
 ; 5-BIT DAC3/4/7/8.
 
 ; MCU.RB2 -> OSCILLOSCOPE.PROBE.A.
+
+; PIC8-Bit Nano Trainer.
+; JUMPER.SDA - Not Use.
+; JUMPER.SCL - Not Use.
 
 ; MCU Definitions.
 ; BANKS.
