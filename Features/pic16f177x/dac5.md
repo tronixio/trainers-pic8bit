@@ -7,7 +7,7 @@
 - [3.PICAS - PIC16F1778 5-Bit DAC.](#3picas---pic16f1778-5-bit-dac)
 - [4.PICAS - PIC16F1777/9 5-Bit DAC.](#4picas---pic16f1779-5-bit-dac)
 
-## 1.XC8 - PIC16F1778 5-Bit DAC.
+## 1.XC8 - PIC16F1778 - 5-Bit DAC.
 
 ```c
 // Configuration Registers.
@@ -123,13 +123,17 @@ void main(void)
 
 ```
 
-## 2.XC8 - PIC16F1777/9 5-Bit DAC.
+<p align="center"><img alt="5-Bit DAC" src="./pics/xc8-dac5.png"></p>
+
+## 2.XC8 - PIC16F1777/9 - 5-Bit DAC.
 
 ```c
 
 ```
 
-## 3.PICAS - PIC16F1778 5-Bit DAC.
+<p align="center"><img alt="5-Bit DAC" src="./pics/xc8-dac5.png"></p>
+
+## 3.PICAS - PIC16F1778 - 5-Bit DAC.
 
 ```as
 ; Configuration Registers.
@@ -297,7 +301,9 @@ loop:
     END	    reset_vec
 ```
 
-## 4.PICAS - PIC16F1777/9 5-Bit DAC.
+<p align="center"><img alt="5-Bit DAC" src="./pics/picas-dac5.png"></p>
+
+## 4.PICAS - PIC16F1777/9 - 5-Bit DAC.
 
 ```as
 ; Configuration Registers.
@@ -494,6 +500,8 @@ loop:
 
     END	    reset_vec
 ```
+
+<p align="center"><img alt="5-Bit DAC" src="./pics/picas-dac5.png"></p>
 
 ---
 DISCLAIMER: THIS CODE IS PROVIDED WITHOUT ANY WARRANTY OR GUARANTEES.
