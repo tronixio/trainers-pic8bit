@@ -2,10 +2,10 @@
 
 ## 0.Contents.
 
-- [1.LFINTOSC - Low-Frequency Internal Oscillator.](#1lfintosc---low-frequency-internal-oscillator)
-- [2.MFINTOSC - Medium-Frequency Internal Oscillator.](#2mfintosc---medium-frequency-internal-oscillator)
-- [3.HFINTOSC - High-Frequency Internal Oscillator.](#3hfintosc---high-frequency-internal-oscillator)
-- [4.HFINTOSC - High-Frequency Internal Oscillator with **PLL**.](#4hfintosc---high-frequency-internal-oscillator-with-pll)
+- [1.LFINTOSC - Low-Frequency Internal Oscillator.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/intosc.md#1lfintosc---low-frequency-internal-oscillator)
+- [2.MFINTOSC - Medium-Frequency Internal Oscillator.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/intosc.md#2mfintosc---medium-frequency-internal-oscillator)
+- [3.HFINTOSC - High-Frequency Internal Oscillator.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/intosc.md#3hfintosc---high-frequency-internal-oscillator)
+- [4.HFINTOSC - High-Frequency Internal Oscillator with **PLL**.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/intosc.md#4hfintosc---high-frequency-internal-oscillator-with-pll)
 
 ## 1.LFINTOSC - Low-Frequency Internal Oscillator.
 
@@ -17,7 +17,7 @@
 #pragma config STVREN = ON, BORV = LO, LPBOR = OFF, LVP = ON
 
 #include <xc.h>
-// PIC16F1777/8/9 - Compile with XC8(v2.32).
+// PIC16F1777/8/9 - Compile with XC8(v2.36).
 // PIC16F1777/8/9 - @xMHz Internal Oscillator.
 
 // LF Low-Frequency Internal Oscillator.
@@ -25,24 +25,24 @@
 // MCU.RA6 -> OSCILLOSCOPE.PROBE.A.
 
 // PIC8-Bit Nano Trainer.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
 
 // PIC8-Bit Mini Trainer.
-// JUMPER.URX - Open.
-// JUMPER.UTX - Open.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
-// JUMPER.VCAP - Open.
-// JUMPER.BCKL - Open.
+// JUMPER.URX - Not Use.
+// JUMPER.UTX - Not Use.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
+// JUMPER.VCAP - Not Use.
+// JUMPER.BCKL - Not Use.
 
 // PIC8-Bit Trainer.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
-// JUMPER.VEE - Open.
-// JUMPER.BCKL - Open.
-// JUMPER.VCAP - Open.
-// JUMPER.SPI/I2C - Open.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
+// JUMPER.VEE - Not Use.
+// JUMPER.BCKL - Not Use.
+// JUMPER.VCAP - Not Use.
+// JUMPER.SPI/I2C - Not Use.
 
 // Main.
 void main(void)
@@ -79,7 +79,7 @@ void main(void)
 #pragma config STVREN = ON, BORV = LO, LPBOR = OFF, LVP = ON
 
 #include <xc.h>
-// PIC16F1777/8/9 - Compile with XC8(v2.32).
+// PIC16F1777/8/9 - Compile with XC8(v2.36).
 // PIC16F1777/8/9 - @xMHz Internal Oscillator.
 
 // MF Medium-Frequency Internal Oscillator.
@@ -87,24 +87,24 @@ void main(void)
 // MCU.RA6 -> OSCILLOSCOPE.PROBE.A.
 
 // PIC8-Bit Nano Trainer.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
 
 // PIC8-Bit Mini Trainer.
-// JUMPER.URX - Open.
-// JUMPER.UTX - Open.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
-// JUMPER.VCAP - Open.
-// JUMPER.BCKL - Open.
+// JUMPER.URX - Not Use.
+// JUMPER.UTX - Not Use.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
+// JUMPER.VCAP - Not Use.
+// JUMPER.BCKL - Not Use.
 
 // PIC8-Bit Trainer.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
-// JUMPER.VEE - Open.
-// JUMPER.BCKL - Open.
-// JUMPER.VCAP - Open.
-// JUMPER.SPI/I2C - Open.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
+// JUMPER.VEE - Not Use.
+// JUMPER.BCKL - Not Use.
+// JUMPER.VCAP - Not Use.
+// JUMPER.SPI/I2C - Not Use.
 
 // Main.
 void main(void)
@@ -168,7 +168,7 @@ void main(void)
 #pragma config STVREN = ON, BORV = LO, LPBOR = OFF, LVP = ON
 
 #include <xc.h>
-// PIC16F1777/8/9 - Compile with XC8(v2.32).
+// PIC16F1777/8/9 - Compile with XC8(v2.36).
 // PIC16F1777/8/9 - @xMHz Internal Oscillator.
 
 // HF High-Frequency Internal Oscillator.
@@ -176,24 +176,24 @@ void main(void)
 // MCU.RA6 -> OSCILLOSCOPE.PROBE.A.
 
 // PIC8-Bit Nano Trainer.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
 
 // PIC8-Bit Mini Trainer.
-// JUMPER.URX - Open.
-// JUMPER.UTX - Open.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
-// JUMPER.VCAP - Open.
-// JUMPER.BCKL - Open.
+// JUMPER.URX - Not Use.
+// JUMPER.UTX - Not Use.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
+// JUMPER.VCAP - Not Use.
+// JUMPER.BCKL - Not Use.
 
 // PIC8-Bit Trainer.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
-// JUMPER.VEE - Open.
-// JUMPER.BCKL - Open.
-// JUMPER.VCAP - Open.
-// JUMPER.SPI/I2C - Open.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
+// JUMPER.VEE - Not Use.
+// JUMPER.BCKL - Not Use.
+// JUMPER.VCAP - Not Use.
+// JUMPER.SPI/I2C - Not Use.
 
 // Main.
 void main(void)
@@ -285,7 +285,7 @@ void main(void)
 #pragma config STVREN = ON, BORV = LO, LPBOR = OFF, LVP = ON
 
 #include <xc.h>
-// PIC16F1777/8/9 - Compile with XC8(v2.32).
+// PIC16F1777/8/9 - Compile with XC8(v2.36).
 // PIC16F1777/8/9 - @xMHz Internal Oscillator.
 
 // HFPLL High-Frequency Internal Oscillator with PLL.
@@ -293,24 +293,24 @@ void main(void)
 // MCU.RA6 -> OSCILLOSCOPE.PROBE.A.
 
 // PIC8-Bit Nano Trainer.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
 
 // PIC8-Bit Mini Trainer.
-// JUMPER.URX - Open.
-// JUMPER.UTX - Open.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
-// JUMPER.VCAP - Open.
-// JUMPER.BCKL - Open.
+// JUMPER.URX - Not Use.
+// JUMPER.UTX - Not Use.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
+// JUMPER.VCAP - Not Use.
+// JUMPER.BCKL - Not Use.
 
 // PIC8-Bit Trainer.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
-// JUMPER.VEE - Open.
-// JUMPER.BCKL - Open.
-// JUMPER.VCAP - Open.
-// JUMPER.SPI/I2C - Open.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
+// JUMPER.VEE - Not Use.
+// JUMPER.BCKL - Not Use.
+// JUMPER.VCAP - Not Use.
+// JUMPER.SPI/I2C - Not Use.
 
 // Main.
 void main(void)
