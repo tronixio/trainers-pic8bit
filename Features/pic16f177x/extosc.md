@@ -2,7 +2,7 @@
 
 ## 0.Contents.
 
-- [1.ECH - External Clock High-Power.](#1ech---external-clock-high-power)
+- [1.ECH - External Clock High-Power.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/extosc.md#1ech---external-clock-high-power)
 
 ## 1.ECH - External Clock High-Power.
 
@@ -14,7 +14,7 @@
 #pragma config STVREN = ON, BORV = LO, LPBOR = OFF, LVP = ON
 
 #include <xc.h>
-// PIC16F1777/8/9 - Compile with XC8(v2.32).
+// PIC16F1777/8/9 - Compile with XC8(v2.36).
 // PIC16F1777/8/9 - @24.5760MHz External Oscillator.
 
 // ECH External Oscillator.
@@ -22,8 +22,8 @@
 // MCU.RA6 -> OSCILLOSCOPE.PROBE.A.
 
 // PIC8-Bit Nano Trainer with MEMS DSC1001CI2-024.5760.
-// JUMPER.SDA - Open.
-// JUMPER.SCL - Open.
+// JUMPER.SDA - Not Use.
+// JUMPER.SCL - Not Use.
 
 // Main.
 void main(void)
