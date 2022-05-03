@@ -139,7 +139,7 @@ void main(void)
 // PIC16F1778 - Compile with XC8(v2.36).
 // PIC16F1778 - @8MHz Internal Oscillator.
 
-// 5-BIT DAC3/4/7.
+// 5-BIT DAC3/4/7/8.
 
 // MCU.RB2 -> .
 
