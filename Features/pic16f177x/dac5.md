@@ -141,7 +141,7 @@ void main(void)
 
 // 5-BIT DAC3/4/7/8.
 
-// MCU.RB2 -> .
+// MCU.RB2 -> OSCILLOSCOPE.PROBE.A.
 
 // PIC8-Bit Mini Trainer.
 // JUMPER.URX - Open.
