@@ -7,13 +7,19 @@
 * [DRAFT - Mini Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/mini/extras/schematic.pdf)
 * [DRAFT - PIC 8-Bit Trainer.](https://github.com/tronixio/trainers-pic8bit/blob/main/Kicad/trainer/extras/schematic.pdf)
 
-## PIC-AS PIC16F.
+## Firmwares.
+
+- [PIC24FJxxGA102 - EUSART - ADC - SWITCHS - ROTARY ENCODER.](https://github.com/tronixio/trainers-pic8bit/blob/main/Firmwares/pic16f17xx/pic16f1778-mini.md#1eusart---adc---switchs---rotary-encoder)
+
+## Features.
+
+### PIC-AS PIC16F.
 
 * [PIC16F - PIC-AS General Purpose Register (GPR) Bank.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f/gpr.md)
 * [PIC16F - PIC-AS Common RAM Memories.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f/ram.md)
 * [PIC16F - PIC-AS Page ACCESS.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f/page.md)
 
-## PIC16F1777/8/9.
+### PIC16F1777/8/9.
 
 * [PIC16F1777/8/9 - Internal Oscillator.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/intosc.md)
 * [PIC16F1777/8/9 - External Oscillator.](https://github.com/tronixio/trainers-pic8bit/blob/main/Features/pic16f177x/extosc.md)
