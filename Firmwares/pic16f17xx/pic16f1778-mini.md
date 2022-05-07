@@ -197,8 +197,6 @@ __pcstackCOMMON:    DS	16
 #define C0220BiZ_CONFIGURATION_FIRST_LINE                  ST7036_DDRAM_ADDRESS_FIRST_LINE
 #define C0220BiZ_CONFIGURATION_SECOND_LINE                 ST7036_DDRAM_ADDRESS_SECOND_LINE
 #define C0220BiZ_CONFIGURATION_CHARACTERS                  20
-; ASCII Characters.
-; #define ASCII_SPACE                                        0x20; todo
 
 ; Reset Vector.
 PSECT	reset_vec,class=CODE,space=0,delta=2
@@ -465,25 +463,25 @@ _lcdInitialize:
     RETURN
 
 _lcdWriteCharacter:
-    movwf   __pcstackCOMMON; todo
+    movwf   __pcstackCOMMON
     CALL    _i2cStart
     MOVLW   (C0220BiZ_CONFIGURATION_I2C_ADDRESS | I2C_WRITE)
     CALL    _i2cWrite
     MOVLW   ST7036_I2C_CONTROL_NO_CONTINUOUS_DATA
     CALL    _i2cWrite
-    movf    __pcstackCOMMON, W; todo
+    movf    __pcstackCOMMON, W
     CALL    _i2cWrite
     CALL    _i2cStop
     RETURN
 
 _lcdWriteInstruction:
-    movwf   __pcstackCOMMON; todo
+    movwf   __pcstackCOMMON
     CALL    _i2cStart
     MOVLW   (C0220BiZ_CONFIGURATION_I2C_ADDRESS | I2C_WRITE)
     CALL    _i2cWrite
     MOVLW   ST7036_I2C_CONTROL_NO_CONTINUOUS_COMMAND
     CALL    _i2cWrite
-    movf    __pcstackCOMMON, W; todo
+    movf    __pcstackCOMMON, W
     CALL    _i2cWrite
     CALL    _i2cStop
     RETURN
