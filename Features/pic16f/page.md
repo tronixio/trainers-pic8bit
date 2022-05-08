@@ -2,23 +2,11 @@
 
 ## 0.Contents.
 
-- [1.Configuration.](#1configuration)
+- [1.Code.](#1code)
+- [2.Build & Load Output.](#2build--load-output)
+- [3.Configuration.](#3configuration)
 
-- [2.Code.](#2code)
-
-- [3.Build & Load Output.](#3build--load-output)
-
-## 1.Configuration.
-
-- Configure PIC-AS Summary output.
-
-<p align="center"><img alt="" src="./pics/picas-00.png"></p>
-
-- Configure PIC-AS Linker Program Sector.
-
-<p align="center"><img alt="" src="./pics/picas-07.png"></p>
-
-## 2.Code.
+## 1.Code.
 
 ```as
 ; Configuration Registers.
@@ -51,7 +39,7 @@ CONFIG LVP=ON
 
 ; GPR BANK0.
 PSECT cstackBANK0,class=BANK0,space=1,delta=1
-delay:   DS  1
+u8Delay:   DS  1
 
 ; MCU Definitions.
 ; BANKS.
@@ -215,12 +203,12 @@ _led_off:
 PSECT page3,class=CODE,space=0,delta=2
 _delay:
     MOVLB   BANK0
-    MOVWF   delay
+    MOVWF   u8Delay
     MOVLW   255
     DECFSZ  WREG, F
     BRA	    $-1
-    DECFSZ  delay, F
-    BRA	    $-4
+    DECFSZ  u8Delay, F
+    BRA	    $-3
     RETURN
 
     END	    resetVect
@@ -243,6 +231,16 @@ cstackBANK | Stack in bank 0     | 0020h - 0020h |  1 byte
 config     |                     | 8007h - 8008h |  2 words  
 -----------|---------------------|---------------|------------
 ```
+
+## 1.Configuration.
+
+- Configure PIC-AS Summary output.
+
+<p align="center"><img alt="" src="./pics/picas-00.png"></p>
+
+- Configure PIC-AS Linker Program Sector.
+
+<p align="center"><img alt="" src="./pics/picas-07.png"></p>
 
 ---
 DISCLAIMER: THIS CODE IS PROVIDED WITHOUT ANY WARRANTY OR GUARANTEES.

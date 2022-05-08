@@ -2,25 +2,12 @@
 
 ## 0.Contents.
 
-- [1.Configuration.](#1configuration)
+- [1.Code.](#1code)
+- [2.Build & Load Output.](#2build--load-output)
+- [3.Simulation & Debug.](#3simulation--debug)
+- [4.Configuration.](#4configuration)
 
-- [2.Code.](#2code)
-
-- [3.Build & Load Output.](#3build--load-output)
-
-- [4.Simulation & Debug.](#4simulation--debug)
-
-## 1.Configuration.
-
-- Configure PIC-AS Summary output.
-
-<p align="center"><img alt="" src="./pics/picas-00.png"></p>
-
-- Configure PIC-AS Linker Program Sector.
-
-<p align="center"><img alt="" src="./pics/picas-01.png"></p>
-
-## 2.Code.
+## 1.Code.
 
 ```as
 ; Configuration Registers.
@@ -82,7 +69,7 @@ loop:
     END	    reset_vec
 ```
 
-## 3.Build & Load Output.
+## 2.Build & Load Output.
 
 ```diff
 Psect Usage Map:
@@ -137,11 +124,21 @@ Data space:
     ABS1                 used     0h (     0) of   7E0h bytes   (  0.0%)
 ```
 
-## 4.Simulation & Debug.
+## 3.Simulation & Debug.
 
 - Common RAM: variable **delay**.
 
 <p align="center"><img alt="" src="./pics/picas-06.png"></p>
+
+## 4.Configuration.
+
+- Configure PIC-AS Summary output.
+
+<p align="center"><img alt="" src="./pics/picas-00.png"></p>
+
+- Configure PIC-AS Linker Program Sector.
+
+<p align="center"><img alt="" src="./pics/picas-01.png"></p>
 
 ---
 DISCLAIMER: THIS CODE IS PROVIDED WITHOUT ANY WARRANTY OR GUARANTEES.
