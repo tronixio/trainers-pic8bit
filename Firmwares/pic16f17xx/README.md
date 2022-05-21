@@ -1,6 +1,6 @@
-# PIC 16-Bit MCU Features.
+# PIC 8-Bit MCU Features.
 
-- [PIC 16-Bit MCU Features.](https://github.com/tronixio/trainers-pic16bit#firmwares)
+- [PIC 8-Bit MCU Features.](https://github.com/tronixio/trainers-pic8bit#firmwares)
 
 ## Notes.
 
