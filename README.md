@@ -9,7 +9,10 @@
 
 ## Firmwares.
 
-- [PIC24FJxxGA102 - EUSART - ADC - SWITCHS - ROTARY ENCODER.](https://github.com/tronixio/trainers-pic8bit/blob/main/Firmwares/pic16f17xx/pic16f1778-mini.md#1eusart---adc---switchs---rotary-encoder)
+- [PIC16F1778 - XC8 - EUSART - ADC - SWITCHS - ROTARY ENCODER.](https://github.com/tronixio/trainers-pic8bit/blob/main/Firmwares/pic16f17xx/pic16f1778-mini-xc8-eusart.mdr)
+- [PIC16F1778 - XC8 - LCD - ADC - SWITCHS - ROTARY ENCODER.](https://github.com/tronixio/trainers-pic8bit/blob/main/Firmwares/pic16f17xx/pic16f1778-mini-xc8-lcd.mdr)
+- [PIC16F1778 - PIC-AS - EUSART - ADC - SWITCHS - ROTARY ENCODER.](https://github.com/tronixio/trainers-pic8bit/blob/main/Firmwares/pic16f17xx/pic16f1778-mini-picas-eusart.mdr)
+- [PIC16F1778 - PIC-AS - LCD - ADC - SWITCHS - ROTARY ENCODER.](https://github.com/tronixio/trainers-pic8bit/blob/main/Firmwares/pic16f17xx/pic16f1778-mini-picas-lcd.mdr)
 
 ## Features.
 
