@@ -38,7 +38,7 @@
 
 ![PIC 8-Bit Trainer Bottom.](https://raw.githubusercontent.com/tronixio/trainers-pic8bit/main/Kicad/trainer/extras/bottom.png)
 
-## Note
+## Note.
 
 - DRAFT : Prototype OK, last check schematic, PCB & code can be modify.
 - TODO : Work in progress, prototype was not good, hardware, PCB and code can be rework.
