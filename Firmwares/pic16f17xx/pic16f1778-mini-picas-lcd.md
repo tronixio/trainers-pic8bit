@@ -491,10 +491,10 @@ _writeStringTRONIX:
 ; FPM Strings.
 PSECT	stringtext,class=STRCODE,space=0,delta=2
 stringREADY:
-    DB	    'R','E','A','d','y','>',' ', 0x0
+    DB	    0xa, 0xd, 'R','e','a','d','y','>',' '
 
 stringTRONIX:
-    DB	    'T','r','o','n','i','x',' ','I','/','O','.', 0x0
+    DB	    0xd, 0xa, 'T','r','o','n','i','x',' ','I','/','O','.'
 
     END	    resetVector
 ```
