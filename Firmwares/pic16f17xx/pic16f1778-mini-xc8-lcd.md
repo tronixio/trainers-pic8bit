@@ -1,4 +1,6 @@
-# PIC8-Bit Mini Trainer - XC8 - LCD - ADC - SWITCHS - ROTARY ENCODER.
+# PIC8-Bit Mini Trainer.
+
+## DRAFT - XC8 - LCD - ADC - SWITCHS - ROTARY ENCODER.
 
 ```c
 // Configuration Registers.

@@ -1,4 +1,6 @@
-# DRAFT - PIC8-Bit Mini Trainer - XC8 - EUSART - ADC - SWITCHS - ROTARY ENCODER.
+# PIC8-Bit Mini Trainer.
+
+## DARFT - XC8 - EUSART - ADC - SWITCHS - ROTARY ENCODER.
 
 ```c
 // Configuration Registers.

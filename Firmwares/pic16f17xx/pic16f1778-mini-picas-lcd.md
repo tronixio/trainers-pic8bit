@@ -1,4 +1,6 @@
-# DRAFT - PIC8-Bit Mini Trainer - PIC-AS - I2C-LCD.
+# PIC8-Bit Mini Trainer.
+
+## DRAFT - PIC-AS - I2C-LCD.
 
 ```as
 ; Configuration Registers.
