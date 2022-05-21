@@ -1,4 +1,4 @@
-# DRAFT - PIC8-Bit Mini Trainer - PIC-AS - EUSART.
+# TODO - PIC8-Bit Mini Trainer - PIC-AS - EUSART.
 
 ```as
 ; Configuration Registers.
