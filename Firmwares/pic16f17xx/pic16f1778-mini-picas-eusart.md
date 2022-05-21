@@ -235,7 +235,7 @@ _delay1:
 ; FPM Strings.
 PSECT	stringtext,class=STRCODE,space=0,delta=2
 stringREADY:
-    DB	    0xd, 0xa, 'R','E','A','d','y','>',' '
+    DB	    0xd, 0xa, 'R','e','a','d','y','>',' '
 
 stringTRONIX:
     DB	    0xa, 0xd, 'T','r','o','n','i','x',' ','I','/','O','.'
