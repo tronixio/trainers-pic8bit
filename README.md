@@ -40,5 +40,5 @@
 
 !!! note
 
-    - DRAFT : Prototype OK, last check schematic, PCB & code can be modify.
-    - TODO : Work in progress, prototype was not good, hardware, PCB and code can be rework.
+  - DRAFT : Prototype OK, last check schematic, PCB & code can be modify.
+  - TODO : Work in progress, prototype was not good, hardware, PCB and code can be rework.
