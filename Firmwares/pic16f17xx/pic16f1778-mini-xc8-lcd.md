@@ -21,16 +21,16 @@
 // PIC8-Bit Mini Trainer.
 // 2x ADC CHANNELS.
 // 1x LCD NHD-C0220BiZ - ST7036.
+// 1x EUSART RX/TX ASYNCHRONOUS.
 // 1x ROTARY ENCODER with SWITCH.
 // 2x SWITCHS.
 
-// Jumpers.
-// URX - Not Use.
-// UTX - Not Use.
-// SDA - Close.
-// SCL - Close.
-// VCAP - Open.
-// BCKL - Open.
+// JUMPER.URX - Not Use.
+// JUMPER.UTX - Not Use.
+// JUMPER.SDA - Close.
+// JUMPER.SCL - Close.
+// JUMPER.VCAP - Open.
+// JUMPER.BCKL - Open.
 
 // Pinout.
 // MCU.RA0 <- ANALOG.AN1.
