@@ -3486,7 +3486,7 @@
     (property "Datasheet" "https://www.microchip.com/en-us/product/PIC16F1778" (id 3) (at 144.78 97.79 0)
       (effects (font (size 1 1)) hide)
     )
-    (property "Name" "PIC16F1778-ISP" (id 5) (at 157.48 52.07 0)
+    (property "Name" "PIC16F/PIC18F" (id 5) (at 157.48 52.07 0)
       (effects (font (size 1.15 1.15)) (justify right))
     )
     (property "Mouser" "579-PIC16F1778-I/SP" (id 6) (at 144.78 100.33 0)
