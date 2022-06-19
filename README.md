@@ -9,6 +9,10 @@
 
 ## Firmwares.
 
+### NANO Trainer.
+
+### MINI Trainer.
+
 - [PIC16F1778 - XC8 - LCD - ADC - SWITCHS - ROTARY ENCODER.](https://github.com/tronixio/trainers-pic8bit/blob/main/Firmwares/pic16f17xx/pic16f1778-mini-xc8-lcd.md)
 - [PIC16F1778 - XC8 - EUSART - ADC - SWITCHS - ROTARY ENCODER.](https://github.com/tronixio/trainers-pic8bit/blob/main/Firmwares/pic16f17xx/pic16f1778-mini-xc8-eusart.md)
 
