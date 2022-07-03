@@ -886,7 +886,7 @@
       (reference "S302") (unit 1) (value "S2") (footprint "tronixio:CK-KSA-TH")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/181b6171-61b2-48eb-bd2c-c2e289b2fbc4"
-      (reference "S303") (unit 1) (value "BOURNS-PEC12R-24DENTS") (footprint "tronixio:BOURNS-PEC12R")
+      (reference "S303") (unit 1) (value "BOURNS-PEC12R-24DENTS") (footprint "tronixio:BOURNS-PEC12R-SWITCH")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/103996e8-ab54-47cd-b36d-1a8be624108b"
       (reference "TP201") (unit 1) (value "KEYSTONE-5006") (footprint "tronixio:KEYSTONE-5006")

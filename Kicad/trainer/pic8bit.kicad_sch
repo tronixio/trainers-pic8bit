@@ -2419,14 +2419,14 @@
     )
   )
 
-  (sheet (at 78.74 139.7) (size 43.18 43.18)
+  (sheet (at 76.2 139.7) (size 43.18 43.18)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 81f75d1b-1f07-400d-98d6-f22aedb6142f)
-    (property "Sheet name" "HID" (id 0) (at 78.74 138.43 0)
+    (property "Sheet name" "HID" (id 0) (at 76.2 138.43 0)
       (effects (font (size 2 2)) (justify left bottom))
     )
-    (property "Sheet file" "pic8bit-hid.kicad_sch" (id 1) (at 78.74 183.4166 0)
+    (property "Sheet file" "pic8bit-hid.kicad_sch" (id 1) (at 76.2 183.4166 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -3057,7 +3057,7 @@
       (reference "S402") (unit 1) (value "S3") (footprint "tronixio:CK-KSA-TH")
     )
     (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/6eb969ba-5113-4e3c-b3e2-b0815d5c9b95"
-      (reference "S403") (unit 1) (value "BOURNS-PEC12R-24DENTS") (footprint "tronixio:BOURNS-PEC12R")
+      (reference "S403") (unit 1) (value "BOURNS-PEC12R-24DENTS") (footprint "tronixio:BOURNS-PEC12R-SWITCH")
     )
     (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/90c2329d-8ce7-42b6-8b4e-1a68cd1bb7e9"
       (reference "S404") (unit 1) (value "S2") (footprint "tronixio:CK-KSA-TH")
