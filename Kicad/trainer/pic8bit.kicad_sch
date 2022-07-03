@@ -2735,33 +2735,6 @@
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/315cd0ed-3115-47d4-8ce3-93270b2dff6f"
       (reference "#PWR0221") (unit 1) (value "POWER-GND") (footprint "")
     )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/e7ae9047-7345-45cc-b2d0-5759ba4d12d7"
-      (reference "#PWR0401") (unit 1) (value "POWER-VDD") (footprint "")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/576aba12-fc58-4cad-ab88-0025925decfd"
-      (reference "#PWR0402") (unit 1) (value "POWER-GND") (footprint "")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/03fbbca7-0608-49ea-b6ce-8e5e8b0684dd"
-      (reference "#PWR0403") (unit 1) (value "POWER-VDD") (footprint "")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/560c8821-db94-4286-b7ae-5825c5487c7a"
-      (reference "#PWR0404") (unit 1) (value "POWER-GND") (footprint "")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/1c3f1593-b48a-406c-9d33-ab9f20038259"
-      (reference "#PWR0405") (unit 1) (value "POWER-VDD") (footprint "")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/0964ef55-399b-44c1-97e3-a815b0b8eaad"
-      (reference "#PWR0406") (unit 1) (value "POWER-VDD") (footprint "")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/cdcc6e42-d6d3-4f9c-9a2c-a96b5c30ab26"
-      (reference "#PWR0407") (unit 1) (value "POWER-VDD") (footprint "")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/b42ce05b-cb7e-423b-82c3-43e359828913"
-      (reference "#PWR0408") (unit 1) (value "POWER-VDD") (footprint "")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/8d4bd92f-87fe-4fd6-a667-1d8c1518bcd4"
-      (reference "#PWR0409") (unit 1) (value "POWER-VDD") (footprint "")
-    )
     (path "/d8c46b72-393e-4223-918c-2af5c65ccbeb"
       (reference "B101") (unit 1) (value "ONSEMI-DF01M") (footprint "tronixio:DF01M")
     )
@@ -2782,12 +2755,6 @@
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/4666de14-777f-4c12-b15a-5c129f5059ea"
       (reference "C203") (unit 1) (value "100n") (footprint "tronixio:zzzKEMET-C315")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/a6f3e49d-85f4-4fb2-b50b-86fc77f381a3"
-      (reference "C401") (unit 1) (value "10n") (footprint "tronixio:zzzKEMET-C315")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/ea8ce63d-76e0-4533-95ec-e33155f09efb"
-      (reference "C402") (unit 1) (value "10n") (footprint "tronixio:zzzKEMET-C315")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/b0d969de-ad2a-46c0-86f4-60c4a595a630"
       (reference "D301") (unit 1) (value "ST-ESDA14V2SC5Y") (footprint "tronixio:SOT-23-5")
@@ -3019,27 +2986,6 @@
     )
     (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/b6935720-5273-42ea-89d6-cf37e254287d"
       (reference "R402") (unit 1) (value "10Ω") (footprint "tronixio:RESISTOR-1016-TH")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/b7e6ea8b-3ad5-4484-8c66-d915e091cc4c"
-      (reference "R403") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1016-TH")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/ddd37035-30cc-4519-9dbf-c8115073e793"
-      (reference "R404") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1016-TH")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/f9205a2c-2ece-4a0e-84bc-a94223df3100"
-      (reference "R405") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1016-TH")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/7e8dd5cd-99d6-4a7f-a896-a6cd3102b418"
-      (reference "R406") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1016-TH")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/e24b2ad8-71ce-41ed-a958-264e98dfa7d0"
-      (reference "R407") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1016-TH")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/c92652b6-3836-48ac-a8fe-e7438fc46972"
-      (reference "R408") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1016-TH")
-    )
-    (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/80d8e2b0-2d0d-4b97-8c6d-c8a8d5af0184"
-      (reference "R409") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1016-TH")
     )
     (path "/81f75d1b-1f07-400d-98d6-f22aedb6142f/739dbaa7-7e8e-46a0-9a44-d8a4348f60e5"
       (reference "RA401") (unit 1) (value "BOURNS-4611X") (footprint "tronixio:4611X")
