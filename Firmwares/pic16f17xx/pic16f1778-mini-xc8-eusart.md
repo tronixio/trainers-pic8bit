@@ -44,25 +44,25 @@
 
 // Definitions.
 // ADC.
-#define ADC_TRIGGER             5
+#define ADC_TRIGGER           5
 // EUSART.
-#define BAUDRATE                9600
-#define BAUDRATE_GENERATOR      ((_XTAL_FREQ/BAUDRATE/4)-1)
+#define BAUDRATE              9600
+#define BAUDRATE_GENERATOR    ((_XTAL_FREQ/BAUDRATE/4)-1)
 // ASCII Characters.
 #define ASCII_CR                0x0D
 // Rotary Encoder.
-#define ROTARY_ENCODER_A        PORTBbits.RB2
-#define ROTARY_ENCODER_B        PORTBbits.RB3
-#define ROTARY_ENCODER_SWITCH   PORTBbits.RB4
+#define ROTARY_PHASE_A        PORTBbits.RB2
+#define ROTARY_PHASE_B        PORTBbits.RB3
+#define ROTARY_SWITCH         PORTBbits.RB4
 // Switchs.
-#define SWITCH_S1               PORTBbits.RB0
-#define SWITCH_S2               PORTBbits.RB1
+#define SWITCH_S1             PORTBbits.RB0
+#define SWITCH_S2             PORTBbits.RB1
 
 // Function Prototypes.
 uint8_t eusart_readCharacter(void);
 void eusart_writeCharacter(uint8_t u8Data);
 void eusart_writeString(const uint8_t * u8Data);
-int8_t rotary_u8encoderRead(void);
+int8_t rotary_i8encoderRead(void);
 void u16toa(uint16_t u16Data, uint8_t * au8Buffer, uint8_t u8Base);
 
 // Strings.
@@ -80,7 +80,7 @@ const uint8_t au8Pressed[] = "PRESSED";
 const uint8_t au8Released[] = "RELEASED";
 
 // Global Variables.
-int8_t i8EncoderDelta;
+int8_t i8encoderDelta;
 uint16_t u16AdcTimer;
 const int8_t i8EncoderFull[16] = {0, 1, -1, 0, -1, 0, 0, 1, 1, 0, 0, -1, 0, -1, 1, 0};
 
@@ -90,9 +90,9 @@ void __interrupt() ISR(void)
     if(INTCONbits.TMR0IF){
         static uint8_t u8encoderLast = 0;
         u8encoderLast = (u8encoderLast<<2) & 0x0F;
-        if(ROTARY_ENCODER_A) u8encoderLast |= 1;
-        if(ROTARY_ENCODER_B) u8encoderLast |= 2;
-        i8EncoderDelta += i8EncoderFull[u8encoderLast];
+        if(ROTARY_PHASE_A) u8encoderLast |= 0b01; // CW.
+        if(ROTARY_PHASE_B) u8encoderLast |= 0b10; // CCW.
+        i8encoderDelta += i8EncoderFull[u8encoderLast];
         INTCONbits.TMR0IF = 0b0;
     }
     u16AdcTimer++;
@@ -144,6 +144,7 @@ void main(void)
     // HIDRVB High Drive.
     HIDRVB  = 0b00000000;
     // PPS Settings.
+    // PPS Unlock Sequence.
     PPSLOCK = 0x55;
     PPSLOCK = 0xAA;
     PPSLOCKbits.PPSLOCKED = 0b0;
@@ -151,6 +152,7 @@ void main(void)
     RXPPSbits.RXPPS = 0x17;    // RC7 - EUSART.URX.
     // PPS Outputs.
     RC6PPSbits.RC6PPS = 0x24;  // RC6 - EUSART.UTX.
+    // PPS Lock Sequence.
     PPSLOCK = 0x55;
     PPSLOCK = 0xAA;
     PPSLOCKbits.PPSLOCKED = 0b1;
@@ -235,13 +237,13 @@ void main(void)
         }
 
         // ROTARY ENCODER.
-        if(!ROTARY_ENCODER_SWITCH){
+        if(!ROTARY_SWITCH){
             __delay_ms(100);
             u8encoderSwitchPressed = 1;
             eusart_writeString(au8Encodersw);
             eusart_writeString(au8Pressed);
-            while(!ROTARY_ENCODER_SWITCH){};
-        }else if(ROTARY_ENCODER_SWITCH){
+            while(!ROTARY_SWITCH){};
+        }else if(ROTARY_SWITCH){
             if(u8encoderSwitchPressed){
                 u8encoderSwitchPressed = 0;
                 eusart_writeString(au8Encodersw);
@@ -250,7 +252,7 @@ void main(void)
             }
         }
 
-        u8encoderRead += rotary_u8encoderRead();
+        u8encoderRead += rotary_i8encoderRead();
         if(u8encoderLast != u8encoderRead){
             u16toa(u8encoderRead, au8Buffer, 10);
             eusart_writeString(au8Encoder);
@@ -310,13 +312,13 @@ void eusart_writeString(const uint8_t * u8Data)
         eusart_writeCharacter(*u8Data++);
 }
 
-int8_t rotary_u8encoderRead(void)
+int8_t rotary_i8encoderRead(void)
 {
     int8_t u8encoderRead;
 
     INTCONbits.TMR0IE = 0b0;
-    u8encoderRead = i8EncoderDelta;
-    i8EncoderDelta = u8encoderRead & 3;
+    u8encoderRead = i8encoderDelta;
+    i8encoderDelta = u8encoderRead & 3;
     INTCONbits.TMR0IE = 0b1;
 
     return(u8encoderRead>>2);

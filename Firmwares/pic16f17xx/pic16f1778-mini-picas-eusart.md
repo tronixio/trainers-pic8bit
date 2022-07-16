@@ -1,6 +1,6 @@
 # PIC8-Bit Mini Trainer.
 
-## DRAFT - PIC-AS - EUSART.
+## TODO - PIC-AS - EUSART.
 
 ```as
 ; Configuration Registers.
@@ -172,7 +172,7 @@ main:
     MOVLW   0b00000000
     MOVWF   HIDRVB
     ; PPS Settings.
-    ; PPS Write Enable.
+    ; PPS Unlock Sequence.
     MOVLB   BANK28
     MOVLW   0x55
     MOVWF   PPSLOCK
@@ -194,7 +194,7 @@ main:
     ; RC4 - MSSP.SDA.
     MOVLW   0x22
     MOVWF   RC4PPS
-    ; PPS Write Disable.
+    ; PPS Lock Sequence.
     MOVLB   BANK28
     MOVLW   0x55
     MOVWF   PPSLOCK
