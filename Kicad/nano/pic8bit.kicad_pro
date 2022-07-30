@@ -435,8 +435,6 @@
           "/RE2",
           "/~{MCLR}",
           "GND",
-          "Net-(*LED2-Pad2)",
-          "Net-(*LED3-Pad2)",
           "Net-(C1-Pad1)",
           "Net-(F1-Pad1)",
           "Net-(LED1-Pad2)",
@@ -444,7 +442,6 @@
           "RC4{slash}SDA",
           "RC6{slash}UTX",
           "RC7{slash}URX",
-          "unconnected-(*MEMS1-Pad1)",
           "unconnected-(K3-Pad6)",
           "unconnected-(K4-Pad4)"
         ],
