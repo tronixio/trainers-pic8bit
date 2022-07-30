@@ -1367,12 +1367,6 @@
     (uuid fd9ad7b6-a379-49fa-ae00-f6056a89247b)
   )
 
-  (text "- Revoir taille / graisse de serigraphie\n- Ajouter les reference composants datashets...\n"
-    (at 152.4 144.78 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 08b448da-c50b-4a3f-b163-a4256033d136)
-  )
-
   (symbol (lib_id "tronixio:CUI-TB006-508-02BE") (at 78.74 55.88 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0054d322-9146-47cb-bdb2-7f70552b244c)
