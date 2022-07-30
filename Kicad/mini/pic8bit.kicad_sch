@@ -465,8 +465,8 @@
   )
 
   (symbol_instances
-    (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/4729242a-02fb-42e4-9a5a-53bdf70afd2c"
-      (reference "#FLG0201") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/707b0cc7-638e-4a74-ba0e-9eedeee5dfec"
+      (reference "#FLG?") (unit 1) (value "POWER-FLAG") (footprint "")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/0cd77f7d-d460-4f33-acea-ec52b8800920"
       (reference "#PWR0101") (unit 1) (value "POWER-GND") (footprint "")
@@ -661,13 +661,13 @@
       (reference "BB301") (unit 1) (value "BREADBOARD-170") (footprint "tronixio:BREADBOARD-170")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/3eb5e29c-65b8-4e4a-9945-da296fffefe3"
-      (reference "C201") (unit 1) (value "10µ") (footprint "tronixio:CAPACITOR-1206")
+      (reference "C201") (unit 1) (value "KEMET-C322-10U-508") (footprint "tronixio:KEMET-C322")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/8d5531be-425c-471c-8d2f-56f471ef38cc"
       (reference "C202") (unit 1) (value "100n") (footprint "tronixio:CAPACITOR-1206")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/501b335d-f76d-4bdb-8481-c31def9ac227"
-      (reference "C203") (unit 1) (value "10µ") (footprint "tronixio:CAPACITOR-1206")
+      (reference "C203") (unit 1) (value "KEMET-C322-10U-508") (footprint "tronixio:KEMET-C322")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/bb3dba17-bf3f-4867-a492-78dc08d71805"
       (reference "C204") (unit 1) (value "10µ") (footprint "tronixio:KEMET-C322")
@@ -703,7 +703,7 @@
       (reference "D202") (unit 1) (value "PMEG3030") (footprint "tronixio:SOD-128")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/9ae27384-0582-41c5-b120-3b00afe0fcd0"
-      (reference "F201") (unit 1) (value "F050") (footprint "tronixio:FUSE-1206")
+      (reference "F201") (unit 1) (value "500mA") (footprint "tronixio:FUSE-0805")
     )
     (path "/c1eea772-e579-4927-94fd-1ac1e47e3b32"
       (reference "H101") (unit 1) (value "KEYSTONE-9055") (footprint "tronixio:KEYSTONE-9055")
@@ -766,13 +766,13 @@
       (reference "K202") (unit 1) (value "MCU 1") (footprint "tronixio:HARWIN-M20-999144x")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/37acb9d9-3009-48a3-9184-481c831dc751"
-      (reference "K203") (unit 1) (value "MCU 1") (footprint "tronixio:HARWIN-M20-782144x")
+      (reference "K203") (unit 1) (value "MCU 2") (footprint "tronixio:HARWIN-M20-782144x")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/e4028da1-e1f8-478f-89bc-27fc35cf11fa"
       (reference "K204") (unit 1) (value "ICSP") (footprint "tronixio:SAMTEC-SSW-106-02-T-S-RA")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/ebd1fc0e-1e3e-4dd9-bd9c-573a612fe205"
-      (reference "K205") (unit 1) (value "MCU 2") (footprint "tronixio:HARWIN-M20-999144x")
+      (reference "K205") (unit 1) (value "MCU 1") (footprint "tronixio:HARWIN-M20-999144x")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/f28cb1f3-23cf-476a-8aa2-c5c9cb70c1a0"
       (reference "K206") (unit 1) (value "MCU 2") (footprint "tronixio:HARWIN-M20-782144x")
@@ -859,7 +859,7 @@
       (reference "R314") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/e60ba7f3-9b7c-4420-8c63-5afe6c50232c"
-      (reference "R315") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
+      (reference "R315") (unit 1) (value "1K") (footprint "tronixio:RESISTOR-1206")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/ba9d7be2-a498-4ea6-bfa9-3798135b3eec"
       (reference "R316") (unit 1) (value "10K") (footprint "tronixio:RESISTOR-1206")
