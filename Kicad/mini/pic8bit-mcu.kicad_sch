@@ -2478,8 +2478,7 @@
     (effects (font (size 1.15 1.15)) (justify left bottom))
     (uuid 03720c20-3560-4c8b-9a43-6dec2dd3210e)
   )
-  (text "IC202: Check the pinout for the desired MCU family"
-    (at 180.34 173.99 0)
+  (text "U202: Check the pinout for the desired MCU family" (at 180.34 173.99 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 05515a2e-57ee-4a09-a8bf-01a547cabc04)
   )
