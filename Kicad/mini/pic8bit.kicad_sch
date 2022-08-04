@@ -703,7 +703,7 @@
       (reference "D202") (unit 1) (value "PMEG3030") (footprint "tronixio:SOD-128")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/9ae27384-0582-41c5-b120-3b00afe0fcd0"
-      (reference "F201") (unit 1) (value "500mA") (footprint "tronixio:FUSE-0805")
+      (reference "F201") (unit 1) (value "500mA") (footprint "tronixio:FUSE-1206")
     )
     (path "/c1eea772-e579-4927-94fd-1ac1e47e3b32"
       (reference "H101") (unit 1) (value "KEYSTONE-9055") (footprint "tronixio:KEYSTONE-9055")
