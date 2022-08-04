@@ -766,13 +766,13 @@
       (reference "K202") (unit 1) (value "MCU 1") (footprint "tronixio:HARWIN-M20-999144x")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/37acb9d9-3009-48a3-9184-481c831dc751"
-      (reference "K203") (unit 1) (value "MCU 2") (footprint "tronixio:HARWIN-M20-782144x")
+      (reference "K203") (unit 1) (value "MCU 1") (footprint "tronixio:HARWIN-M20-782144x")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/e4028da1-e1f8-478f-89bc-27fc35cf11fa"
       (reference "K204") (unit 1) (value "ICSP") (footprint "tronixio:SAMTEC-SSW-106-02-T-S-RA")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/ebd1fc0e-1e3e-4dd9-bd9c-573a612fe205"
-      (reference "K205") (unit 1) (value "MCU 1") (footprint "tronixio:HARWIN-M20-999144x")
+      (reference "K205") (unit 1) (value "MCU 2") (footprint "tronixio:HARWIN-M20-999144x")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/f28cb1f3-23cf-476a-8aa2-c5c9cb70c1a0"
       (reference "K206") (unit 1) (value "MCU 2") (footprint "tronixio:HARWIN-M20-782144x")
@@ -901,7 +901,7 @@
       (reference "U201") (unit 1) (value "TLV1117-33") (footprint "tronixio:SOT-223-3")
     )
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/aefdb178-1c83-4b81-94e9-78aeec5f99e4"
-      (reference "U202") (unit 1) (value "PIC16F/PIC18F") (footprint "tronixio:DIP-28-W762")
+      (reference "U202") (unit 1) (value "PIC16F/PIC18F") (footprint "tronixio:DIP-28-W762-SOCKET")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/aaac6ca3-9aba-4f82-b45d-8eb04e78b4e9"
       (reference "U301") (unit 1) (value "CAT4002A") (footprint "tronixio:SOT-23-6")

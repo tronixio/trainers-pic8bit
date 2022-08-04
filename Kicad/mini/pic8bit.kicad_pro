@@ -366,7 +366,9 @@
     "pinned_footprint_libs": [
       "tronixio"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "tronixio"
+    ]
   },
   "meta": {
     "filename": "pic8bit.kicad_pro",
