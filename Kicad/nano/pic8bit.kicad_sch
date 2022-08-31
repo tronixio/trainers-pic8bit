@@ -755,7 +755,7 @@
         )
       )
     )
-    (symbol "tronixio:MICROCHIP-DSC1001C-245760-CDFN" (pin_names (offset 0.5)) (in_bom yes) (on_board yes)
+    (symbol "tronixio:MICROCHIP-DSC1001C-245760-CDFN" (pin_numbers hide) (pin_names (offset 0.5)) (in_bom yes) (on_board yes)
       (property "Reference" "MEMS" (id 0) (at 5.08 2.54 0)
         (effects (font (size 1.15 1.15)))
       )
@@ -3282,7 +3282,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 95a48cb6-6966-47e7-b828-9860da6dbd4c)
   )
-  (text "*R3/*R6/*R7/*LED2/*LED3/*U2: EUSART Optional components."
+  (text "*U2/*R3/*R6/*R7/*LED2/*LED3: EUSART Optional components."
     (at 180.34 179.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9e2daa23-20a2-4214-912b-35b185eec8db)
@@ -3813,8 +3813,8 @@
     (property "Reference" "U2" (id 0) (at 114.935 128.27 0)
       (effects (font (size 1.15 1.15)) (justify left))
     )
-    (property "Value" "MCP2221A-IST" (id 1) (at 121.92 156.21 0)
-      (effects (font (size 1.15 1.15)))
+    (property "Value" "MCP2221A" (id 1) (at 129.54 128.27 0)
+      (effects (font (size 1.15 1.15)) (justify right))
     )
     (property "Footprint" "tronixio:TSSOP-14" (id 2) (at 121.92 162.56 0)
       (effects (font (size 1 1)) hide)
@@ -5499,7 +5499,7 @@
       (reference "U1") (unit 1) (value "PIC16F/PIC18F") (footprint "tronixio:TQFP-44")
     )
     (path "/15b76320-9a6e-4ed9-be26-15ea028b6641"
-      (reference "U2") (unit 1) (value "MCP2221A-IST") (footprint "tronixio:TSSOP-14")
+      (reference "U2") (unit 1) (value "MCP2221A") (footprint "tronixio:TSSOP-14")
     )
     (path "/ef27345a-c7c1-44c7-b4de-dc92b9c6de34"
       (reference "U3") (unit 1) (value "BU33SD5WG") (footprint "tronixio:SOT-23-5")
