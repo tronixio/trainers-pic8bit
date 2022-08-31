@@ -23,7 +23,7 @@ CONFIG LPBOR=OFF
 CONFIG LVP=ON
 
 #include <xc.inc>
-; PIC16F1778 - Compile with PIC-AS(v2.36).
+; PIC16F1778 - Compile with PIC-AS(v2.40).
 ; PIC16F1778 - @8MHz Internal Oscillator.
 ; -preset_vec=0000h, -pcinit=0005h, -pstringtext=3FC0h.
 ; Instruction ~500ns @8MHz.
@@ -490,7 +490,7 @@ _writeStringTRONIX:
     CALL    _lcdWriteString
     RETURN
 
-; FPM Strings.
+; PFM Strings.
 PSECT	stringtext,class=STRCODE,space=0,delta=2
 stringREADY:
     DB	    0xa, 0xd, 'R','e','a','d','y','>',' '

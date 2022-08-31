@@ -12,7 +12,7 @@
 #include <xc.h>
 #include <stdint.h>
 #define _XTAL_FREQ 8000000
-// PIC16F1778 - Compile with XC8(v2.36).
+// PIC16F1778 - Compile with XC8(v2.40).
 // PIC16F1778 - @8MHz Internal Oscillator.
 
 // Rotary encoder code from:
@@ -198,7 +198,7 @@ const uint8_t au8BatteryPattern[5][8] = {
     {0x0e, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f}
 };
 
-const int8_t ai8encoderFull[16] = {0, 1, -1, 0, -1, 0, 0, 1, 1, 0, 0, -1, 0, -1, 1, 0};
+const uint8_t au8encoderFull[16] = {0, 1, 255, 0, 255, 0, 0, 1, 1, 0, 0, 255, 0, 255, 1, 0};
 
 // Global Variables.
 int8_t i8encoderDelta;
@@ -212,7 +212,7 @@ void __interrupt() ISR(void)
         u8encoder = (u8encoder<<2) & 0x0F;
         if(ROTARY_PHASE_A) u8encoder |= 0b01; // CW.
         if(ROTARY_PHASE_B) u8encoder |= 0b10; // CCW.
-        i8encoderDelta += ai8encoderFull[u8encoder];
+        i8encoderDelta += au8encoderFull[u8encoder];
         INTCONbits.TMR0IF = 0b0;
     }
     u16adcTimer++;
