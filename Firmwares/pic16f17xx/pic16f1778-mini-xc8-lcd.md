@@ -201,7 +201,7 @@ const uint8_t au8BatteryPattern[5][8] = {
 const uint8_t au8encoder[16] = {0, 1, 255, 0, 255, 0, 0, 1, 1, 0, 0, 255, 0, 255, 1, 0};
 
 // Global Variables.
-uint8_t u8encoderDelta;
+int8_t i8encoderDelta;
 uint16_t u16adcTimer;
 
 // Interrupts Service Routines.
@@ -212,7 +212,7 @@ void __interrupt() ISR(void)
         u8encoder = (u8encoder<<2) & 0x0F;
         if(ROTARY_PHASE_A) u8encoder |= 0b01; // CW.
         if(ROTARY_PHASE_B) u8encoder |= 0b10; // CCW.
-        u8encoderDelta += au8encoder[u8encoder];
+        i8encoderDelta += au8encoder[u8encoder];
         INTCONbits.TMR0IF = 0b0;
     }
     u16adcTimer++;
@@ -594,8 +594,8 @@ int8_t rotary_i8encoderFilter(void)
     int8_t i8encoderFilter;
 
     INTCONbits.TMR0IE = 0b0;
-    i8encoderFilter = u8encoderDelta;
-    u8encoderDelta = i8encoderFilter & 3;
+    i8encoderFilter = i8encoderDelta;
+    i8encoderDelta = i8encoderFilter & 3;
     INTCONbits.TMR0IE = 0b1;
 
     return(i8encoderFilter>>2);
