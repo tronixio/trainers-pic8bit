@@ -175,7 +175,7 @@ void lcd_writeCharacter(uint8_t u8Data);
 void lcd_writeInstruction(uint8_t u8Data);
 void lcd_writeString(const uint8_t * u8Data);
 void lcd_writeStringSetCursor(const uint8_t * u8Data, uint8_t u8Cursor);
-int8_t rotary_i8encoderRead(void);
+int8_t rotary_i8encoderFilter(void);
 void u16toa(uint16_t u16Data, uint8_t * au8Buffer, uint8_t u8Base);
 
 // Strings & Custom Patterns.
@@ -198,10 +198,10 @@ const uint8_t au8BatteryPattern[5][8] = {
     {0x0e, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f, 0x1f}
 };
 
-const uint8_t au8encoderFull[16] = {0, 1, 255, 0, 255, 0, 0, 1, 1, 0, 0, 255, 0, 255, 1, 0};
+const uint8_t au8encoder[16] = {0, 1, 255, 0, 255, 0, 0, 1, 1, 0, 0, 255, 0, 255, 1, 0};
 
 // Global Variables.
-int8_t i8encoderDelta;
+uint8_t u8encoderDelta;
 uint16_t u16adcTimer;
 
 // Interrupts Service Routines.
@@ -212,7 +212,7 @@ void __interrupt() ISR(void)
         u8encoder = (u8encoder<<2) & 0x0F;
         if(ROTARY_PHASE_A) u8encoder |= 0b01; // CW.
         if(ROTARY_PHASE_B) u8encoder |= 0b10; // CCW.
-        i8encoderDelta += au8encoderFull[u8encoder];
+        u8encoderDelta += au8encoder[u8encoder];
         INTCONbits.TMR0IF = 0b0;
     }
     u16adcTimer++;
@@ -382,7 +382,7 @@ void main(void)
             while(!ROTARY_SWITCH){};
         }
 
-        u8encoderRead += rotary_i8encoderRead();
+        u8encoderRead += rotary_i8encoderFilter();
         if(u8encoderLast != u8encoderRead){
           lcd_clearLine(C0220BiZ_CONFIGURATION_SECOND_LINE);
           if(!u8encoderSwitchPressed){
@@ -589,16 +589,16 @@ void lcd_writeStringSetCursor(const uint8_t * u8Data, uint8_t u8Cursor)
     i2c_stop();
 }
 
-int8_t rotary_i8encoderRead(void)
+int8_t rotary_i8encoderFilter(void)
 {
-    int8_t u8encoderRead;
+    int8_t i8encoderFilter;
 
     INTCONbits.TMR0IE = 0b0;
-    u8encoderRead = i8encoderDelta;
-    i8encoderDelta = u8encoderRead & 3;
+    i8encoderFilter = u8encoderDelta;
+    u8encoderDelta = i8encoderFilter & 3;
     INTCONbits.TMR0IE = 0b1;
 
-    return(u8encoderRead>>2);
+    return(i8encoderFilter>>2);
 }
 
 void u16toa(uint16_t u16Data, uint8_t * au8Buffer, uint8_t u8Base)
