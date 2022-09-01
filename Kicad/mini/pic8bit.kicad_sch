@@ -452,9 +452,9 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 164a39d5-9907-4db1-a107-72bf3c61f10c)
     )
-    (pin "SCL" input (at 165.1 96.52 180)
+    (pin "SCL" bidirectional (at 165.1 96.52 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 8811042d-befb-420e-8f1d-d2dc51f0869e)
+      (uuid 1e25189d-584c-4f9d-a93f-8580f5c21a5b)
     )
   )
 
@@ -904,10 +904,10 @@
       (reference "U202") (unit 1) (value "PIC16F/PIC18F") (footprint "tronixio:DIP-28-W762")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/aaac6ca3-9aba-4f82-b45d-8eb04e78b4e9"
-      (reference "U301") (unit 1) (value "CAT4002A") (footprint "tronixio:SOT-23-6")
+      (reference "U301") (unit 1) (value "CAT4002A") (footprint "tronixioZZZ:SC-70-6")
     )
     (path "/8cdf8b92-b881-481d-a85a-c0055e9a856b/62241e61-fae0-4fcf-92ee-1276a4ab7387"
-      (reference "U302") (unit 1) (value "MCP2221A-ISL") (footprint "tronixio:SOIC-14")
+      (reference "U302") (unit 1) (value "MCP2221A") (footprint "tronixio:SOIC-14")
     )
   )
 )
