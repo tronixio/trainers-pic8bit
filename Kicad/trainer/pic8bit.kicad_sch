@@ -1692,10 +1692,10 @@
   (symbol (lib_id "tronixio:ONSEMI-NCP5662-ADJ-TO263") (at 121.92 43.18 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5f76bf63-3b96-4f04-bba8-8068c7f3d814)
-    (property "Reference" "U105" (id 0) (at 121.92 34.29 0)
+    (property "Reference" "U105" (id 0) (at 129.54 36.83 0)
       (effects (font (size 1.15 1.15)))
     )
-    (property "Value" "NCP5662-ADJ" (id 1) (at 121.92 36.83 0)
+    (property "Value" "NCP5662-ADJ" (id 1) (at 129.54 39.37 0)
       (effects (font (size 1.15 1.15)))
     )
     (property "Footprint" "tronixio:TO-263-5" (id 2) (at 129.54 58.42 0)
@@ -3136,9 +3136,6 @@
     (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/aefdb178-1c83-4b81-94e9-78aeec5f99e4"
       (reference "U201") (unit 1) (value "PIC16F/18F") (footprint "tronixio:DIP-28-W762")
     )
-    (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/ce8b6347-20a2-493f-b8f1-2602aeda2d6d"
-      (reference "X1") (unit 1) (value "XTAL-DIL08") (footprint "tronixio:DIP-08-W762-SOCKET")
-    )
     (path "/f7b23f20-a100-41e1-ac8c-691c439ad031"
       (reference "X101") (unit 1) (value "3M-SJ5376") (footprint "tronixio:3M-SJ5376")
     )
@@ -3153,6 +3150,9 @@
     )
     (path "/29b73527-6124-4b13-8260-26714b6c18f9"
       (reference "X105") (unit 1) (value "3M-SJ5376") (footprint "tronixio:3M-SJ5376")
+    )
+    (path "/64edc06d-d6ae-4dac-9759-3f1fbed6457d/ce8b6347-20a2-493f-b8f1-2602aeda2d6d"
+      (reference "X201") (unit 1) (value "XTAL-DIL08") (footprint "tronixio:DIP-08-W762-SOCKET")
     )
   )
 )
