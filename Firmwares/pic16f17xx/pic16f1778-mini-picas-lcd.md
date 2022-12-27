@@ -294,7 +294,7 @@ main:
     MOVWF   PPSLOCK
     BSF	    PPSLOCK, 0x0
 
-    ; I2C Mater Settings.
+    ; I2C Master Settings.
     MOVLB   BANK4
     CLRF    SSP1BUF
     MOVLW   I2C_BAUDRATE
@@ -307,8 +307,6 @@ main:
     MOVWF   SSP1CON2
     MOVLW   0b00000000
     MOVWF   SSP1CON3
-    ; I2C Enable.
-    BSF	    SSPEN
 
     ; C0220BiZ Initialization.
     CALL    _lcdInitialize
@@ -364,6 +362,7 @@ _i2cRestart:
 
 _i2cStart:
     MOVLB   BANK4
+    BSF	    SSPEN
     MOVF    SSP1CON2, W
     ANDLW   0x1F
     BTFSS   STATUS, Z
@@ -382,6 +381,7 @@ _i2cStop:
     BSF	    PEN
     BTFSC   PEN
     BRA	    $-1
+    BCF	    SSPEN
     RETURN
 
 _i2cWrite:
