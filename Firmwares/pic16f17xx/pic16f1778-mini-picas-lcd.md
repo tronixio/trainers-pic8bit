@@ -397,7 +397,7 @@ _lcdClearDisplay:
     MOVLW   ST7036_CLEAR_DISPLAY
     CALL    _lcdWriteInstruction
     MOVLW   ST7036_CLEAR_DISPLAY_DELAY
-    CALL    _delay
+    CALL    _u8Delay
     RETURN
 
 _lcdInitialize:
