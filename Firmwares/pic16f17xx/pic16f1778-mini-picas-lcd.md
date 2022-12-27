@@ -172,12 +172,12 @@ __pcstackCOMMON:    DS	16
 #define C0220BiZ_CONFIGURATION_CHARACTERS                  20
 
 ; Reset Vector.
-PSECT	reset_vec,class=CODE,space=0,delta=2
+PSECT reset_vec,class=CODE,space=0,delta=2
 resetVector:
     GOTO    main
 
 ; Main.
-PSECT	cinit,class=CODE,space=0,delta=2
+PSECT cinit,class=CODE,space=0,delta=2
 main:
     ; MCU Initialization.
     ; Internal Oscillator Settings.
@@ -315,12 +315,12 @@ main:
 
     ; C0220BiZ Display Strings.
     CALL    _writeStringTRONIX
-    MOVLW   C0220BiZ_CONFIGURATION_SECOND_LINE + 5
+    MOVLW   C0220BiZ_CONFIGURATION_SECOND_LINE
     CALL    _lcdWriteInstruction
     CALL    _writeStringREADY
 
 loop:
-    BRA	    loop
+    BRA	    $
 
 ; Functions.
 ; delay = 1 ~390us.
@@ -389,8 +389,8 @@ _i2cWrite:
     MOVWF   SSP1BUF
     BTFSC   BF
     BRA	    $-1
-    NOP
-    NOP
+    ;NOP
+    ;NOP
     RETURN
 
 _lcdClearDisplay:
@@ -466,11 +466,10 @@ _lcdWriteString:
     MOVLW   ST7036_I2C_CONTROL_CONTINUOUS_DATA
     CALL    _i2cWrite
     MOVIW   FSR1++
-    ANDLW   0xFF
     BTFSC   STATUS, Z
     BRA	    $+3
     CALL    _i2cWrite
-    BRA	    $-5
+    BRA	    $-4
     CALL    _i2cStop
     RETURN
 
@@ -491,12 +490,12 @@ _writeStringTRONIX:
     RETURN
 
 ; PFM Strings.
-PSECT	stringtext,class=STRCODE,space=0,delta=2
+PSECT stringtext,class=STRCODE,space=0,delta=2
 stringREADY:
-    DB	    0xa, 0xd, 'R','e','a','d','y','>',' '
+    DB	'R','e','a','d','y','>', 0x00
 
 stringTRONIX:
-    DB	    0xd, 0xa, 'T','r','o','n','i','x',' ','I','/','O','.'
+    DB	'T','r','o','n','i','x',' ','I','/','O','.', 0x00
 
     END	    resetVector
 ```
