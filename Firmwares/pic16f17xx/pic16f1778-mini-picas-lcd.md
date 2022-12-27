@@ -325,19 +325,19 @@ loop:
 ; Functions.
 ; delay = 1 ~390us.
 ; delay = 255 ~98ms.
-_delay:
+_u8Delay:
     MOVLB   BANK0
     MOVWF   __pcstackBANK0
     MOVLW   255
     DECFSZ  WREG, F
     BRA	    $-1
     DECFSZ  __pcstackBANK0, F
-    BRA	    $-4
+    BRA	    $-3
     RETURN
 
 ; delay = 1 ~98ms.
 ; delay = 255 ~25s.
-_delay1:
+_u16Delay:
     MOVLB   BANK0
     MOVWF   __pcstackBANK0 + 1
     MOVLW   255
@@ -346,9 +346,9 @@ _delay1:
     DECFSZ  WREG, F
     BRA	    $-1
     DECFSZ  __pcstackBANK0, F
-    BRA	    $-4
+    BRA	    $-3
     DECFSZ  __pcstackBANK0 + 1, F
-    BRA	    $-6
+    BRA	    $-5
     RETURN
 
 _i2cRestart:
@@ -402,7 +402,7 @@ _lcdClearDisplay:
 
 _lcdInitialize:
     MOVLW   ST7036_INITIALIZATION_DELAY
-    CALL    _delay
+    CALL    _u8Delay
 
     CALL    _i2cStart
     MOVLW   (C0220BiZ_CONFIGURATION_I2C_ADDRESS | I2C_WRITE)
@@ -432,29 +432,29 @@ _lcdInitialize:
     CALL    _i2cStop
 
     MOVLW   ST7036_CLEAR_DISPLAY_DELAY
-    CALL    _delay
+    CALL    _u8Delay
     RETURN
 
 _lcdWriteCharacter:
-    movwf   __pcstackCOMMON
+    MOVWF   __pcstackCOMMON
     CALL    _i2cStart
     MOVLW   (C0220BiZ_CONFIGURATION_I2C_ADDRESS | I2C_WRITE)
     CALL    _i2cWrite
     MOVLW   ST7036_I2C_CONTROL_NO_CONTINUOUS_DATA
     CALL    _i2cWrite
-    movf    __pcstackCOMMON, W
+    MOVF    __pcstackCOMMON, W
     CALL    _i2cWrite
     CALL    _i2cStop
     RETURN
 
 _lcdWriteInstruction:
-    movwf   __pcstackCOMMON
+    MOVWF   __pcstackCOMMON
     CALL    _i2cStart
     MOVLW   (C0220BiZ_CONFIGURATION_I2C_ADDRESS | I2C_WRITE)
     CALL    _i2cWrite
     MOVLW   ST7036_I2C_CONTROL_NO_CONTINUOUS_COMMAND
     CALL    _i2cWrite
-    movf    __pcstackCOMMON, W
+    MOVF    __pcstackCOMMON, W
     CALL    _i2cWrite
     CALL    _i2cStop
     RETURN
