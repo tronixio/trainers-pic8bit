@@ -3,13 +3,6 @@ Diptrace/
 *.kicad_prl
 *.kicad_sch-bak
 Kicad/*/gerber/
-Kicad/*/*-backups/
+Kicad/*/*backups/
 Kicad/*/fp-info-cache
 MplabX/
-#MplabX/*/main.s
-#MplabX/*/main.c
-#MplabX/*/Makefile
-#MplabX/*/dist/
-#MplabX/*/build/
-#MplabX/*/nbproject/
-#MplabX/*/disassembly/
