@@ -177,20 +177,16 @@ main:
     MOVWF   PPSLOCK
     BCF	    PPSLOCK, 0x0
     ; PPS Inputs.
-    ; RC3 - MSSP.SCL.
     MOVLW   0x13
-    MOVWF   SSPCLKPPS
-    ; RC4 - MSSP.SCA.
+    MOVWF   SSPCLKPPS ; RC3 - MSSP.SCL.
     movlw   0x14
-    movwf   SSPDATPPS
+    movwf   SSPDATPPS ; RC4 - MSSP.SCA.
     ; PPS Outputs.
     MOVLB   BANK29
-    ; RC3 - MSSP.SCL.
     MOVLW   0x21
-    MOVWF   RC3PPS
-    ; RC4 - MSSP.SDA.
+    MOVWF   RC3PPS ; RC3 - MSSP.SCL.
     MOVLW   0x22
-    MOVWF   RC4PPS
+    MOVWF   RC4PPS ; RC4 - MSSP.SDA.
     ; PPS Lock Sequence.
     MOVLB   BANK28
     MOVLW   0x55
@@ -212,7 +208,7 @@ _u8delay:
     DECFSZ  WREG, F
     BRA	    $-1
     DECFSZ  __pcstackBANK0, F
-    BRA	    $-4
+    BRA	    $-3
     RETURN
 
 ; delay = 1 ~98ms.
