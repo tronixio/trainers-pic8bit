@@ -1,8 +1,3 @@
-# PIC8-Bit Mini Trainer.
-
-## XC8 - LCD - ADC - SWITCHS - ROTARY ENCODER.
-
-```c
 // Configuration Registers.
 #pragma config FOSC = INTOSC, WDTE = OFF, PWRTE = OFF, MCLRE = ON, CP = OFF
 #pragma config BOREN = OFF, CLKOUTEN = ON, IESO = OFF, FCMEN = OFF
@@ -14,6 +9,8 @@
 #define _XTAL_FREQ 8000000
 // PIC16F1778 - Compile with XC8(v2.40).
 // PIC16F1778 - @8MHz Internal Oscillator.
+    
+// DRAFT Do not use.
 
 // Rotary encoder code from:
 // https://www.mikrocontroller.net/articles/Drehgeber
@@ -621,10 +618,3 @@ void u16toa(uint16_t u16Data, uint8_t * au8Buffer, uint8_t u8Base)
         *au8Buffer-- = u8Buffer;
     }while(u16Data != '\0');
 }
-```
-
----
-DISCLAIMER: THIS CODE IS PROVIDED WITHOUT ANY WARRANTY OR GUARANTEES.
-USERS MAY USE THIS CODE FOR DEVELOPMENT AND EXAMPLE PURPOSES ONLY.
-AUTHORS ARE NOT RESPONSIBLE FOR ANY ERRORS, OMISSIONS, OR DAMAGES THAT COULD
-RESULT FROM USING THIS FIRMWARE IN WHOLE OR IN PART.

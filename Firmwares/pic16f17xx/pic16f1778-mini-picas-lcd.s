@@ -1,8 +1,3 @@
-# PIC8-Bit Mini Trainer.
-
-## TODO - PIC-AS - I2C-LCD.
-
-```as
 ; Configuration Registers.
 CONFIG FOSC=INTOSC
 CONFIG WDTE=OFF
@@ -27,6 +22,8 @@ CONFIG LVP=ON
 ; PIC16F1778 - @8MHz Internal Oscillator.
 ; -preset_vec=0000h, -pcinit=0005h, -pstringtext=3FC0h.
 ; Instruction ~500ns @8MHz.
+
+; DRAFT Do not use.
 
 ; GPR BANK0.
 PSECT	cstackBANK0,class=BANK0,space=1,delta=1
@@ -272,20 +269,16 @@ main:
     MOVWF   PPSLOCK
     BCF	    PPSLOCK, 0x0
     ; PPS Inputs.
-    ; RC3 - MSSP.SCL.
     MOVLW   0x13
-    MOVWF   SSPCLKPPS
-    ; RC4 - MSSP.SCA.
+    MOVWF   SSPCLKPPS ; RC3 - MSSP.SCL.
     movlw   0x14
-    movwf   SSPDATPPS
+    movwf   SSPDATPPS ; RC4 - MSSP.SCA.
     ; PPS Outputs.
     MOVLB   BANK29
-    ; RC3 - MSSP.SCL.
     MOVLW   0x21
-    MOVWF   RC3PPS
-    ; RC4 - MSSP.SDA.
+    MOVWF   RC3PPS ; RC3 - MSSP.SCL.
     MOVLW   0x22
-    MOVWF   RC4PPS
+    MOVWF   RC4PPS ; RC4 - MSSP.SDA
     ; PPS Lock Sequence.
     MOVLB   BANK28
     MOVLW   0x55
@@ -318,7 +311,7 @@ main:
     CALL    _writeStringREADY
 
 loop:
-    BRA	    $
+    BRA	    loop
 
 ; Functions.
 ; delay = 1 ~390us.
@@ -498,10 +491,3 @@ stringTRONIX:
     DB	'T','r','o','n','i','x',' ','I','/','O','.', 0x00
 
     END	    resetVector
-```
-
----
-DISCLAIMER: THIS CODE IS PROVIDED WITHOUT ANY WARRANTY OR GUARANTEES.
-USERS MAY USE THIS CODE FOR DEVELOPMENT AND EXAMPLE PURPOSES ONLY.
-AUTHORS ARE NOT RESPONSIBLE FOR ANY ERRORS, OMISSIONS, OR DAMAGES THAT COULD
-RESULT FROM USING THIS FIRMWARE IN WHOLE OR IN PART.

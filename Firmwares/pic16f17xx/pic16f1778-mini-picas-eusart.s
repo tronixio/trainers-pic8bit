@@ -23,6 +23,8 @@ CONFIG LVP=ON
 ; -preset_vec=0000h, -pcinit=0005h, -pstringtext=3FC0h.
 ; Instruction ~500ns @8MHz.
 
+; DRAFT Do not use.
+
 ; GPR BANK0.
 PSECT	cstackBANK0,class=BANK0,space=1,delta=1
 __pcstackBANK0:	    DS  80
@@ -203,7 +205,7 @@ loop:
 ; Functions.
 ; delay = 1 ~390us.
 ; delay = 255 ~98ms.
-_delay:
+_u8delay:
     MOVLB   BANK0
     MOVWF   __pcstackBANK0
     MOVLW   255
@@ -215,7 +217,7 @@ _delay:
 
 ; delay = 1 ~98ms.
 ; delay = 255 ~25s.
-_delay1:
+_u16delay:
     MOVLB   BANK0
     MOVWF   __pcstackBANK0 + 1
     MOVLW   255
