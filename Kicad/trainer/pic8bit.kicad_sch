@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "Power")
+    (title "Root & Power")
     (date "01/2022")
     (rev "A")
     (comment 1 "PIC8-Bit Trainer")
