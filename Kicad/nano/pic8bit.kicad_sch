@@ -278,11 +278,11 @@
         )
       )
     )
-    (symbol "tronixio:FCI-USB-TYPE-B-MICRO-THT" (pin_numbers hide) (pin_names (offset 0.5)) (in_bom yes) (on_board yes)
+    (symbol "tronixio:FCI-USB-TYPE-B-MICRO-TH" (pin_numbers hide) (pin_names (offset 0.5)) (in_bom yes) (on_board yes)
       (property "Reference" "K?" (at 0 12.7 0) (do_not_autoplace)
         (effects (font (size 1.15 1.15)))
       )
-      (property "Value" "SYMBOL-USB-MICRO" (at 0 10.16 0) (do_not_autoplace)
+      (property "Value" "USB-MICRO" (at 0 10.16 0) (do_not_autoplace)
         (effects (font (size 1.15 1.15)))
       )
       (property "Footprint" "tronixio:USB-TYPE-B-MICRO-TH" (at 0 -17.78 0) (do_not_autoplace)
@@ -297,7 +297,7 @@
       (property "ki_description" "Micro USB Connector" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "FCI-USB-TYPE-B-MICRO-THT_0_1"
+      (symbol "FCI-USB-TYPE-B-MICRO-TH_0_1"
         (polyline
           (pts
             (xy -3.81 -8.89)
@@ -329,7 +329,7 @@
           (fill (type none))
         )
       )
-      (symbol "FCI-USB-TYPE-B-MICRO-THT_1_1"
+      (symbol "FCI-USB-TYPE-B-MICRO-TH_1_1"
         (pin power_out line (at 5.08 5.08 180) (length 2.54)
           (name "VBUS" (effects (font (size 1 1))))
           (number "1" (effects (font (size 1 1))))
@@ -3317,6 +3317,11 @@
     (effects (font (size 1 1)) (justify right bottom))
     (uuid ad31a84e-c106-4005-aac0-c6b8d367e208)
   )
+  (label "{RA[0..7] RB[0..7] RC[0..7] RD[0..7] RE[0..2] RA4{slash}VCAP RA7{slash}CLKI RB6{slash}PGC RB7{slash}PGD ~{MCLR}}"
+    (at 60.96 33.02 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ad8abc3b-547e-4c0a-bab5-326c0b2a5fb9)
+  )
   (label "~{MCLR}" (at 193.04 96.52 90) (fields_autoplaced)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid b1919efd-df29-4b11-aa91-0a62974a15c2)
@@ -3924,7 +3929,7 @@
     )
   )
 
-  (symbol (lib_id "tronixio:FCI-USB-TYPE-B-MICRO-THT") (at 83.82 144.78 0) (unit 1)
+  (symbol (lib_id "tronixio:FCI-USB-TYPE-B-MICRO-TH") (at 83.82 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4568a9d2-eecb-4623-b60b-3d9c267a3153)
     (property "Reference" "K4" (at 83.9105 132.08 0)
