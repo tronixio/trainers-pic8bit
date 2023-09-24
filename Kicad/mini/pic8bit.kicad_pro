@@ -426,9 +426,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "tronixio"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
