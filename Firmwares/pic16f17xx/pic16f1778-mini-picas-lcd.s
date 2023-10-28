@@ -458,7 +458,7 @@ _lcdWriteString:
     CALL    _i2cWrite
     MOVLW   ST7036_I2C_CONTROL_CONTINUOUS_DATA
     CALL    _i2cWrite
-    MOVIW   FSR1++
+    MOVIW   FSR0++
     BTFSC   STATUS, Z
     BRA	    $+3
     CALL    _i2cWrite
@@ -467,18 +467,18 @@ _lcdWriteString:
     RETURN
 
 _writeStringREADY:
-    MOVLW   HIGH stringREADY + 0x80
-    MOVWF   FSR1H
     MOVLW   LOW stringREADY
-    MOVWF   FSR1L
+    MOVWF   FSR0L
+    MOVLW   HIGH stringREADY + 0x80
+    MOVWF   FSR0H
     CALL    _lcdWriteString
     RETURN
 
 _writeStringTRONIX:
-    MOVLW   HIGH stringTRONIX + 0x80
-    MOVWF   FSR1H
     MOVLW   LOW stringTRONIX
-    MOVWF   FSR1L
+    MOVWF   FSR0L
+    MOVLW   HIGH stringTRONIX + 0x80
+    MOVWF   FSR0H
     CALL    _lcdWriteString
     RETURN
 

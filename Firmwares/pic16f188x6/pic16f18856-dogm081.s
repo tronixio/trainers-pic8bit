@@ -323,10 +323,10 @@ dogm081_Initialization:
     MOVLW   ST7036_INITIALIZATION_DELAY
     CALL    _u8Delay
     MOVLW   LOW a8st7036Initialization
-    MOVWF   FSR1L
+    MOVWF   FSR0L
     MOVLW   HIGH a8st7036Initialization + 0x80
-    MOVWF   FSR1H
-    MOVIW   FSR1++
+    MOVWF   FSR0H
+    MOVIW   FSR0++
     BTFSC   STATUS, Z
     BRA	    $+3
     CALL    st7036_writeInstruction
@@ -337,10 +337,10 @@ dogm081_Initialization:
 
 dogm081_writeTRONIX:
     MOVLW   LOW a8stringTronix
-    MOVWF   FSR1L
+    MOVWF   FSR0L
     MOVLW   HIGH a8stringTronix + 0x80
-    MOVWF   FSR1H
-    MOVIW   FSR1++
+    MOVWF   FSR0H
+    MOVIW   FSR0++
     BTFSC   STATUS, Z
     RETURN
     CALL    st7036_writeData
