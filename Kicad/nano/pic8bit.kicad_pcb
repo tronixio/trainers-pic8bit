@@ -2232,7 +2232,7 @@
 			(at 0 6 -90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "63bf51fc-93e3-4b57-94b8-4e2329e33a09")
+			(uuid "6567e122-5005-4134-8e17-4d88dc6ae599")
 			(effects
 				(font
 					(size 1 1)
@@ -2243,7 +2243,7 @@
 		(property "Value" "POWER & UART"
 			(at 0 6 -90)
 			(layer "F.Fab")
-			(uuid "44668d0f-9f1a-44b1-aee5-f1718e3ad4b1")
+			(uuid "07c3d355-0879-42d3-87b9-14ee9d3810cc")
 			(effects
 				(font
 					(size 1 1)
@@ -2256,7 +2256,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e92d6bc-a64d-4bf5-9957-d10ba166714c")
+			(uuid "e1834ff7-e4d0-4430-8ba8-b02eff96740c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2268,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c649ee9-012f-4686-b155-b97c114b1a2c")
+			(uuid "dc2c755f-9e80-4f55-8470-4e3dad2f1e39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2280,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e2292ab-b630-4467-b608-087e7ff4d4f0")
+			(uuid "943c11e7-5083-4fd2-8d3a-8bf54c66cd9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2309,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3182ccf1-1c02-43fb-a0bb-fa07bfacaeac")
+			(uuid "f9e082a7-1885-4024-b71b-3f7a68dd6dc1")
 		)
 		(fp_line
 			(start 3.3 4.5)
@@ -2319,7 +2319,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a9879d76-0e6d-4283-b572-8985ca9e14a6")
+			(uuid "1fa015df-43c4-410b-9aa5-c77dee8d5626")
 		)
 		(fp_line
 			(start -1.6 -4.5)
@@ -2329,7 +2329,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6b7a28a0-c9e3-472f-9fb3-7b931ff9c038")
+			(uuid "198c0985-f679-43b8-a3c2-3f4ada63175f")
 		)
 		(fp_rect
 			(start -1.6 4.5)
@@ -2340,7 +2340,7 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "4e4f2874-63f7-47ee-beda-cdf38eb33831")
+			(uuid "37f647f0-c6f7-4681-8190-a7b6b048d090")
 		)
 		(fp_line
 			(start -3.25 4)
@@ -2350,7 +2350,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c641c178-4c72-4fac-accb-54d06c203de9")
+			(uuid "320c90ab-c8da-460e-8c39-f5727c9b35f9")
 		)
 		(fp_line
 			(start -3.25 4)
@@ -2360,7 +2360,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "65ca284f-c030-4b01-a87b-fef4e771f48c")
+			(uuid "5838b1a4-cb65-42f0-8bf8-28de28198838")
 		)
 		(fp_line
 			(start -3.25 -4)
@@ -2370,7 +2370,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "17b095f2-562e-4c07-9ce1-cf175fee0e85")
+			(uuid "ad4a547e-99ef-4446-aa31-c93daed5656e")
 		)
 		(fp_rect
 			(start -2.65 3.75)
@@ -2381,7 +2381,7 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "cc42c63d-034a-4f5f-961f-0508805b76fc")
+			(uuid "74bc7dd6-1878-4581-98da-01368e12cfb8")
 		)
 		(pad "1" smd roundrect
 			(at 2.25 -1.3 270)
@@ -2392,7 +2392,7 @@
 			(pinfunction "VBUS")
 			(pintype "power_out")
 			(zone_connect 2)
-			(uuid "1defc688-462b-43ce-aa29-2666146ed0df")
+			(uuid "620c61c4-63cc-4cf1-b4a0-f20cfcfe5a2a")
 		)
 		(pad "2" smd roundrect
 			(at 2.25 -0.65 270)
@@ -2403,7 +2403,7 @@
 			(pinfunction "D-")
 			(pintype "bidirectional")
 			(zone_connect 2)
-			(uuid "93b61745-0026-4d91-95bf-99c05d711c62")
+			(uuid "bfededb4-0395-4b58-9337-52c509146988")
 		)
 		(pad "3" smd roundrect
 			(at 2.25 0 270)
@@ -2414,7 +2414,7 @@
 			(pinfunction "D+")
 			(pintype "bidirectional")
 			(zone_connect 2)
-			(uuid "fe28afd3-60b9-4df0-b49f-35856112d038")
+			(uuid "1f8f8557-d6e3-4737-8a3c-5d21fde22cbd")
 		)
 		(pad "4" smd roundrect
 			(at 2.25 0.65 270)
@@ -2425,7 +2425,7 @@
 			(pinfunction "ID")
 			(pintype "passive+no_connect")
 			(zone_connect 2)
-			(uuid "59763b92-6b50-427c-9f59-d6fa8a8746fe")
+			(uuid "90995f13-3d3a-4737-8e45-47a4f77cf9b7")
 		)
 		(pad "5" smd roundrect
 			(at 2.25 1.3 270)
@@ -2436,31 +2436,31 @@
 			(pinfunction "GND")
 			(pintype "power_out")
 			(zone_connect 2)
-			(uuid "6dff8c80-9e12-4e45-b4c9-3b3332eb7a62")
+			(uuid "41de71c2-fce1-4052-a48d-865ddf948a47")
 		)
 		(pad "SH" thru_hole oval
 			(at -0.55 -3.3 270)
 			(size 2 1.6)
-			(drill 0.9)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(zone_connect 1)
-			(uuid "5f21a219-1d04-4ca5-8651-b088407d198f")
+			(uuid "ce0ddb7b-fa12-4784-9089-741e5ffd85d0")
 		)
 		(pad "SH" thru_hole oval
 			(at -0.55 3.3 270)
 			(size 2 1.6)
-			(drill 0.9)
+			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(zone_connect 1)
-			(uuid "a6912b88-d9b6-4b65-9003-585303b0c11e")
+			(uuid "445214f8-d0a6-43f2-82c4-94553076109e")
 		)
 		(pad "SH" smd roundrect
 			(at 2 -3.2 270)
@@ -2471,7 +2471,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(zone_connect 1)
-			(uuid "134c12ba-3580-4429-ac55-0f26fe2b8caa")
+			(uuid "ea7355f0-5891-4290-8ad7-46c884aa974b")
 		)
 		(pad "SH" smd roundrect
 			(at 2 3.2 270)
@@ -2482,7 +2482,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(zone_connect 1)
-			(uuid "7f6245b9-eea1-4337-87f7-3b5c65a3c204")
+			(uuid "c2c98967-5a78-46b0-b8ef-f8fbab24441f")
 		)
 		(model "${KICAD_USER_3DMODEL_DIR}/Connector/USB-TYPE-B-MICRO-TH.step"
 			(offset

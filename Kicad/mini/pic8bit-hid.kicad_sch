@@ -6501,6 +6501,7 @@
 			(on_board yes)
 			(property "Reference" "#PWR"
 				(at 0 -12.7 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -6510,6 +6511,7 @@
 			)
 			(property "Value" "POWER-+3V3"
 				(at 0 -10.16 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -6535,16 +6537,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Name" "3V3"
+			(property "Description" "3V3"
 				(at 0 5.08 0)
 				(do_not_autoplace)
 				(effects
@@ -6655,16 +6648,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Name" "5V"
+			(property "Description" "5V"
 				(at 0 5.08 0)
 				(do_not_autoplace)
 				(effects
@@ -9254,7 +9238,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "041e4a34-68ef-4605-a13e-4a561ee3bf73")
 		(property "Reference" "#PWR0320"
 			(at 147.32 132.08 0)
@@ -9292,21 +9275,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 119.38 0)
+		(property "Description" "3V3"
+			(at 147.32 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 147.32 114.3 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -9422,7 +9395,7 @@
 		(dnp no)
 		(uuid "08a4a2f1-6e8a-45e7-a693-0c7e4cb5ee13")
 		(property "Reference" "JP303"
-			(at 239.395 54.61 90)
+			(at 240.03 54.61 90)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -9431,7 +9404,7 @@
 			)
 		)
 		(property "Value" "URX"
-			(at 233.045 54.61 90)
+			(at 232.41 54.61 90)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -9501,7 +9474,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "09ab3b68-d4a1-4266-aa6a-25207e3051df")
 		(property "Reference" "#PWR0324"
 			(at 170.18 50.8 0)
@@ -9539,21 +9511,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 170.18 38.1 0)
+		(property "Description" "3V3"
+			(at 170.18 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 170.18 33.02 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -9969,7 +9931,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1d78df71-642e-4bdf-8731-35a5e24c2766")
 		(property "Reference" "#PWR0301"
 			(at 43.18 132.08 0)
@@ -10007,21 +9968,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 119.38 0)
+		(property "Description" "3V3"
+			(at 43.18 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 43.18 114.3 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -10045,7 +9996,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "21dfd998-a670-4d73-91fb-ada62fc9bd5b")
 		(property "Reference" "#PWR0303"
 			(at 53.34 50.8 0)
@@ -10083,21 +10033,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 53.34 38.1 0)
+		(property "Description" "3V3"
+			(at 53.34 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 53.34 33.02 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -10121,7 +10061,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24b855cd-9eac-47ee-9521-7d0e622922ce")
 		(property "Reference" "#PWR0316"
 			(at 116.84 58.42 0)
@@ -10159,21 +10098,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 116.84 48.26 0)
+		(property "Description" "5V"
+			(at 116.84 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "5V"
-			(at 116.84 43.18 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -10501,7 +10430,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ad3550c-ccd6-488f-8ab9-28a5643662d3")
 		(property "Reference" "#PWR0322"
 			(at 154.94 132.08 0)
@@ -10539,21 +10467,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 154.94 119.38 0)
+		(property "Description" "3V3"
+			(at 154.94 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 154.94 114.3 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -11253,7 +11171,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "592a45ef-5e92-4c96-94b0-556860ab35bb")
 		(property "Reference" "#PWR0311"
 			(at 76.2 132.08 0)
@@ -11291,21 +11208,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 76.2 119.38 0)
+		(property "Description" "3V3"
+			(at 76.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 76.2 114.3 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -11331,7 +11238,7 @@
 		(dnp no)
 		(uuid "5b2a7490-73c4-49fc-bb18-277203ce33eb")
 		(property "Reference" "JP302"
-			(at 239.395 52.07 90)
+			(at 240.03 52.07 90)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -11340,7 +11247,7 @@
 			)
 		)
 		(property "Value" "UTX"
-			(at 233.045 52.07 90)
+			(at 232.41 52.07 90)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -11410,7 +11317,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5cf7d906-9c67-4203-8dcd-4ea87141ca1b")
 		(property "Reference" "#PWR0315"
 			(at 109.22 58.42 0)
@@ -11448,21 +11354,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 48.26 0)
+		(property "Description" "5V"
+			(at 109.22 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "5V"
-			(at 109.22 43.18 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -12146,7 +12042,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7813f025-44ac-4141-acc9-0659c62ec273")
 		(property "Reference" "#PWR0335"
 			(at 226.06 132.08 0)
@@ -12184,21 +12079,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 226.06 119.38 0)
+		(property "Description" "3V3"
+			(at 226.06 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 226.06 114.3 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -12313,7 +12198,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "82ef7fd3-3745-4ead-9366-91372d0e821d")
 		(property "Reference" "#PWR0331"
 			(at 203.2 50.8 0)
@@ -12351,21 +12235,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 203.2 38.1 0)
+		(property "Description" "3V3"
+			(at 203.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 203.2 33.02 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -12561,7 +12435,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8ef91346-25c9-4015-a3e3-9f24ce026804")
 		(property "Reference" "#PWR0313"
 			(at 93.98 132.08 0)
@@ -12599,21 +12472,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 119.38 0)
+		(property "Description" "3V3"
+			(at 93.98 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 93.98 114.3 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -12795,7 +12658,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99c66c1b-f4ec-4ee0-bfa9-c19953867a8e")
 		(property "Reference" "#PWR0333"
 			(at 218.44 50.8 0)
@@ -12833,21 +12695,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 218.44 38.1 0)
+		(property "Description" "3V3"
+			(at 218.44 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 218.44 33.02 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -13064,7 +12916,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6b40004-0f52-4262-b996-f98a337c1e09")
 		(property "Reference" "#PWR0332"
 			(at 210.82 50.8 0)
@@ -13102,21 +12953,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 210.82 38.1 0)
+		(property "Description" "3V3"
+			(at 210.82 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 210.82 33.02 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -14682,7 +14523,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dcf222ff-38d5-4c2a-b877-8cfbd7820bf3")
 		(property "Reference" "#PWR0334"
 			(at 226.06 50.8 0)
@@ -14720,21 +14560,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 226.06 38.1 0)
+		(property "Description" "3V3"
+			(at 226.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 226.06 33.02 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -14840,7 +14670,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e0acd20b-5f6a-4e82-a847-dafec710c766")
 		(property "Reference" "#PWR0307"
 			(at 58.42 132.08 0)
@@ -14878,21 +14707,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 119.38 0)
+		(property "Description" "3V3"
+			(at 58.42 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 58.42 114.3 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -14916,7 +14735,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e5db63a1-7467-4c47-8cb5-5cbb10d3c4e9")
 		(property "Reference" "#PWR0309"
 			(at 66.04 50.8 0)
@@ -14954,21 +14772,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 66.04 38.1 0)
+		(property "Description" "3V3"
+			(at 66.04 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 66.04 33.02 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -15082,7 +14890,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7ebf16c-23a8-4a02-8dc3-221aea380656")
 		(property "Reference" "#PWR0327"
 			(at 177.8 50.8 0)
@@ -15120,21 +14927,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 177.8 38.1 0)
+		(property "Description" "3V3"
+			(at 177.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 177.8 33.02 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -15525,7 +15322,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f75f617f-fff3-4822-b40a-96e3c4182b65")
 		(property "Reference" "#PWR0329"
 			(at 180.34 132.08 0)
@@ -15563,21 +15359,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 180.34 119.38 0)
+		(property "Description" "3V3"
+			(at 180.34 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "3V3"
-			(at 180.34 114.3 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -15601,7 +15387,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f90f8365-48be-4522-8bc7-14c03f13d6a6")
 		(property "Reference" "#PWR0305"
 			(at 60.96 48.26 0)
@@ -15639,21 +15424,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 60.96 38.1 0)
+		(property "Description" "5V"
+			(at 60.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "5V"
-			(at 60.96 33.02 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
