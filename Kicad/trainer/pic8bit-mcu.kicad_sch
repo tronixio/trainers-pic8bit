@@ -2350,7 +2350,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U201"
 				(at 2.54 3.81 0)
 				(do_not_autoplace)
 				(effects
@@ -2360,7 +2360,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PIC16F1778-ISP"
+			(property "Value" "PIC16F/18F"
 				(at 27.94 3.81 0)
 				(do_not_autoplace)
 				(effects
@@ -2391,10 +2391,11 @@
 				)
 			)
 			(property "Description" "28/40/44-Pin, 8-Bit Flash Microcontroller"
-				(at 0 0 0)
+				(at 15.24 -45.72 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -9069,6 +9070,7 @@
 		(uuid "aefdb178-1c83-4b81-94e9-78aeec5f99e4")
 		(property "Reference" "U201"
 			(at 144.78 59.69 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -9078,6 +9080,7 @@
 		)
 		(property "Value" "PIC16F/18F"
 			(at 170.18 59.69 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -9085,8 +9088,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "tronixio:DIP-28-W762"
-			(at 157.48 104.14 0)
+		(property "Footprint" "tronixio:DIP-28-W762-SOCKET"
+			(at 157.48 101.6 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9096,7 +9099,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.microchip.com/en-us/product/PIC16F1778"
-			(at 157.48 106.68 0)
+			(at 157.48 104.14 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -9106,16 +9109,17 @@
 			)
 		)
 		(property "Description" "28/40/44-Pin, 8-Bit Flash Microcontroller"
-			(at 142.24 63.5 0)
+			(at 157.48 109.22 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
 		)
 		(property "Mouser" "579-PIC16F1778-I/SP"
-			(at 157.48 109.22 0)
+			(at 157.48 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
