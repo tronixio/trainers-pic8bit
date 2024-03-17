@@ -310,16 +310,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Name" "VDD"
+			(property "Description" "VDD"
 				(at 0 5.08 0)
 				(do_not_autoplace)
 				(effects
@@ -3403,7 +3394,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "10d05670-984f-477b-ac84-408dc20ca84b")
 		(property "Reference" "#PWR0126"
 			(at 236.22 45.72 0)
@@ -3441,21 +3431,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 236.22 35.56 0)
+		(property "Description" "VDD"
+			(at 236.22 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 236.22 30.48 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -4683,21 +4663,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 134.62 116.84 0)
+		(property "Description" "VDD"
+			(at 134.62 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 134.62 111.76 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -5257,7 +5227,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7813f025-44ac-4141-acc9-0659c62ec273")
 		(property "Reference" "#PWR0125"
 			(at 99.06 45.72 0)
@@ -5295,21 +5264,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 99.06 35.56 0)
+		(property "Description" "VDD"
+			(at 99.06 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 99.06 30.48 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -7105,7 +7064,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c8c38c0c-1987-4630-8e54-0579678b0097")
 		(property "Reference" "#PWR0138"
 			(at 147.32 127 0)
@@ -7143,21 +7101,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 116.84 0)
+		(property "Description" "VDD"
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 147.32 111.76 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)

@@ -2248,16 +2248,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Name" "VDD"
+			(property "Description" "VDD"
 				(at 0 5.08 0)
 				(do_not_autoplace)
 				(effects
@@ -2368,16 +2359,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Name" "VIN"
+			(property "Description" "VIN"
 				(at 0 5.08 0)
 				(do_not_autoplace)
 				(effects
@@ -2919,6 +2901,12 @@
 		)
 	)
 	(junction
+		(at 116.84 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37ea2b6c-07d3-4d4c-af20-d9df7b4bca95")
+	)
+	(junction
 		(at 91.44 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2960,6 +2948,12 @@
 		(color 0 0 0 0)
 		(uuid "ec0b3062-fec8-4159-b282-3c3e632ad68c")
 	)
+	(junction
+		(at 96.52 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed0018d1-6e4d-41c6-92e0-cf7f24cc2193")
+	)
 	(no_connect
 		(at 93.98 33.02)
 		(uuid "65337df6-2694-406e-a881-03c1c43c69bd")
@@ -2993,16 +2987,6 @@
 			(type default)
 		)
 		(uuid "12eebf1b-b5cd-4f5e-967e-82ba2bc61cca")
-	)
-	(wire
-		(pts
-			(xy 175.26 180.34) (xy 175.26 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b44730-7bb8-46fb-88ba-641fc1b24802")
 	)
 	(wire
 		(pts
@@ -3336,16 +3320,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 180.34) (xy 167.64 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94c86d01-258e-42ea-bb30-05fa193f78d1")
-	)
-	(wire
-		(pts
 			(xy 83.82 43.18) (xy 91.44 43.18)
 		)
 		(stroke
@@ -3426,13 +3400,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 121.92 43.18)
+			(xy 114.3 43.18) (xy 116.84 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cf1a5472-517e-4cdc-81a9-c976537e7f36")
+	)
+	(wire
+		(pts
+			(xy 116.84 43.18) (xy 121.92 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4646d48-8e3f-4a76-bcec-df72fc11542c")
 	)
 	(wire
 		(pts
@@ -4553,6 +4537,73 @@
 		)
 	)
 	(symbol
+		(lib_id "tronixio:POWER-FLAG")
+		(at 96.52 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60250977-3e25-469a-8a9f-835471a3c04b")
+		(property "Reference" "#FLG01"
+			(at 96.52 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-FLAG"
+			(at 96.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64b3e64c-1caa-497b-9f16-b4207521f5da")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "tronixio:TRIMMER-64W-5K")
 		(at 144.78 55.88 0)
 		(mirror y)
@@ -4802,73 +4853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:POWER-FLAG")
-		(at 167.64 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74cea3b3-f940-4a30-9b74-5c84e975547d")
-		(property "Reference" "#FLG0101"
-			(at 167.64 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "POWER-FLAG"
-			(at 167.64 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 180.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 180.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 167.64 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f5a1faa-dd3c-422d-aed6-c7f37e823227")
-		)
-		(instances
-			(project "pic8bit"
-				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca"
-					(reference "#FLG0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:POWER-GND")
 		(at 96.52 60.96 0)
 		(unit 1)
@@ -5006,148 +4990,6 @@
 			(project "pic8bit"
 				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca"
 					(reference "H102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:POWER-+VIN")
-		(at 175.26 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82886c61-a664-4a52-84df-908b8988dec4")
-		(property "Reference" "#PWR0111"
-			(at 175.26 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "POWER-VIN"
-			(at 175.26 193.04 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 180.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 180.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VIN"
-			(at 175.26 175.26 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c16ad9e-30f2-4753-83d6-892ea1d5133f")
-		)
-		(instances
-			(project "pic8bit"
-				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:POWER-GND")
-		(at 167.64 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83a80e73-34d3-4c22-a57b-f05198896390")
-		(property "Reference" "#PWR0110"
-			(at 167.64 195.58 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "POWER-GND"
-			(at 167.64 198.12 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91e653fd-3485-4b39-98f6-a55f1a850c99")
-		)
-		(instances
-			(project "pic8bit"
-				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -5572,7 +5414,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:POWER-FLAG")
-		(at 175.26 190.5 180)
+		(at 116.84 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5581,7 +5423,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c90e574-629c-49ff-a71d-177dedbe308d")
 		(property "Reference" "#FLG0102"
-			(at 175.26 188.595 0)
+			(at 116.84 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +5432,7 @@
 			)
 		)
 		(property "Value" "POWER-FLAG"
-			(at 175.26 186.69 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +5441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 190.5 0)
+			(at 116.84 43.18 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5608,7 +5450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 190.5 0)
+			(at 116.84 43.18 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5617,7 +5459,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 175.26 190.5 0)
+			(at 116.84 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,7 +5577,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7eaf883-7d1e-4d85-ab95-b5ee010c216a")
 		(property "Reference" "#PWR0108"
 			(at 167.64 45.72 0)
@@ -5773,21 +5614,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 167.64 35.56 0)
+		(property "Description" "VDD"
+			(at 167.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 167.64 30.48 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -6293,21 +6124,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 114.3 35.56 0)
+		(property "Description" "VIN"
+			(at 114.3 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VIN"
-			(at 114.3 30.48 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -6646,7 +6467,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e30d3498-0d18-4cf9-a28f-015a9feb7911")
 		(property "Reference" "#PWR0106"
 			(at 152.4 45.72 0)
@@ -6684,21 +6504,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 152.4 35.56 0)
+		(property "Description" "VDD"
+			(at 152.4 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 152.4 30.48 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)

@@ -2973,16 +2973,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Name" "VDD"
+			(property "Description" "VDD"
 				(at 0 5.08 0)
 				(do_not_autoplace)
 				(effects
@@ -3093,16 +3084,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Name" "VIN"
+			(property "Description" "VIN"
 				(at 0 5.08 0)
 				(do_not_autoplace)
 				(effects
@@ -3924,7 +3906,7 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 0 -5.08 90)
 					(length 1.27) hide
 					(name "~"
 						(effects
@@ -3960,7 +3942,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 1.27) hide
 					(name "~"
 						(effects
@@ -3996,7 +3978,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 1.27) hide
 					(name "~"
 						(effects
@@ -4014,7 +3996,7 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -5.08 90)
+					(at 0 -5.08 90)
 					(length 1.27) hide
 					(name "~"
 						(effects
@@ -4032,7 +4014,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 -5.08 90)
+					(at 0 -5.08 90)
 					(length 1.27) hide
 					(name "~"
 						(effects
@@ -7005,7 +6987,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2022cc83-3f05-4c30-a5fb-c6ec73813a36")
 		(property "Reference" "#PWR0209"
 			(at 180.34 45.72 0)
@@ -7043,21 +7024,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 180.34 35.56 0)
+		(property "Description" "VDD"
+			(at 180.34 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 180.34 30.48 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -7118,21 +7089,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 210.82 127 0)
+		(property "Description" "VDD"
+			(at 210.82 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 210.82 121.92 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -7376,21 +7337,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 124.46 160.02 0)
+		(property "Description" "VDD"
+			(at 124.46 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 124.46 154.94 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -7929,21 +7880,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 134.62 35.56 0)
+		(property "Description" "VDD"
+			(at 134.62 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 134.62 30.48 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -8004,21 +7945,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 160.02 0)
+		(property "Description" "VIN"
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VIN"
-			(at 93.98 154.94 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -8043,7 +7974,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e69b7e1-262a-4535-ae77-5200aea03442")
 		(property "Reference" "#PWR0201"
 			(at 96.52 45.72 0)
@@ -8081,21 +8011,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 96.52 35.56 0)
+		(property "Description" "VDD"
+			(at 96.52 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 96.52 30.48 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -8414,21 +8334,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 78.74 160.02 0)
+		(property "Description" "VIN"
+			(at 78.74 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VIN"
-			(at 78.74 154.94 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -8860,21 +8770,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 139.7 160.02 0)
+		(property "Description" "VDD"
+			(at 139.7 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 139.7 154.94 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -9836,7 +9736,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be5eb89b-05e2-42c2-9d0a-9f29b7342ad3")
 		(property "Reference" "#PWR0211"
 			(at 185.42 45.72 0)
@@ -9874,21 +9773,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 185.42 35.56 0)
+		(property "Description" "VDD"
+			(at 185.42 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 185.42 30.48 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
@@ -10383,21 +10272,11 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 160.02 0)
+		(property "Description" "VDD"
+			(at 109.22 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "VDD"
-			(at 109.22 154.94 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
 				)
 			)
 		)
