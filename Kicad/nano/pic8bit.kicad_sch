@@ -1449,7 +1449,7 @@
 					)
 				)
 			)
-			(property "Value" "24.5760"
+			(property "Value" "24.5760MHz"
 				(at 5.08 -7.62 0)
 				(do_not_autoplace)
 				(effects
@@ -1479,10 +1479,11 @@
 				)
 			)
 			(property "Description" "1.8V-3.3V Low-Power Precision CMOS Oscillators"
-				(at 0 0 0)
+				(at 5.08 -17.78 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -1898,10 +1899,11 @@
 				)
 			)
 			(property "Description" "USB to I2C/UART Protocol Converter with GPIO"
-				(at 0 0 0)
+				(at 10.16 -33.02 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -3501,10 +3503,11 @@
 				)
 			)
 			(property "Description" "Resistor"
-				(at 0 0 0)
+				(at 0 -17.78 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -3628,10 +3631,11 @@
 				)
 			)
 			(property "Description" "Resistor"
-				(at 0 0 0)
+				(at 0 -17.78 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -3755,10 +3759,11 @@
 				)
 			)
 			(property "Description" "Resistor"
-				(at 0 0 0)
+				(at 0 -17.78 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -4006,7 +4011,7 @@
 				)
 			)
 		)
-		(symbol "tronixio:SAMTEC-254-M-TSW-1X20-22-T-S"
+		(symbol "tronixio:SAMTEC-254-M-1X20-VERTICAL"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -4052,10 +4057,11 @@
 				)
 			)
 			(property "Description" "TSW/HTSW Series - 2.54mm Pitch PCB Connector"
-				(at 0 0 0)
+				(at 0 -60.96 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -4070,7 +4076,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SAMTEC-254-M-TSW-1X20-22-T-S_0_1"
+			(symbol "SAMTEC-254-M-1X20-VERTICAL_0_1"
 				(circle
 					(center 0 -48.26)
 					(radius 0.635)
@@ -4304,7 +4310,7 @@
 					)
 				)
 			)
-			(symbol "SAMTEC-254-M-TSW-1X20-22-T-S_1_1"
+			(symbol "SAMTEC-254-M-1X20-VERTICAL_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.905)
@@ -13213,7 +13219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:SAMTEC-254-M-TSW-1X20-22-T-S")
+		(lib_id "tronixio:SAMTEC-254-M-1X20-VERTICAL")
 		(at 45.72 111.76 0)
 		(mirror y)
 		(unit 1)
@@ -13259,10 +13265,11 @@
 			)
 		)
 		(property "Description" "TSW/HTSW Series - 2.54mm Pitch PCB Connector"
-			(at 45.72 111.76 0)
+			(at 45.72 172.72 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -13501,7 +13508,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:SAMTEC-254-M-TSW-1X20-22-T-S")
+		(lib_id "tronixio:SAMTEC-254-M-1X20-VERTICAL")
 		(at 45.72 43.18 0)
 		(mirror y)
 		(unit 1)
@@ -13547,10 +13554,11 @@
 			)
 		)
 		(property "Description" "TSW/HTSW Series - 2.54mm Pitch PCB Connector"
-			(at 45.72 43.18 0)
+			(at 45.72 104.14 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
