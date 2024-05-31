@@ -197,7 +197,7 @@
 			)
 		)
 		(property "Value" "SDA"
-			(at 0 4.5 90)
+			(at 0 3.5 180)
 			(layer "F.Fab")
 			(uuid "36c950dd-0246-48de-b927-6abb8c499eb6")
 			(effects
@@ -205,6 +205,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "tronixio:HARWIN-M22-25102xx"
@@ -939,7 +940,7 @@
 			)
 		)
 		(property "Value" "ICSP"
-			(at 0 7.5 90)
+			(at 1.27 2.54 180)
 			(layer "F.Fab")
 			(uuid "743d80e1-4076-4f62-84ca-85791905f320")
 			(effects
@@ -1554,7 +1555,7 @@
 			)
 		)
 		(property "Value" "SCL"
-			(at 0 4.5 90)
+			(at 0 3.5 180)
 			(layer "F.Fab")
 			(uuid "12a5761c-8258-49ba-ac22-0076d34e5c90")
 			(effects
@@ -1562,6 +1563,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "tronixio:HARWIN-M22-25102xx"
@@ -2241,7 +2243,7 @@
 			)
 		)
 		(property "Value" "POWER & UART"
-			(at 0 6 -90)
+			(at 5.85 0 0)
 			(layer "F.Fab")
 			(uuid "07c3d355-0879-42d3-87b9-14ee9d3810cc")
 			(effects
@@ -2513,7 +2515,7 @@
 			)
 		)
 		(property "Value" "PIC16F/PIC18F"
-			(at 0 0 -45)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "bf4f479f-10bf-4ea6-98ea-fbd01f7f2074")
 			(effects
@@ -3285,7 +3287,7 @@
 			)
 		)
 		(property "Value" "URX"
-			(at 0 2 90)
+			(at -2 0 90)
 			(layer "F.Fab")
 			(uuid "694d8593-4bfc-4fd8-94c6-e5447d6b3265")
 			(effects
@@ -3293,6 +3295,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "tronixio:LED-SMD-0805"
@@ -3462,7 +3465,7 @@
 			)
 		)
 		(property "Value" "Power"
-			(at 0 2 -90)
+			(at -1.7 0 270)
 			(layer "F.Fab")
 			(uuid "89f53875-0b11-4b15-8147-85014ce2467a")
 			(effects
@@ -3470,6 +3473,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "tronixio:LED-SMD-0805"
@@ -3639,7 +3643,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 2 90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "33d178b6-9ce1-4d80-b929-dee27b621310")
 			(effects
@@ -3791,7 +3795,7 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 0 3 0)
+			(at 0 -2.75 0)
 			(layer "F.Fab")
 			(uuid "747f8929-fe72-4024-b96e-bf59d1b7a6f2")
 			(effects
@@ -4052,7 +4056,7 @@
 			)
 		)
 		(property "Value" "UTX"
-			(at 0 2 90)
+			(at -2 0 90)
 			(layer "F.Fab")
 			(uuid "2f0af2e6-e522-4025-bc5e-48b18e12e890")
 			(effects
@@ -4060,6 +4064,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "tronixio:LED-SMD-0805"
@@ -4230,7 +4235,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 -2 90)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "c0c8b704-145a-4787-bccc-905225f460da")
 			(effects
@@ -4389,7 +4394,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -2 180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "88b1bad3-3725-4a31-963c-03ea2bc37758")
 			(effects
@@ -4687,7 +4692,8 @@
 			)
 		)
 		(property "Value" "MCU 2"
-			(at 0 -51 180)
+			(at 0 -49.165 270)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "61e83209-cf73-41fd-afb2-8eb445223298")
 			(effects
@@ -4695,7 +4701,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				(justify left mirror)
 			)
 		)
 		(property "Footprint" "tronixio:SAMTEC-TSW-120-22-T-S"
@@ -6293,7 +6299,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 -2 0)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "e7835c3e-625a-4328-a6b9-66d03741bf15")
 			(effects
@@ -6577,7 +6583,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -2 180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "cee93234-b0fd-4c78-bede-d83345d7c43e")
 			(effects
@@ -6749,7 +6755,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -2 -90)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "9e400599-79d6-4f0d-ab73-bc74bc116546")
 			(effects
@@ -7080,7 +7086,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -2 -90)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "82e3858d-1917-4992-b9e6-bbe6a2bccfd2")
 			(effects
@@ -7239,7 +7245,8 @@
 			)
 		)
 		(property "Value" "MCU 1"
-			(at 0 -51 180)
+			(at 0 -49.165 -90)
+			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "b5552013-6256-435a-846d-5190792aac1b")
 			(effects
@@ -7247,7 +7254,7 @@
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
+				(justify left mirror)
 			)
 		)
 		(property "Footprint" "tronixio:SAMTEC-TSW-120-22-T-S"
@@ -8845,7 +8852,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -2 0)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "f018007b-4460-4215-9d6e-68c17be765e2")
 			(effects
@@ -9017,7 +9024,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 -2 180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "a10f6085-622d-4a8e-9d3f-bd3979668e02")
 			(effects
@@ -9176,7 +9183,7 @@
 			)
 		)
 		(property "Value" "10µ"
-			(at 0 -2 180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "f8a4182e-e359-4ddb-96a2-b82fb99fb56c")
 			(effects
@@ -9348,7 +9355,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 -2 90)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(uuid "71b233b0-5d47-4a63-b1c7-ff6d11b15ec8")
 			(effects
@@ -9633,7 +9640,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 -2 0)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "5e629669-3cf7-4278-830a-742ee7d712ad")
 			(effects
@@ -9805,7 +9812,7 @@
 			)
 		)
 		(property "Value" "1µ"
-			(at 0 -2 180)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "c04c2069-a225-4940-9194-2c72e0105f3b")
 			(effects
@@ -10546,7 +10553,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 -2 -90)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "c31fefe9-983e-4f6b-901e-47e91d330acf")
 			(effects
