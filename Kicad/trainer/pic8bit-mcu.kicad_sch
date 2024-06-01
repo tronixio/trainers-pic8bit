@@ -2350,7 +2350,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U201"
+			(property "Reference" "U"
 				(at 2.54 3.81 0)
 				(do_not_autoplace)
 				(effects
@@ -2360,7 +2360,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PIC16F/18F"
+			(property "Value" "PIC16F1778-ISP"
 				(at 27.94 3.81 0)
 				(do_not_autoplace)
 				(effects
@@ -2391,11 +2391,10 @@
 				)
 			)
 			(property "Description" "28/40/44-Pin, 8-Bit Flash Microcontroller"
-				(at 15.24 -45.72 0)
-				(do_not_autoplace)
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
@@ -9088,7 +9087,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "tronixio:DIP-28-W762-SOCKET"
+		(property "Footprint" "tronixio:DIP-28-W762"
 			(at 157.48 101.6 0)
 			(do_not_autoplace yes)
 			(effects
