@@ -1496,10 +1496,11 @@
 				)
 			)
 			(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
-				(at 0 0 0)
+				(at 0 -20.32 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -2391,10 +2392,11 @@
 				)
 			)
 			(property "Description" "28/40/44-Pin, 8-Bit Flash Microcontroller"
-				(at 0 0 0)
+				(at 15.24 -45.72 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -3161,6 +3163,7 @@
 			(on_board yes)
 			(property "Reference" "#PWR"
 				(at 0 -5.08 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -3170,6 +3173,7 @@
 			)
 			(property "Value" "POWER-GND"
 				(at 0 -7.62 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -3283,8 +3287,9 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
+			(property "Description" ""
+				(at 0 -12.7 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -9644,7 +9649,7 @@
 				)
 			)
 		)
-		(property "Value" "HARWIN-254-F-1X10-VERTICAL"
+		(property "Value" "VDD & GND"
 			(at 134.62 158.75 0)
 			(effects
 				(font

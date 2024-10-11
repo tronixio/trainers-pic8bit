@@ -1421,10 +1421,11 @@
 				)
 			)
 			(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
-				(at 0 0 0)
+				(at 0 -20.32 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -2676,10 +2677,11 @@
 				)
 			)
 			(property "Description" "28/40/44-Pin, 8-Bit Flash Microcontroller"
-				(at 0 0 0)
+				(at 15.24 -45.72 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -3665,6 +3667,7 @@
 			(on_board yes)
 			(property "Reference" "#PWR"
 				(at 0 -5.08 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -3674,6 +3677,7 @@
 			)
 			(property "Value" "POWER-GND"
 				(at 0 -7.62 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -3787,8 +3791,9 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
+			(property "Description" ""
+				(at 0 -12.7 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3914,8 +3919,9 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
+			(property "Description" ""
+				(at 0 -12.7 0)
+				(do_not_autoplace)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7500,9 +7506,10 @@
 		)
 		(property "Description" "3V3"
 			(at 121.92 157.48 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.15 1.15)
 				)
 			)
 		)
@@ -7565,9 +7572,10 @@
 		)
 		(property "Description" "Adjustable and Fixed Low-Dropout Voltage Regulator"
 			(at 93.98 170.18 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -7794,9 +7802,10 @@
 		)
 		(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
 			(at 119.38 96.52 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -8177,9 +8186,10 @@
 		)
 		(property "Description" "3V3"
 			(at 170.18 22.86 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.15 1.15)
 				)
 			)
 		)
@@ -8242,9 +8252,10 @@
 		)
 		(property "Description" "3V3"
 			(at 144.78 104.14 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.15 1.15)
 				)
 			)
 		)
@@ -9103,9 +9114,10 @@
 		)
 		(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
 			(at 58.42 180.34 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -9418,9 +9430,10 @@
 		)
 		(property "Description" "3V3"
 			(at 109.22 22.86 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.15 1.15)
 				)
 			)
 		)
@@ -9484,9 +9497,10 @@
 		)
 		(property "Description" "3V3"
 			(at 76.2 22.86 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.15 1.15)
 				)
 			)
 		)
@@ -9763,9 +9777,10 @@
 		)
 		(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
 			(at 180.34 48.26 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -9840,8 +9855,9 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 91.44 38.1 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10441,9 +10457,10 @@
 		)
 		(property "Description" "Micro USB Connector"
 			(at 38.1 175.26 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -10532,8 +10549,9 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 76.2 33.02 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,9 +10644,10 @@
 		)
 		(property "Description" "28/40/44-Pin, 8-Bit Flash Microcontroller"
 			(at 129.54 55.88 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -10944,9 +10963,10 @@
 		)
 		(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
 			(at 109.22 48.26 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -11172,9 +11192,10 @@
 		)
 		(property "Description" "3V3"
 			(at 180.34 22.86 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.15 1.15)
 				)
 			)
 		)
@@ -11305,9 +11326,10 @@
 		)
 		(property "Description" "3V3"
 			(at 106.68 157.48 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.15 1.15)
 				)
 			)
 		)
@@ -11373,9 +11395,10 @@
 		)
 		(property "Description" "4.2×3.2mm Compact High Operating Force Type (Surface Mount) SKRP Series"
 			(at 76.2 43.18 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -11846,9 +11869,10 @@
 		)
 		(property "Description" "5V"
 			(at 81.28 157.48 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.15 1.15)
 				)
 			)
 		)
