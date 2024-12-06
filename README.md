@@ -13,6 +13,11 @@
 - [PIC 8-Bit MINI Trainer.](https://github.com/tronixio/trainers-pic8bit/tree/main/Firmwares#pic8-bit-mini-trainer)
 - [PIC 8-Bit Trainer.](https://github.com/tronixio/trainers-pic8bit/tree/main/Firmwares#pic8-bit-trainer)
 
+## Hats & Modules.
+
+- [Trainer Hats](https://github.com/tronixio/modules)
+- [Trainer Modules (GPIO/UART/I2C/SPI)](https://github.com/tronixio/modules)
+
 ## NANO Trainer Top.
 
 ![Nano Trainer Top.](https://raw.githubusercontent.com/tronixio/trainers-pic8bit/main/Kicad/nano/extras/top.png)

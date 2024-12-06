@@ -6173,16 +6173,17 @@
 				)
 			)
 			(property "Description" "Constant Current LED Driver with 32 Dimming Levels and Rset"
-				(at 0 0 0)
+				(at 7.62 -17.78 0)
+				(do_not_autoplace)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
 			)
 			(property "Mouser" "863-CAT4002ASD-GT3"
-				(at 7.62 -17.78 0)
+				(at 7.62 -20.32 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -8732,6 +8733,17 @@
 		)
 		(uuid "471ac7d7-c0f3-4c50-950b-62c500b19f93")
 	)
+	(text "(VL08)"
+		(exclude_from_sim no)
+		(at 132.08 75.565 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify bottom)
+		)
+		(uuid "4e9ca44a-bc32-40ef-b51b-347e70e61e2c")
+	)
 	(text "S1"
 		(exclude_from_sim no)
 		(at 101.6 138.43 0)
@@ -8765,9 +8777,9 @@
 		)
 		(uuid "5d1a95de-3bf2-4e8e-a26a-15cdb497ee65")
 	)
-	(text "Ibckl ~30mA = (125 * 0.6) / 2400"
+	(text "CAT4002A (VL08)\nIbckl: (125 * 0.6) / 2400 = ~30mA."
 		(exclude_from_sim no)
-		(at 180.34 173.99 0)
+		(at 180.975 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13256,9 +13268,10 @@
 		)
 		(property "Description" "Constant Current LED Driver with 32 Dimming Levels and Rset"
 			(at 124.46 63.5 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
