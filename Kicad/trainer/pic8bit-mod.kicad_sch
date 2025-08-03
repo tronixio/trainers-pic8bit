@@ -1,0 +1,8313 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "06c5cf88-e74e-436e-8b37-23dcf7ca7be1")
+	(paper "A4")
+	(title_block
+		(title "Modules")
+		(date "01/2022")
+		(rev "A")
+		(comment 1 "PIC8-Bit Trainer")
+	)
+	(lib_symbols
+		(symbol "tronixio:+VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+VDD"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "VDD"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(symbol "+VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.635 2.54) (xy 0.635 2.54)
+					)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 1.27)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 3.175)
+					)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "tronixio:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "GND"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(rectangle
+					(start -1.778 -2.032)
+					(end 1.778 -1.27)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "tronixio:HARWIN-254-M-2X03-RIGHT-ANGLE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 1.27 2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Value" "HARWIN-254-M-2X03-RIGHT-ANGLE"
+				(at 1.27 -7.62 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Footprint" "tronixio:HARWIN-M20-974034x"
+				(at 0 -10.16 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.harwin.com/products/M20-9740346/"
+				(at 0 -12.7 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "855-M20-974034"
+				(at 0 -15.24 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HARWIN-254-M-2X03-RIGHT-ANGLE_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 3.81 -6.35) (xy 3.81 1.27) (xy -0.635 1.27) (xy -1.27 0.635) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "HARWIN-254-M-2X03-RIGHT-ANGLE_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.905)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 1.905)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 1.905)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.905)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 1.905)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 1.905)
+					(name "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "tronixio:RESISTOR-1206-200R-5P"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.635 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "200Ω"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+				(at 0 -12.7 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -17.78 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "5%"
+				(at 0.635 -3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "660-RK73B2BTTDD201J"
+				(at 0 -15.24 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RESISTOR-1206-200R-5P_0_1"
+				(rectangle
+					(start -1.27 -2.54)
+					(end 1.27 2.54)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RESISTOR-1206-200R-5P_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "tronixio:SAMTEC-254-F-1X06-RIGHT-ANGLE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 0 2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Value" "SAMTEC-SSW-106-02-T-S-RA"
+				(at 0 -15.24 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Footprint" "tronixio:SAMTEC-SSW-106-02-T-S-RA"
+				(at 0 -17.78 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssw_th.pdf"
+				(at 0 -20.32 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "200-SSW10603TSRA"
+				(at 0 -22.86 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SAMTEC-254-F-1X06-RIGHT-ANGLE_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -13.97) (xy 1.27 -13.97) (xy 1.27 0.635) (xy 0.635 1.27) (xy -1.27 1.27) (xy -1.27 -13.97)
+					)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -10.16)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -12.7)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SAMTEC-254-F-1X06-RIGHT-ANGLE_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.905)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 1.905)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 1.905)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 1.905)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 1.905)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 0)
+					(length 1.905)
+					(name "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "tronixio:SAMTEC-254-F-2X06-RIGHT-ANGLE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 1.27 2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 1.27 -15.24 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Footprint" "tronixio:SAMTEC-SSW-106-02-T-D-RA"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssw_th.pdf"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "200-SSW10602TDRA"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SAMTEC-254-F-2X06-RIGHT-ANGLE_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -13.97) (xy 3.81 -13.97) (xy 3.81 1.27) (xy -0.635 1.27) (xy -1.27 0.635) (xy -1.27 -13.97)
+					)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -10.16)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -12.7)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -10.16)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -12.7)
+					(radius 0.635)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SAMTEC-254-F-2X06-RIGHT-ANGLE_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.905)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 1.905)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 1.905)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 1.905)
+					(name "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 1.905)
+					(name "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 0)
+					(length 1.905)
+					(name "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.905)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 1.905)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 1.905)
+					(name "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 1.905)
+					(name "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 180)
+					(length 1.905)
+					(name "10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 180)
+					(length 1.905)
+					(name "12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "tronixio:ST-ESDA14V2SC5Y-SOT-23"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ESDA14V2SC5Y"
+				(at 1.27 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "tronixio:SOT-23-5"
+				(at 0 -10.16 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+				(at 0 -12.7 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "511-ESDA14V2SC5Y"
+				(at 0 -15.24 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ST-ESDA14V2SC5Y-SOT-23_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.524) (xy 1.27 -1.524) (xy 0 0.762) (xy -1.27 -1.524)
+					)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0.254) (xy -1.27 0.254) (xy -1.27 0.762) (xy 1.27 0.762) (xy 1.27 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ST-ESDA14V2SC5Y-SOT-23_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.905)
+					(name "C"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ST-ESDA14V2SC5Y-SOT-23_2_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.905)
+					(name "C"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ST-ESDA14V2SC5Y-SOT-23_3_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.905)
+					(name "C"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ST-ESDA14V2SC5Y-SOT-23_4_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.905)
+					(name "C"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "INT"
+		(exclude_from_sim no)
+		(at 106.68 44.45 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "14724b33-8faf-4ee4-960c-f5436c53718a")
+	)
+	(text "TX"
+		(exclude_from_sim no)
+		(at 243.84 46.99 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ee421da-f77e-4c39-8356-5d6d7c8b923c")
+	)
+	(text "VDD"
+		(exclude_from_sim no)
+		(at 106.68 57.15 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "29216071-4e6d-4e5a-a098-348c16e19dac")
+	)
+	(text "SCL"
+		(exclude_from_sim no)
+		(at 106.68 49.53 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "46ccf6e4-4c16-4a45-9558-3cbe1012ab65")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 106.68 54.61 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f5646c5-157d-41fe-9a7d-0b984b9016cb")
+	)
+	(text "RX"
+		(exclude_from_sim no)
+		(at 243.84 49.53 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "78a9f586-a408-48f0-905f-2c354083a418")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 243.84 54.61 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bf71503-58cf-4874-b23a-83ddeb282076")
+	)
+	(text "SDA"
+		(exclude_from_sim no)
+		(at 106.68 52.07 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "a64d55b0-fd6e-4869-99f1-f840875b4d83")
+	)
+	(text "CTS"
+		(exclude_from_sim no)
+		(at 243.84 44.45 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "bca1355a-2d0a-4615-b80a-c4babdab2ae8")
+	)
+	(text "VDD"
+		(exclude_from_sim no)
+		(at 243.84 57.15 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5b26a69-ef71-465f-a946-43dd53519dea")
+	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 106.68 46.99 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3d55811-4a2c-48d2-9f87-b0daaad97f64")
+	)
+	(text "RTS"
+		(exclude_from_sim no)
+		(at 243.84 52.07 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "e523b801-b15b-4dd8-9687-0a02914d9d48")
+	)
+	(junction
+		(at 228.6 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05e5aed7-fcfc-4948-924a-84068c260504")
+	)
+	(junction
+		(at 86.36 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "134e7d69-ce12-4f3f-8131-19801eae8228")
+	)
+	(junction
+		(at 127 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49fb3fcb-e2cb-4d87-9fef-1064751f6f1d")
+	)
+	(junction
+		(at 170.18 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e63cadd-7129-4602-85ba-a2e3a92d35da")
+	)
+	(junction
+		(at 116.84 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68922338-a848-4dd0-84b7-a8a63bd059bd")
+	)
+	(junction
+		(at 218.44 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82e86ded-6ef0-4071-9932-633313c36400")
+	)
+	(junction
+		(at 154.94 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0ab7880-64b9-4d89-90ef-d0e980743707")
+	)
+	(junction
+		(at 111.76 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a74a2ecb-b3d3-4857-b4a0-0f6b8b1ff3de")
+	)
+	(junction
+		(at 121.92 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1f049ee-f5f1-47a7-b81d-3d332f99b222")
+	)
+	(junction
+		(at 81.28 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2379fe0-48d5-466d-894e-8e6da216df1b")
+	)
+	(junction
+		(at 76.2 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5375a30-795b-4cf7-9ccc-662a90ba72a4")
+	)
+	(junction
+		(at 165.1 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1b88f66-c809-46f2-b417-fd2dcc47fb09")
+	)
+	(junction
+		(at 223.52 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e469efab-02d9-481a-8ff9-667805ff02b0")
+	)
+	(junction
+		(at 160.02 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e753ce67-cb56-42f0-a3cb-c1a35f060ac2")
+	)
+	(junction
+		(at 91.44 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f237088e-96e2-418f-90a8-1a6d3de16438")
+	)
+	(junction
+		(at 213.36 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4ce5382-76f5-4be8-8e80-743a87779c99")
+	)
+	(wire
+		(pts
+			(xy 144.78 134.62) (xy 149.86 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00c38515-0c6e-47e7-a7d0-fd039cd56772")
+	)
+	(wire
+		(pts
+			(xy 223.52 71.12) (xy 223.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019cd876-91c3-4f69-a771-0c0fe0938bac")
+	)
+	(wire
+		(pts
+			(xy 187.96 50.8) (xy 195.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ca1769-ef1d-482d-94b3-5a2034c1655f")
+	)
+	(wire
+		(pts
+			(xy 91.44 71.12) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02dd11a9-9f78-4b31-8417-3cb1d234a446")
+	)
+	(wire
+		(pts
+			(xy 144.78 96.52) (xy 152.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c56a85-b7cb-4825-989e-8e5262ac83c1")
+	)
+	(wire
+		(pts
+			(xy 99.06 55.88) (xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08cf648e-50ad-41a1-8a7a-ed24f85454f5")
+	)
+	(wire
+		(pts
+			(xy 205.74 43.18) (xy 228.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c4fc3a-e6a3-439a-bc51-3dc39b9fc163")
+	)
+	(wire
+		(pts
+			(xy 144.78 137.16) (xy 147.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17017db5-63b9-495a-b40d-26fe7c74d7ee")
+	)
+	(wire
+		(pts
+			(xy 236.22 35.56) (xy 236.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de32994-052c-444f-b417-a1f7fe662dc7")
+	)
+	(wire
+		(pts
+			(xy 81.28 71.12) (xy 81.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5e7cfb-059e-4ea3-b53f-c38dde3cce1d")
+	)
+	(wire
+		(pts
+			(xy 111.76 154.94) (xy 111.76 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2a6520-1d98-46fe-aade-c1e39f9ade61")
+	)
+	(wire
+		(pts
+			(xy 160.02 154.94) (xy 160.02 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f45cf4b-1ca9-4c5b-95e2-edd7426e8535")
+	)
+	(wire
+		(pts
+			(xy 134.62 137.16) (xy 137.16 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21139861-1f58-47cc-9bfb-03231e43c50a")
+	)
+	(wire
+		(pts
+			(xy 111.76 149.86) (xy 111.76 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249f5411-5a2b-48c5-a255-1a8c2b73fa96")
+	)
+	(wire
+		(pts
+			(xy 83.82 124.46) (xy 91.44 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ca0a38-fa34-4acb-9e5f-83be02778d75")
+	)
+	(wire
+		(pts
+			(xy 86.36 71.12) (xy 86.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f673e4-0716-4f76-be62-a070fa115bcd")
+	)
+	(wire
+		(pts
+			(xy 127 154.94) (xy 127 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33024883-4d33-4c0f-b517-6c3ea1e60fde")
+	)
+	(wire
+		(pts
+			(xy 144.78 129.54) (xy 160.02 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3434aa46-bc1f-49a5-8fd7-914e9691e325")
+	)
+	(wire
+		(pts
+			(xy 213.36 71.12) (xy 213.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3593c620-c14c-403d-8cf6-1225d9d9888d")
+	)
+	(wire
+		(pts
+			(xy 228.6 43.18) (xy 238.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d951c0-ef2b-42fa-bd3b-6cda61b27330")
+	)
+	(wire
+		(pts
+			(xy 213.36 50.8) (xy 213.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36baa40d-b0d6-4aef-81fe-94c8daaf0801")
+	)
+	(wire
+		(pts
+			(xy 190.5 127) (xy 198.12 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d32c34-d2a5-4d07-8f56-1b1c530c721f")
+	)
+	(wire
+		(pts
+			(xy 116.84 127) (xy 116.84 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a056bb6-cfc7-4c36-9a2a-d39e9b419311")
+	)
+	(wire
+		(pts
+			(xy 121.92 129.54) (xy 121.92 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b44f6c4-48fd-471d-aec0-de0af23f983e")
+	)
+	(wire
+		(pts
+			(xy 205.74 50.8) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c414824-2e8d-4d59-be5d-b84d3a60a059")
+	)
+	(wire
+		(pts
+			(xy 132.08 134.62) (xy 137.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dcf2d5d-b484-4fd9-ae92-344fa20f98ee")
+	)
+	(wire
+		(pts
+			(xy 228.6 43.18) (xy 228.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44271abc-2abc-4f9b-9144-b8ecfb66b1d1")
+	)
+	(wire
+		(pts
+			(xy 134.62 137.16) (xy 134.62 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443c83a1-ee3b-4a49-9032-5aadbd12f620")
+	)
+	(wire
+		(pts
+			(xy 160.02 129.54) (xy 160.02 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a160e7-e761-444c-8833-c4c78ec343a2")
+	)
+	(wire
+		(pts
+			(xy 190.5 132.08) (xy 198.12 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463eafce-a5b2-4cbb-b419-9e92f40b074c")
+	)
+	(wire
+		(pts
+			(xy 236.22 55.88) (xy 238.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4657cd65-2434-4064-8115-42d7b9ca360e")
+	)
+	(wire
+		(pts
+			(xy 101.6 127) (xy 116.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e49e4e2-a064-417f-a852-d43645d11afd")
+	)
+	(wire
+		(pts
+			(xy 154.94 132.08) (xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8c8421-b53d-4f85-b69e-3ff299e089f2")
+	)
+	(wire
+		(pts
+			(xy 76.2 43.18) (xy 76.2 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52afb105-e8a8-4391-823b-419f1a04fd4a")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b20333-352a-403e-ab53-25c46e9598d0")
+	)
+	(wire
+		(pts
+			(xy 101.6 129.54) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed9ba91-90a5-4e98-98a4-ab63a72c0580")
+	)
+	(wire
+		(pts
+			(xy 187.96 48.26) (xy 195.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2aaaca-249c-4402-b060-ae9e4fc09596")
+	)
+	(wire
+		(pts
+			(xy 48.26 48.26) (xy 55.88 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f67435-8fe9-4418-be70-3b7a942f2465")
+	)
+	(wire
+		(pts
+			(xy 165.1 154.94) (xy 165.1 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63675cfe-6c12-4256-b333-b32f418cf19a")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b57bc1-e4d6-4aca-9c27-e89eba49d4e6")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 91.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae71384-cb00-4694-8193-3ec5e232a634")
+	)
+	(wire
+		(pts
+			(xy 66.04 43.18) (xy 76.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b28c260-0f4b-43ec-98de-9ec8901077cf")
+	)
+	(wire
+		(pts
+			(xy 101.6 124.46) (xy 111.76 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0a9a08-6a94-44f7-8aa8-91751ab1fd9a")
+	)
+	(wire
+		(pts
+			(xy 81.28 45.72) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d30f784-f7f3-4a88-bb25-31e0e6ec30fa")
+	)
+	(wire
+		(pts
+			(xy 66.04 48.26) (xy 86.36 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f34e975-9420-4e0b-810e-be4bf93ffae5")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.98) (xy 152.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffab1e3-8c96-468f-b2ed-9ffb639eb079")
+	)
+	(wire
+		(pts
+			(xy 116.84 127) (xy 137.16 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700eb404-f51a-4dd2-8e7e-1094870fbd55")
+	)
+	(wire
+		(pts
+			(xy 205.74 48.26) (xy 218.44 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75525225-bf2d-4b3e-8fbc-579acc5e2401")
+	)
+	(wire
+		(pts
+			(xy 76.2 71.12) (xy 76.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7810e0f6-eb27-4857-9373-9c246dd6f9f6")
+	)
+	(wire
+		(pts
+			(xy 83.82 127) (xy 91.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b345a24-04b6-4144-9157-fb67e17446cd")
+	)
+	(wire
+		(pts
+			(xy 190.5 129.54) (xy 198.12 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b375eee-ec46-4a24-bab0-062c72f09104")
+	)
+	(wire
+		(pts
+			(xy 144.78 91.44) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b475afb-d53a-47fc-8f38-f62905ed69ca")
+	)
+	(wire
+		(pts
+			(xy 170.18 154.94) (xy 170.18 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eae05c1-84d5-4ad9-a794-28c401323d59")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d0be99-2900-48e7-9e6c-c68ddce8e699")
+	)
+	(wire
+		(pts
+			(xy 127 132.08) (xy 137.16 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fed670-7d51-448f-a090-30149e5c3a9a")
+	)
+	(wire
+		(pts
+			(xy 99.06 55.88) (xy 99.06 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8847c36b-7ac9-457c-ab22-2899b5b26984")
+	)
+	(wire
+		(pts
+			(xy 81.28 45.72) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cc50802-48d5-4d1b-9fc2-1434812413d2")
+	)
+	(wire
+		(pts
+			(xy 144.78 124.46) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d45a9ca-8062-4488-8193-d57d41f2d3e7")
+	)
+	(wire
+		(pts
+			(xy 66.04 45.72) (xy 81.28 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f97b5eb-45b2-421e-8fa7-43fdfb88e89b")
+	)
+	(wire
+		(pts
+			(xy 111.76 124.46) (xy 137.16 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91024dd0-196f-4027-ac95-98c1450b28d9")
+	)
+	(wire
+		(pts
+			(xy 228.6 71.12) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97648448-4a90-41ea-ab98-091aff245302")
+	)
+	(wire
+		(pts
+			(xy 48.26 50.8) (xy 55.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989177e9-1784-486c-b9b4-4d9ba32c4f22")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 55.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c3ee42-d2f1-47ef-8a51-efea8195619d")
+	)
+	(wire
+		(pts
+			(xy 149.86 160.02) (xy 149.86 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af27762-c35b-4f8e-b0d9-cb8348511dd9")
+	)
+	(wire
+		(pts
+			(xy 187.96 43.18) (xy 195.58 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3f66de-4d45-4e6b-96cc-2c446ec46c13")
+	)
+	(wire
+		(pts
+			(xy 154.94 154.94) (xy 154.94 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3d74ab-4504-499c-9d5e-43f085341f77")
+	)
+	(wire
+		(pts
+			(xy 165.1 149.86) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0075de4-596c-4121-8577-185e04779a3e")
+	)
+	(wire
+		(pts
+			(xy 83.82 129.54) (xy 91.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d909da-1354-49b8-accc-3910136db4a5")
+	)
+	(wire
+		(pts
+			(xy 154.94 132.08) (xy 154.94 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fd5c42-6390-4da3-b44d-4710db6f4615")
+	)
+	(wire
+		(pts
+			(xy 121.92 129.54) (xy 137.16 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2edb635-4807-4998-a123-bc92b85cd22b")
+	)
+	(wire
+		(pts
+			(xy 205.74 45.72) (xy 223.52 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2faa55c-e6f8-49be-ac5e-082eca21e698")
+	)
+	(wire
+		(pts
+			(xy 144.78 132.08) (xy 154.94 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33e946e-dc97-456b-87b0-ba4dcc422302")
+	)
+	(wire
+		(pts
+			(xy 48.26 45.72) (xy 55.88 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74669f7-0cd1-459e-b53f-1566b3e53f4b")
+	)
+	(wire
+		(pts
+			(xy 218.44 48.26) (xy 218.44 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8865e0b-20b1-4cb0-b0e5-eb6515653f33")
+	)
+	(wire
+		(pts
+			(xy 233.68 76.2) (xy 233.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42b2b7f-b21b-4ac7-b51a-188a2d2130ff")
+	)
+	(wire
+		(pts
+			(xy 132.08 134.62) (xy 132.08 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d92991-9ffc-436a-b044-8ec8346be0b8")
+	)
+	(wire
+		(pts
+			(xy 213.36 50.8) (xy 238.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c4f50b-8024-478f-b8c3-bc251a43c983")
+	)
+	(wire
+		(pts
+			(xy 187.96 45.72) (xy 195.58 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd271444-7498-407d-bd80-265d2069544f")
+	)
+	(wire
+		(pts
+			(xy 165.1 127) (xy 180.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2102e0a-ceb1-43a1-9ea9-cc5ed45ad532")
+	)
+	(wire
+		(pts
+			(xy 121.92 154.94) (xy 121.92 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2bbaa4b-1cc8-4d82-9377-d963967e83c1")
+	)
+	(wire
+		(pts
+			(xy 96.52 53.34) (xy 96.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c343cc34-493a-4a90-9f37-8ef8149f31dc")
+	)
+	(wire
+		(pts
+			(xy 66.04 50.8) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c607af91-743e-4a93-b40f-aad955d1fae1")
+	)
+	(wire
+		(pts
+			(xy 76.2 43.18) (xy 101.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdde7d26-b172-44cb-9e1e-a2929039e725")
+	)
+	(wire
+		(pts
+			(xy 86.36 48.26) (xy 101.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef5e7c1-93f5-461c-9d20-1627e9310b30")
+	)
+	(wire
+		(pts
+			(xy 86.36 48.26) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1852542-088d-4f0d-8804-6f0012890a76")
+	)
+	(wire
+		(pts
+			(xy 170.18 149.86) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e03ab0d2-cdf1-4a5a-8d12-593f046b2ad2")
+	)
+	(wire
+		(pts
+			(xy 223.52 45.72) (xy 238.76 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0536e21-3109-4787-81fe-9433ee2caaa6")
+	)
+	(wire
+		(pts
+			(xy 147.32 137.16) (xy 147.32 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e184a51f-a096-4d11-a285-0f8a55345611")
+	)
+	(wire
+		(pts
+			(xy 223.52 45.72) (xy 223.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35064b7-c562-4cf9-b22b-5852eab461c0")
+	)
+	(wire
+		(pts
+			(xy 127 132.08) (xy 127 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4daf9e4-d438-4d19-b5d7-287588c554ce")
+	)
+	(wire
+		(pts
+			(xy 129.54 96.52) (xy 137.16 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58231d3-78a8-4ede-9960-4917c8fc3729")
+	)
+	(wire
+		(pts
+			(xy 218.44 48.26) (xy 238.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a57438-d97f-44f8-8dc9-10344d5e79b8")
+	)
+	(wire
+		(pts
+			(xy 190.5 124.46) (xy 198.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90d40e5-6394-4192-af09-abb70b57769a")
+	)
+	(wire
+		(pts
+			(xy 170.18 124.46) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95ce60c-c356-4252-82cb-49e5edbff70d")
+	)
+	(wire
+		(pts
+			(xy 96.52 53.34) (xy 101.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec643684-9f25-435b-bf9f-493cad8dcc84")
+	)
+	(wire
+		(pts
+			(xy 144.78 127) (xy 165.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc11a82-02cf-4bbd-ba93-7e1b23acd889")
+	)
+	(wire
+		(pts
+			(xy 233.68 53.34) (xy 238.76 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0df7489-c180-4b8c-82c2-f1f15321124b")
+	)
+	(wire
+		(pts
+			(xy 218.44 71.12) (xy 218.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a3008b-b37f-453b-a0c4-7814e01275fa")
+	)
+	(wire
+		(pts
+			(xy 101.6 132.08) (xy 127 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ca7e1a-653f-4ef8-afeb-cfcb29e2e47d")
+	)
+	(wire
+		(pts
+			(xy 83.82 132.08) (xy 91.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6cd87ab-fdb1-49b3-97da-f63bbabadce9")
+	)
+	(wire
+		(pts
+			(xy 116.84 154.94) (xy 116.84 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd282ac6-207b-4d95-885f-322a8165fb5b")
+	)
+	(wire
+		(pts
+			(xy 160.02 129.54) (xy 180.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde990a5-8c5a-4a0d-a0c6-dde3462b41c5")
+	)
+	(label "SPI_MISO"
+		(at 101.6 129.54 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "06e66df0-ba9c-404a-a2a2-b13f42883a6e")
+	)
+	(label "SPI_MOSI"
+		(at 101.6 127 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a5f137e-94d9-4027-9d20-f44184a0e2c3")
+	)
+	(label "UART_RTS"
+		(at 205.74 50.8 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b3d43fd-7c45-44f0-93d2-ee3aab8be9a2")
+	)
+	(label "SPI_CS2"
+		(at 180.34 129.54 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right bottom)
+		)
+		(uuid "21a5b8b4-178a-4aef-8b60-0f4164358520")
+	)
+	(label "UART_TX"
+		(at 205.74 45.72 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "21e64f8a-a8e4-4fe1-9091-2496172d5bd9")
+	)
+	(label "UART_CTS"
+		(at 205.74 43.18 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "24e40dcc-d691-4850-9a63-4e4ed5d3c776")
+	)
+	(label "I2C_SDA"
+		(at 66.04 50.8 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3904de5e-a7f0-4681-941b-388df5bb96e1")
+	)
+	(label "IC2_SCL"
+		(at 66.04 48.26 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "63a623c3-35dd-46a2-a11b-6c1cf37467ca")
+	)
+	(label "SPI_RESET"
+		(at 180.34 127 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right bottom)
+		)
+		(uuid "6bfb7e0b-6323-464a-977d-ba275ebff0c9")
+	)
+	(label "UART_RX"
+		(at 205.74 48.26 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "86b69e17-5c4f-4e41-be49-650dbec959d2")
+	)
+	(label "SPI_SCK"
+		(at 101.6 132.08 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0034082-ec36-404f-844f-2f0a47d19daf")
+	)
+	(label "I2C_RESET"
+		(at 66.04 45.72 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b11eae81-bd27-4791-b58b-6cd9dd7feff5")
+	)
+	(label "SPI_INT"
+		(at 180.34 124.46 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right bottom)
+		)
+		(uuid "c04fc0e6-13e5-4dc4-a028-d0ad3ebafbc9")
+	)
+	(label "I2C_INT"
+		(at 66.04 43.18 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4e6e136-0bc9-43e1-b7a8-7f327ee4ddc5")
+	)
+	(label "SPI_CS"
+		(at 101.6 124.46 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb98334e-ea63-40ec-8055-a6b36abc3d4f")
+	)
+	(label "SPI_CS3"
+		(at 180.34 132.08 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7cf4f22-2dc4-489f-a4b7-fff3a684dd58")
+	)
+	(global_label "RC3{slash}SCK"
+		(shape bidirectional)
+		(at 83.82 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "122485d6-b80d-49cb-9edd-29113f2efefa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.4672 132.0081 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RC4{slash}MISO"
+		(shape bidirectional)
+		(at 129.54 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "35f536c3-f79e-46d6-80bb-2fdb2088e36f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.4205 96.4481 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RC3{slash}SCL"
+		(shape bidirectional)
+		(at 48.26 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "550a15be-2ea8-46cf-b121-fb73787dfea9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.1262 48.1881 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RC3{slash}SCL"
+		(shape bidirectional)
+		(at 152.4 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left)
+		)
+		(uuid "77407228-7714-40a8-8ef4-15696322d33d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.5338 91.3681 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RC4{slash}SDA"
+		(shape bidirectional)
+		(at 48.26 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "bb73c464-d359-46f9-92d6-59a584843554")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.0714 50.7281 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RC3{slash}SCK"
+		(shape bidirectional)
+		(at 152.4 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left)
+		)
+		(uuid "c136bce4-18a3-4272-b9f3-6695a536ff43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.7528 96.4481 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RC4{slash}MISO"
+		(shape bidirectional)
+		(at 83.82 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "d1c30c04-0746-4900-b6fc-5a50106aeefb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.7005 129.4681 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RC4{slash}SDA"
+		(shape bidirectional)
+		(at 129.54 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "d69c503f-9e8b-4331-bb58-48387eb38766")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.3514 91.3681 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "RA0{slash}SPI_CS3"
+		(shape input)
+		(at 198.12 132.08 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left)
+		)
+		(uuid "10577a06-d96d-44f8-9913-eb7e72a07e09")
+	)
+	(hierarchical_label "RB5{slash}UCTS"
+		(shape input)
+		(at 187.96 43.18 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "1203ae82-bd19-47e9-9f39-b55776edd911")
+	)
+	(hierarchical_label "RA2{slash}SPI_RESET"
+		(shape input)
+		(at 198.12 127 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left)
+		)
+		(uuid "137fcefe-936d-42f4-ab94-67fd075344c2")
+	)
+	(hierarchical_label "RC7{slash}URX"
+		(shape output)
+		(at 187.96 48.26 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "36d22f72-a253-45f6-ac31-89fa1af86cbe")
+	)
+	(hierarchical_label "RB4{slash}URTS"
+		(shape output)
+		(at 187.96 50.8 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "5cb553ce-0d0f-419e-a2e9-db6970740392")
+	)
+	(hierarchical_label "RA5{slash}SPI_CS"
+		(shape input)
+		(at 83.82 124.46 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "623698ed-347a-4903-a738-27a5c213a556")
+	)
+	(hierarchical_label "RC5{slash}MOSI"
+		(shape input)
+		(at 83.82 127 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "6a6412cc-c08d-42ac-83e5-425dd2a6c468")
+	)
+	(hierarchical_label "RC3{slash}SCL{slash}SCK"
+		(shape bidirectional)
+		(at 152.4 93.98 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left)
+		)
+		(uuid "70c9bd05-412e-4305-b343-69e9b33f99c8")
+	)
+	(hierarchical_label "RC6{slash}UTX"
+		(shape input)
+		(at 187.96 45.72 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "9cbdec44-b634-430e-8561-475cf2f6837a")
+	)
+	(hierarchical_label "RA1{slash}SPI_CS2"
+		(shape input)
+		(at 198.12 129.54 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left)
+		)
+		(uuid "9e74185d-a1ea-490d-8e9a-80c94a796f53")
+	)
+	(hierarchical_label "RA3{slash}SPI_INT"
+		(shape output)
+		(at 198.12 124.46 0)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify left)
+		)
+		(uuid "9f82dcf6-b890-4c02-9ba1-e5306f151f09")
+	)
+	(hierarchical_label "RC1{slash}I2C_INT"
+		(shape output)
+		(at 48.26 43.18 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "c5b7f2d6-880a-4d14-8b3d-8e36ad3ed907")
+	)
+	(hierarchical_label "RC2{slash}I2C_RESET"
+		(shape input)
+		(at 48.26 45.72 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "d38bde72-8eba-4b8d-9d69-1cb825029fb6")
+	)
+	(hierarchical_label "RC4{slash}SDA{slash}MISO"
+		(shape bidirectional)
+		(at 129.54 93.98 180)
+		(effects
+			(font
+				(size 1.15 1.15)
+			)
+			(justify right)
+		)
+		(uuid "ef877ea4-692e-490d-be88-8d6ccd4596c2")
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 185.42 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0456bcac-fce7-4aeb-b106-65c9a20075e0")
+		(property "Reference" "R312"
+			(at 193.04 130.81 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 185.42 132.08 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 198.12 132.08 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 132.08 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 189.23 129.54 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 200.66 132.08 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "235e3223-955d-4460-9138-8298e1ac3ea4")
+		)
+		(pin "2"
+			(uuid "0eea907e-fa53-4057-bb78-53efe2c1d96d")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:+VDD")
+		(at 236.22 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10d05670-984f-477b-ac84-408dc20ca84b")
+		(property "Reference" "#PWR0126"
+			(at 236.22 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-VDD"
+			(at 236.22 48.26 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 35.56 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "VDD"
+			(at 236.22 30.48 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "843dfb30-b800-4aa5-9fe2-595cd378c90a")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 154.94 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb66817-97cf-44d7-99b7-49d21f5f8dc3")
+		(property "Reference" "#PWR0117"
+			(at 154.94 165.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 154.94 167.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 154.94 163.195 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25bb7a23-cee4-496a-9fff-92ab870b50dd")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 116.84 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "248d1704-fed9-4945-b390-c159c8b97760")
+		(property "Reference" "#PWR0120"
+			(at 116.84 165.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 116.84 167.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 116.84 163.195 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e2d4a47-8c8d-4beb-9726-670a68edf3ed")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 96.52 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2620f5ca-2fb3-4d21-b9ca-b957ac6a47bd")
+		(property "Reference" "R308"
+			(at 88.9 130.81 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 96.52 132.08 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 109.22 132.08 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 132.08 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 100.33 129.54 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 111.76 132.08 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b63522e-e931-48cd-a22f-a798d41ec27c")
+		)
+		(pin "2"
+			(uuid "e70ec4cc-6fcd-4fad-ba89-f5fac016a53f")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 233.68 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27c31e96-7a1b-4c0d-b39a-f8fa79abd159")
+		(property "Reference" "#PWR0127"
+			(at 233.68 81.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 233.68 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 233.68 79.375 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "940214ab-2ce9-4c95-98d0-21fe62597b74")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 121.92 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28aa66f1-890c-44c8-abf8-4456080c0777")
+		(property "Reference" "D303"
+			(at 120.65 154.94 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 120.65 150.495 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 121.92 162.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 121.92 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 121.92 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddcb33db-58ba-4963-8dd3-eebe79d2a6b9")
+		)
+		(pin "2"
+			(uuid "70128c39-6949-4d4c-95d9-8d6b7231b478")
+		)
+		(pin "2"
+			(uuid "70128c39-6949-4d4c-95d9-8d6b7231b479")
+		)
+		(pin "3"
+			(uuid "04288f24-e399-4d3b-9a10-1423fd699a5d")
+		)
+		(pin "2"
+			(uuid "70128c39-6949-4d4c-95d9-8d6b7231b47a")
+		)
+		(pin "4"
+			(uuid "105da35f-594e-41dd-8904-4093d63dc8a5")
+		)
+		(pin "2"
+			(uuid "70128c39-6949-4d4c-95d9-8d6b7231b47b")
+		)
+		(pin "5"
+			(uuid "78dcabc8-161b-4934-bee3-b9dda4618965")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 81.28 68.58 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2980ffe3-61d1-4acb-8d78-5a728a49d2c1")
+		(property "Reference" "D301"
+			(at 80.01 71.12 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 80.01 66.675 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 81.28 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 81.28 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 81.28 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed21e34d-9824-44c2-8ebf-34de6884071f")
+		)
+		(pin "2"
+			(uuid "ba4dec18-9c30-43e6-a59b-af9a87d8c879")
+		)
+		(pin "2"
+			(uuid "ba4dec18-9c30-43e6-a59b-af9a87d8c87a")
+		)
+		(pin "3"
+			(uuid "faec65c6-b6f3-42d5-b8ce-12ea4f0c6f82")
+		)
+		(pin "2"
+			(uuid "ba4dec18-9c30-43e6-a59b-af9a87d8c87b")
+		)
+		(pin "4"
+			(uuid "8894c3ff-74f8-4e2b-bbcc-c96603ffe3fe")
+		)
+		(pin "2"
+			(uuid "ba4dec18-9c30-43e6-a59b-af9a87d8c87c")
+		)
+		(pin "5"
+			(uuid "8c8b3c16-5342-4e6a-9132-797c5a037c88")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D301")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 60.96 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29843283-7d2c-4c3a-a497-d39e3f3829e5")
+		(property "Reference" "R301"
+			(at 53.34 41.91 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 60.96 43.18 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 73.66 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 64.77 40.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 76.2 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e81f45de-0010-412d-9906-9ad45b458bb2")
+		)
+		(pin "2"
+			(uuid "5368e972-4dfe-4168-b859-f5ad733aa7d1")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 228.6 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ce3a27a-dc48-4545-aecb-d98603d3e90f")
+		(property "Reference" "D304"
+			(at 229.87 71.12 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 229.87 66.675 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 228.6 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 228.6 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 228.6 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df67f3b1-2be9-485b-bb5a-08dae49a4f5e")
+		)
+		(pin "2"
+			(uuid "9d69f0f0-c0d7-4f25-afeb-e82f091ed72e")
+		)
+		(pin "2"
+			(uuid "9d69f0f0-c0d7-4f25-afeb-e82f091ed72f")
+		)
+		(pin "3"
+			(uuid "63a3da9b-380b-43dd-895d-3c8dc0a4bc42")
+		)
+		(pin "2"
+			(uuid "9d69f0f0-c0d7-4f25-afeb-e82f091ed730")
+		)
+		(pin "4"
+			(uuid "90850a35-1543-4805-b312-098c7f89e56f")
+		)
+		(pin "2"
+			(uuid "9d69f0f0-c0d7-4f25-afeb-e82f091ed731")
+		)
+		(pin "5"
+			(uuid "ea8ec330-e1ee-4971-a246-b0f93b1809e6")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 81.28 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d59742f-637f-47f6-a214-b3ee75f7c8bf")
+		(property "Reference" "#PWR0134"
+			(at 81.28 81.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 81.28 79.375 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41085eaa-4a1a-4d9f-afa4-fea306685131")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 170.18 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d5ac57c-48af-4328-b97f-44740d8eb713")
+		(property "Reference" "#PWR0123"
+			(at 170.18 165.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 170.18 167.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 170.18 163.195 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea5a2167-532a-42ec-8bcd-82ab3997b4f6")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 121.92 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3deb8fde-4e46-42ec-b54d-6c72819bb860")
+		(property "Reference" "#PWR0121"
+			(at 121.92 165.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 121.92 167.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 121.92 163.195 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b63739e-89e4-4558-83ef-d11416d33fd7")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 200.66 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41f9509c-3d72-4584-aa38-3cb1fab4fdac")
+		(property "Reference" "R314"
+			(at 193.04 44.45 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 200.66 45.72 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 213.36 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 204.47 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 215.9 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67c68753-a375-42d6-8e8d-07778ece7616")
+		)
+		(pin "2"
+			(uuid "7cd073c4-fa3d-4ea3-832b-06794626c232")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 154.94 152.4 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4363c37a-2cb4-4472-9892-3ffb1966f5d1")
+		(property "Reference" "D303"
+			(at 156.21 154.94 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 156.21 150.495 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 154.94 162.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 154.94 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 154.94 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15c4ad33-a97c-4cf9-ade0-15042b944296")
+		)
+		(pin "2"
+			(uuid "690432e6-6782-4037-b715-501e79c75ea1")
+		)
+		(pin "2"
+			(uuid "690432e6-6782-4037-b715-501e79c75ea2")
+		)
+		(pin "3"
+			(uuid "6a4e3c36-1cdd-4d79-af36-ccbbb74659e1")
+		)
+		(pin "2"
+			(uuid "690432e6-6782-4037-b715-501e79c75ea3")
+		)
+		(pin "4"
+			(uuid "655face4-8fa2-41c9-ab88-ff1665b21f01")
+		)
+		(pin "2"
+			(uuid "690432e6-6782-4037-b715-501e79c75ea4")
+		)
+		(pin "5"
+			(uuid "a9b3209c-e2f8-4cb4-803a-5071e557b2ef")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D303")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 170.18 152.4 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50f39c24-e6f5-4726-91a6-64a22b4c96ac")
+		(property "Reference" "D302"
+			(at 171.45 154.94 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 171.45 150.495 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 170.18 162.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 170.18 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 170.18 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0071cb1b-fcbd-47ba-bda0-42f8542ec1e1")
+		)
+		(pin "2"
+			(uuid "e6b44d3a-2183-4fe2-a527-01d0c2acc5d6")
+		)
+		(pin "2"
+			(uuid "e6b44d3a-2183-4fe2-a527-01d0c2acc5d7")
+		)
+		(pin "3"
+			(uuid "ce11322c-9f53-4f18-9277-cbbc5795de24")
+		)
+		(pin "2"
+			(uuid "e6b44d3a-2183-4fe2-a527-01d0c2acc5d8")
+		)
+		(pin "4"
+			(uuid "25622446-a955-49d5-a1aa-151fe42eb9d5")
+		)
+		(pin "2"
+			(uuid "e6b44d3a-2183-4fe2-a527-01d0c2acc5d9")
+		)
+		(pin "5"
+			(uuid "62d493a0-a90f-4c85-821e-2c03632fe415")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D302")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:+VDD")
+		(at 134.62 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55d0d79b-577a-4e17-9ad3-31ae40f1c12c")
+		(property "Reference" "#PWR0137"
+			(at 134.62 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-VDD"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 116.84 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "VDD"
+			(at 134.62 111.76 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8af3b97d-546b-4bee-bde4-5c209a874aec")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 165.1 152.4 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5748b75a-bf6b-4ab2-8070-bb1424eef361")
+		(property "Reference" "D302"
+			(at 166.37 154.94 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 166.37 150.495 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 165.1 162.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 165.1 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 165.1 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f79d791-c380-46bc-9d03-8a456a918edf")
+		)
+		(pin "2"
+			(uuid "774a5a71-2e7c-4a40-a878-eb08fbcc36e2")
+		)
+		(pin "2"
+			(uuid "774a5a71-2e7c-4a40-a878-eb08fbcc36e3")
+		)
+		(pin "3"
+			(uuid "35593da1-3573-40ef-a6e5-326ea9c4fb68")
+		)
+		(pin "2"
+			(uuid "774a5a71-2e7c-4a40-a878-eb08fbcc36e4")
+		)
+		(pin "4"
+			(uuid "cea99f9a-bb34-4959-a570-4f2e9566e574")
+		)
+		(pin "2"
+			(uuid "774a5a71-2e7c-4a40-a878-eb08fbcc36e5")
+		)
+		(pin "5"
+			(uuid "864745d4-2f12-4bbb-a789-24515cd3f31e")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D302")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 185.42 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61c6c3fe-7d2f-4f10-a100-9fb225285a8c")
+		(property "Reference" "R309"
+			(at 193.04 123.19 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 185.42 124.46 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 198.12 124.46 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 124.46 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 189.23 121.92 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 200.66 124.46 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "407bcb3a-80a3-44bf-9981-b69b8ac2da30")
+		)
+		(pin "2"
+			(uuid "34bd715c-4752-43e0-ba84-1c528b93e083")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:SAMTEC-254-F-1X06-RIGHT-ANGLE")
+		(at 241.3 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62dc6a6e-ddf6-4cbd-9301-71283c151628")
+		(property "Reference" "K304"
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "EUSART/TTL"
+			(at 241.3 58.42 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:SAMTEC-SSW-106-02-T-S-RA"
+			(at 241.3 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssw_th.pdf"
+			(at 241.3 63.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "200-SSW10603TSRA"
+			(at 241.3 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e7238d3-c07a-481b-a94c-44e3a0dee4f3")
+		)
+		(pin "2"
+			(uuid "4fe0e54d-7cca-4e93-8e84-ce698d9fd4ee")
+		)
+		(pin "3"
+			(uuid "a6105ec8-19bc-4225-b5a6-fa0496cedd04")
+		)
+		(pin "4"
+			(uuid "dab0ba1e-bf70-40f5-9ae0-f44a2a1c2482")
+		)
+		(pin "5"
+			(uuid "8a1c3edc-ca84-4e29-aeda-b3ee45c2d205")
+		)
+		(pin "6"
+			(uuid "714cbdc5-173d-40c7-83ff-2908c7eaa73e")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "K304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 60.96 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6383ccd5-e861-465e-8833-5260793caf1b")
+		(property "Reference" "R304"
+			(at 53.34 49.53 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 60.96 50.8 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 73.66 50.8 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 64.77 48.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 76.2 50.8 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caebfa46-5893-438a-8d03-60f5dcb03e44")
+		)
+		(pin "2"
+			(uuid "06be31b9-be87-4b13-8c18-27b8b893a73d")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 91.44 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63aca7d5-3ff0-4d11-8fef-830dd9b6c77d")
+		(property "Reference" "#PWR0132"
+			(at 91.44 81.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 91.44 79.375 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d527e196-7f95-414e-b873-f1fef02dcf77")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 91.44 68.58 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cff2030-c7f3-4c84-bc2d-5961fe839ab8")
+		(property "Reference" "D301"
+			(at 90.17 71.12 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 90.17 66.675 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 91.44 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 91.44 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 91.44 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cea19b7d-43c7-4313-9dff-6e22abb4d1a7")
+		)
+		(pin "2"
+			(uuid "8ce6c489-5871-4f3b-a6d9-25f71332fd36")
+		)
+		(pin "2"
+			(uuid "8ce6c489-5871-4f3b-a6d9-25f71332fd37")
+		)
+		(pin "3"
+			(uuid "efb99413-d6f3-4830-83ef-5ef1b678a309")
+		)
+		(pin "2"
+			(uuid "8ce6c489-5871-4f3b-a6d9-25f71332fd38")
+		)
+		(pin "4"
+			(uuid "45521a6c-d499-4768-8c75-146f9f3527a0")
+		)
+		(pin "2"
+			(uuid "8ce6c489-5871-4f3b-a6d9-25f71332fd39")
+		)
+		(pin "5"
+			(uuid "e244acef-d8f9-4f79-9108-4636b1b14f44")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D301")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:+VDD")
+		(at 99.06 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7813f025-44ac-4141-acc9-0659c62ec273")
+		(property "Reference" "#PWR0125"
+			(at 99.06 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-VDD"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 35.56 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 35.56 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "VDD"
+			(at 99.06 30.48 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8733404-2dfa-49bc-b390-f122427d5beb")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 218.44 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cdd4f2a-96b6-494c-9218-e3cebf4c72d3")
+		(property "Reference" "#PWR0130"
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 218.44 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 218.44 79.375 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e45107bb-cd19-4371-b83e-18766afbdc53")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 228.6 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d8cc580-6392-48e0-a2a2-0b7bc3369541")
+		(property "Reference" "#PWR0128"
+			(at 228.6 81.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 228.6 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 228.6 79.375 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41457a82-b1b6-40b0-a847-93e5950b0920")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:SAMTEC-254-F-1X06-RIGHT-ANGLE")
+		(at 104.14 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e4e53b4-7b0c-45a2-82ef-311731b41c1e")
+		(property "Reference" "K301"
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "I2C/GPIO"
+			(at 104.14 58.42 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:SAMTEC-SSW-106-02-T-S-RA"
+			(at 104.14 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssw_th.pdf"
+			(at 104.14 63.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "200-SSW10603TSRA"
+			(at 104.14 66.04 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "068df573-9c7f-4bf0-a655-32b488e4d405")
+		)
+		(pin "2"
+			(uuid "3ef5288f-4b80-409e-a0f2-18c039f0ab5a")
+		)
+		(pin "3"
+			(uuid "3ea91958-4687-4752-9944-d81d7f9e7ee6")
+		)
+		(pin "4"
+			(uuid "bdf349e3-d600-4433-80d2-b318235002c4")
+		)
+		(pin "5"
+			(uuid "2e4a159d-5b26-4b0b-80d3-1f7aafa16a85")
+		)
+		(pin "6"
+			(uuid "b7d2dd29-aa6e-4aef-9aaa-40462eb2d6eb")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "K301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 160.02 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8286d523-7c5f-491c-bf09-2c0300732ded")
+		(property "Reference" "#PWR0115"
+			(at 160.02 165.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 160.02 167.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 160.02 163.195 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63b406dd-53cb-4833-9471-c24f956fc55d")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 223.52 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85fd8456-8eca-4fb5-b609-009d58fbd9eb")
+		(property "Reference" "#PWR0129"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 223.52 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 223.52 79.375 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f5f7372-4834-4a29-a410-d0000ea5ca85")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 213.36 68.58 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8737750e-2520-4ab6-beee-f3bb7cab6735")
+		(property "Reference" "D304"
+			(at 214.63 71.12 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 214.63 66.675 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 213.36 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 213.36 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 213.36 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36f2d09f-eb46-46ea-8105-21b35347efb1")
+		)
+		(pin "2"
+			(uuid "4ade6efe-0ba1-48fb-b8e9-e91aa37b0534")
+		)
+		(pin "2"
+			(uuid "4ade6efe-0ba1-48fb-b8e9-e91aa37b0535")
+		)
+		(pin "3"
+			(uuid "34f5a941-7a05-4e18-ab53-17d4fea311e7")
+		)
+		(pin "2"
+			(uuid "4ade6efe-0ba1-48fb-b8e9-e91aa37b0536")
+		)
+		(pin "4"
+			(uuid "e92b97b1-c82e-481c-a4d9-0c42702fc4c3")
+		)
+		(pin "2"
+			(uuid "4ade6efe-0ba1-48fb-b8e9-e91aa37b0537")
+		)
+		(pin "5"
+			(uuid "c4055706-c53a-450d-bf62-ef7dba29b4af")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D304")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 149.86 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d36475d-5460-462a-983e-d4cc752a36df")
+		(property "Reference" "#PWR0116"
+			(at 149.86 165.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 149.86 167.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 149.86 163.195 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da301896-a6a4-441b-ad5c-6d3954d5f915")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 185.42 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9527870b-e034-4633-9ab3-67b00175c224")
+		(property "Reference" "R310"
+			(at 193.04 125.73 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 185.42 127 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 198.12 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 189.23 124.46 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 200.66 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fcd5342-7ec5-4c29-b3ea-fea9a11f01cd")
+		)
+		(pin "2"
+			(uuid "62321e72-8550-4a74-bb0d-4f3bfb134b87")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 200.66 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95a18207-9dd9-4060-be43-909e4a9c7123")
+		(property "Reference" "R313"
+			(at 193.04 41.91 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 200.66 43.18 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 213.36 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 43.18 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 204.47 40.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 215.9 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eda0123a-c044-44f3-8fd8-0c2ef1c87880")
+		)
+		(pin "2"
+			(uuid "2cd61bf3-18d8-4f07-a187-8ed1fbac69d3")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 132.08 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9850990f-5e25-4aba-83ad-4588b298c65b")
+		(property "Reference" "#PWR0118"
+			(at 132.08 165.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 132.08 167.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 132.08 163.195 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8fca475-ad56-4391-ba4b-5a1d97828f82")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 213.36 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b54064b-2a28-4cfb-a593-54b7418e0391")
+		(property "Reference" "#PWR0131"
+			(at 213.36 81.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 213.36 79.375 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c828fa1a-29be-4300-a13c-e91a8d50c7f9")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 111.76 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fffafcd-3b34-4001-9062-51448dd30c21")
+		(property "Reference" "D302"
+			(at 110.49 154.94 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 110.49 150.495 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 111.76 162.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 111.76 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 111.76 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a2a5522-6ed7-449a-9f54-7503f329a2ea")
+		)
+		(pin "2"
+			(uuid "e407e4da-1ee8-42a9-b4db-3be25a60281b")
+		)
+		(pin "2"
+			(uuid "e407e4da-1ee8-42a9-b4db-3be25a60281c")
+		)
+		(pin "3"
+			(uuid "4ac8830f-d7bb-4e00-88f4-afd963dcd1c3")
+		)
+		(pin "2"
+			(uuid "e407e4da-1ee8-42a9-b4db-3be25a60281d")
+		)
+		(pin "4"
+			(uuid "558adc6c-2846-44ee-b385-b9fe2e6703fe")
+		)
+		(pin "2"
+			(uuid "e407e4da-1ee8-42a9-b4db-3be25a60281e")
+		)
+		(pin "5"
+			(uuid "250095af-ba47-4d5b-9bfd-64074903c943")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 60.96 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a47366a5-6845-49d8-bd9c-362158ae1421")
+		(property "Reference" "R302"
+			(at 53.34 44.45 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 60.96 45.72 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 73.66 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 64.77 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 76.2 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e64e606-b35a-4aea-ab2c-032c12be52b8")
+		)
+		(pin "2"
+			(uuid "f4fae028-60f6-4279-b378-2f99c2bef6b9")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:HARWIN-254-M-2X03-RIGHT-ANGLE")
+		(at 142.24 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a57f6de9-743d-4ea3-b8e2-8c4602f7a501")
+		(property "Reference" "K302"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "I2C/SPI"
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:HARWIN-M20-974034x"
+			(at 142.24 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.harwin.com/products/M20-9740346/"
+			(at 142.24 104.14 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
+			(at 142.24 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "855-M20-974034"
+			(at 142.24 106.68 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb8bddea-6f1a-4e7b-bc24-d4cde5360ecc")
+		)
+		(pin "2"
+			(uuid "c270b7c7-c458-438a-b54f-a8b91834198e")
+		)
+		(pin "3"
+			(uuid "09f5ae5a-9e19-40c3-8ce3-c3dbf677cc96")
+		)
+		(pin "4"
+			(uuid "37aade98-0ed4-4eba-86d1-8a84db4e4c37")
+		)
+		(pin "5"
+			(uuid "364ecc8c-da59-4b4a-bdf8-0d999019f443")
+		)
+		(pin "6"
+			(uuid "f7143bca-71ff-4529-9f3e-f9b9f3468bd9")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "K302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 76.2 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a746cb6b-65f1-424c-a834-0b11904ad441")
+		(property "Reference" "#PWR0136"
+			(at 76.2 81.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 76.2 79.375 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a43e543-eaa1-4677-bebe-8987c453c0b0")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 223.52 68.58 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aec8d35d-17ea-4095-a9e4-6088b7c93f5a")
+		(property "Reference" "D304"
+			(at 224.79 71.12 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 224.79 66.675 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 223.52 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 223.52 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 223.52 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7f49f9f-ff2f-4849-af20-d62f77ff5316")
+		)
+		(pin "2"
+			(uuid "89ca4887-2b06-453a-ae59-c17dad2a01b0")
+		)
+		(pin "2"
+			(uuid "89ca4887-2b06-453a-ae59-c17dad2a01b1")
+		)
+		(pin "3"
+			(uuid "853523a0-f158-4f0a-8409-0a6f348a42a1")
+		)
+		(pin "2"
+			(uuid "89ca4887-2b06-453a-ae59-c17dad2a01b2")
+		)
+		(pin "4"
+			(uuid "620ef30c-61e9-4804-9762-52f31b1ef4ec")
+		)
+		(pin "2"
+			(uuid "89ca4887-2b06-453a-ae59-c17dad2a01b3")
+		)
+		(pin "5"
+			(uuid "a86cd9ee-d517-403b-8faf-44871cf14e6d")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D304")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 76.2 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0d969de-ad2a-46c0-86f4-60c4a595a630")
+		(property "Reference" "D301"
+			(at 74.93 71.12 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 74.93 66.675 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 76.2 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 76.2 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 76.2 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6021e93b-b8de-4c18-85d7-de3f6688718f")
+		)
+		(pin "2"
+			(uuid "d1cc7448-1aa9-4fc4-95c7-4b20a1145fe9")
+		)
+		(pin "2"
+			(uuid "d1cc7448-1aa9-4fc4-95c7-4b20a1145fea")
+		)
+		(pin "3"
+			(uuid "6f36bf71-9396-4a4d-bf89-180745e411cb")
+		)
+		(pin "2"
+			(uuid "d1cc7448-1aa9-4fc4-95c7-4b20a1145feb")
+		)
+		(pin "4"
+			(uuid "2918f6ab-6d21-44cf-b685-2c1ebb0f4997")
+		)
+		(pin "2"
+			(uuid "d1cc7448-1aa9-4fc4-95c7-4b20a1145fec")
+		)
+		(pin "5"
+			(uuid "2f1a647c-cff5-4b0c-88c9-acd8766cbe29")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 160.02 152.4 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba577a6f-b009-46d2-a02f-384d4a292ac4")
+		(property "Reference" "D303"
+			(at 161.29 154.94 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 161.29 150.495 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 160.02 162.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 160.02 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 160.02 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beb0fd80-2048-4d68-823b-c3bf02165248")
+		)
+		(pin "2"
+			(uuid "af156aaa-a55c-4ab6-8007-0632cf43de92")
+		)
+		(pin "2"
+			(uuid "af156aaa-a55c-4ab6-8007-0632cf43de93")
+		)
+		(pin "3"
+			(uuid "1d9ab67c-ec2a-4b14-9acb-257fd5629da8")
+		)
+		(pin "2"
+			(uuid "af156aaa-a55c-4ab6-8007-0632cf43de94")
+		)
+		(pin "4"
+			(uuid "714fa6fa-67fa-48eb-8254-e26295041227")
+		)
+		(pin "2"
+			(uuid "af156aaa-a55c-4ab6-8007-0632cf43de95")
+		)
+		(pin "5"
+			(uuid "361cc0de-5ac2-4940-b8e1-88c3a2e5a5a4")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D303")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 127 152.4 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc33561e-891e-453f-bc73-f13479f916cc")
+		(property "Reference" "D303"
+			(at 125.73 154.94 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 125.73 150.495 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 127 162.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 127 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 127 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53def7d2-01df-4815-86e8-1e8a998a8b4c")
+		)
+		(pin "2"
+			(uuid "3c0b8348-8330-463b-8f7f-85a0ba701118")
+		)
+		(pin "2"
+			(uuid "3c0b8348-8330-463b-8f7f-85a0ba701119")
+		)
+		(pin "3"
+			(uuid "6243e789-0fa5-4446-83e6-fc0eb0d3296f")
+		)
+		(pin "2"
+			(uuid "3c0b8348-8330-463b-8f7f-85a0ba70111a")
+		)
+		(pin "4"
+			(uuid "54dd1dc2-d446-4166-94e8-cd042d3047e2")
+		)
+		(pin "2"
+			(uuid "3c0b8348-8330-463b-8f7f-85a0ba70111b")
+		)
+		(pin "5"
+			(uuid "bc67a1d2-88d5-401e-8f3b-c4ea771cf325")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D303")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 86.36 68.58 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c45d92de-44a9-4f92-9255-098b6eee4d3f")
+		(property "Reference" "D301"
+			(at 85.09 71.12 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 85.09 66.675 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 86.36 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 86.36 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 86.36 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe6eb66b-8066-4c46-b14c-c1ab91850f1c")
+		)
+		(pin "2"
+			(uuid "37c65623-c622-454d-aa1a-1436ba878dc4")
+		)
+		(pin "2"
+			(uuid "37c65623-c622-454d-aa1a-1436ba878dc5")
+		)
+		(pin "3"
+			(uuid "38772958-d5df-4e44-84d9-3ac468816016")
+		)
+		(pin "2"
+			(uuid "37c65623-c622-454d-aa1a-1436ba878dc6")
+		)
+		(pin "4"
+			(uuid "9974c3f4-68e4-4a17-9435-396e21ad1818")
+		)
+		(pin "2"
+			(uuid "37c65623-c622-454d-aa1a-1436ba878dc7")
+		)
+		(pin "5"
+			(uuid "a0f9d9e7-cdf9-4c1d-aba6-86f0f3976dd6")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D301")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 96.52 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c70d3f25-354d-4679-874a-e3e7db17c38b")
+		(property "Reference" "R307"
+			(at 88.9 128.27 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 96.52 129.54 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 109.22 129.54 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 129.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 100.33 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 111.76 129.54 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a238d73f-d404-4343-af97-c2dbf7f85dc0")
+		)
+		(pin "2"
+			(uuid "574144cc-e5b0-4b07-bc10-bdb2c2e9d909")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:+VDD")
+		(at 147.32 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8c38c0c-1987-4630-8e54-0579678b0097")
+		(property "Reference" "#PWR0138"
+			(at 147.32 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-VDD"
+			(at 147.32 129.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 116.84 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "VDD"
+			(at 147.32 111.76 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "536ab33a-a2c6-4e5c-b34d-32a21a25d43d")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 165.1 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cac81560-f961-4c8a-a0a9-7b78408dafb3")
+		(property "Reference" "#PWR0124"
+			(at 165.1 165.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 165.1 167.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 165.1 163.195 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f0db2b7-9ee6-4d8f-b357-1358bf5ab4a1")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 60.96 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc0cecc7-0d93-4e54-a910-5492669f5660")
+		(property "Reference" "R303"
+			(at 53.34 46.99 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 60.96 48.26 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 73.66 48.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 64.77 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 76.2 48.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917e4d08-060d-4375-a81f-4c05abbfcb78")
+		)
+		(pin "2"
+			(uuid "c040b16f-6e44-416e-8853-cc4a21be260b")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 185.42 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf231d88-ae96-4bef-8b65-0ba79008d17c")
+		(property "Reference" "R311"
+			(at 193.04 128.27 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 185.42 129.54 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 198.12 129.54 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 129.54 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 189.23 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 200.66 129.54 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad371444-8230-4cb6-87da-09c59a343cca")
+		)
+		(pin "2"
+			(uuid "e2ad54e5-9e03-4f1c-b4c5-1e4e2e724bd5")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 96.52 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2f5bb66-48e2-4260-8543-a7551b9278b9")
+		(property "Reference" "R306"
+			(at 88.9 125.73 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 96.52 127 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 109.22 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 127 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 100.33 124.46 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 111.76 127 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fcecc50-f797-4eb7-886c-f3cb551cdd15")
+		)
+		(pin "2"
+			(uuid "4ec4a91c-3eb8-47a1-b4f5-c5401434dbda")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 111.76 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d94125bc-3ea2-4488-9536-9283d0e25103")
+		(property "Reference" "#PWR0119"
+			(at 111.76 165.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 111.76 167.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 111.76 163.195 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05ffa8f3-c704-4a37-8498-04c0ad0d532c")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 86.36 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db6664fa-8f2f-4fd2-89cf-8949f232ad5e")
+		(property "Reference" "#PWR0135"
+			(at 86.36 81.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 86.36 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 86.36 79.375 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "756b5fb7-d252-45d0-aa3a-16052beef459")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 96.52 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df6627fa-7d96-4c92-8d26-9eca6d38e095")
+		(property "Reference" "R305"
+			(at 88.9 123.19 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 96.52 124.46 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 109.22 124.46 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 100.33 121.92 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 111.76 124.46 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22fb4f5c-bbc4-4544-9e4c-740f6b6bb3d1")
+		)
+		(pin "2"
+			(uuid "9b1b0e18-f518-4e78-97f7-02c19ed01750")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 116.84 152.4 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1cc6734-5742-4e0b-af25-92442036f817")
+		(property "Reference" "D302"
+			(at 115.57 154.94 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 115.57 150.495 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 116.84 162.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 116.84 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 116.84 167.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2569d640-b21b-40c8-a16f-b8867c4f3a6c")
+		)
+		(pin "2"
+			(uuid "9c13d183-6558-456a-9dba-08f2cbefeea7")
+		)
+		(pin "2"
+			(uuid "9c13d183-6558-456a-9dba-08f2cbefeea8")
+		)
+		(pin "3"
+			(uuid "1c2940c4-9781-46bb-ae1e-beed6b6565b4")
+		)
+		(pin "2"
+			(uuid "9c13d183-6558-456a-9dba-08f2cbefeea9")
+		)
+		(pin "4"
+			(uuid "563a81e0-3d1c-4dc4-8a94-d09c65069a27")
+		)
+		(pin "2"
+			(uuid "9c13d183-6558-456a-9dba-08f2cbefeeaa")
+		)
+		(pin "5"
+			(uuid "3c3e59a8-7e44-4e4d-af16-b4ac84ba6391")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D302")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:ST-ESDA14V2SC5Y-SOT-23")
+		(at 218.44 68.58 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e286ad92-6552-4907-9d23-b84f289946ca")
+		(property "Reference" "D304"
+			(at 219.71 71.12 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESDA14V2SC5Y"
+			(at 219.71 66.675 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:SOT-23-5"
+			(at 218.44 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/6c/ab/7a/c8/ed/5a/4e/94/DM00231412.pdf/files/DM00231412.pdf/jcr:content/translations/en.DM00231412.pdf"
+			(at 218.44 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "511-ESDA14V2SC5Y"
+			(at 218.44 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "907ea71c-8e4f-4c67-baef-36de8c4596e9")
+		)
+		(pin "2"
+			(uuid "89180675-fc2f-4c0a-a80e-2995bed2eaea")
+		)
+		(pin "2"
+			(uuid "89180675-fc2f-4c0a-a80e-2995bed2eaeb")
+		)
+		(pin "3"
+			(uuid "03a2f48a-7a18-4765-8059-67a4fab4738a")
+		)
+		(pin "2"
+			(uuid "89180675-fc2f-4c0a-a80e-2995bed2eaec")
+		)
+		(pin "4"
+			(uuid "1847e049-195a-45c4-8f20-541d7b43bc04")
+		)
+		(pin "2"
+			(uuid "89180675-fc2f-4c0a-a80e-2995bed2eaed")
+		)
+		(pin "5"
+			(uuid "d5189743-bb47-4cab-b006-4a91c20ac776")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "D304")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 200.66 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec48aa52-3382-4ffe-91de-4fedd71fa2ee")
+		(property "Reference" "R316"
+			(at 193.04 49.53 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 200.66 50.8 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 213.36 50.8 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 50.8 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 204.47 48.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 215.9 50.8 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "713bc48c-c143-4c03-86a2-e69370f4e1cc")
+		)
+		(pin "2"
+			(uuid "b069520a-d2ad-405e-a1af-804f7c07e433")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R316")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-200R-5P")
+		(at 200.66 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f292c6bb-34c9-4e7d-a1ce-a7d4f8be97fb")
+		(property "Reference" "R315"
+			(at 193.04 46.99 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200Ω"
+			(at 200.66 48.26 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 213.36 48.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 48.26 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 204.47 45.72 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD201J"
+			(at 215.9 48.26 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e04bda2-8e5a-4508-97ac-61d95e5abc00")
+		)
+		(pin "2"
+			(uuid "5abbb66b-e9c7-4660-a63e-0742eec5ccd9")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "R315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 127 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9a5c203-1fa7-4249-8147-17a4522bd97e")
+		(property "Reference" "#PWR0122"
+			(at 127 165.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 127 167.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 160.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 127 163.195 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dad326b-fec0-469d-9250-9e3ae16ad80f")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:SAMTEC-254-F-2X06-RIGHT-ANGLE")
+		(at 139.7 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa287544-f836-40bc-baa2-4a64147ee4a4")
+		(property "Reference" "K303"
+			(at 140.97 121.92 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Value" "SPI/GPIO"
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:SAMTEC-SSW-106-02-T-D-RA"
+			(at 139.7 142.24 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssw_th.pdf"
+			(at 139.7 144.78 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "200-SSW10602TDRA"
+			(at 139.7 147.32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0888de3-71b3-4976-a12e-cd0ff6ecac12")
+		)
+		(pin "10"
+			(uuid "555e4cb1-db46-48b2-8c25-c98907351c1b")
+		)
+		(pin "11"
+			(uuid "5cfffad0-c3c1-485e-8534-1b1ecc60a724")
+		)
+		(pin "12"
+			(uuid "dc39cb0e-6bcb-4ab5-a700-73690a378314")
+		)
+		(pin "2"
+			(uuid "9380abd9-98c5-4671-9f5f-0a14ca93fa28")
+		)
+		(pin "3"
+			(uuid "83918165-05da-4d70-bde4-ff18ea33d10f")
+		)
+		(pin "4"
+			(uuid "af8c2cd7-d951-4901-a8d7-f71e5f587a18")
+		)
+		(pin "5"
+			(uuid "40c2b3ba-a9ab-4d79-8c44-79e07802b9d3")
+		)
+		(pin "6"
+			(uuid "6a5a4bfa-0781-4e03-90c6-4949de7565ae")
+		)
+		(pin "7"
+			(uuid "2d41ecd6-1fc0-4d7a-8b4b-8e2a5e9f2958")
+		)
+		(pin "8"
+			(uuid "500ddf44-8df0-42e7-95fe-f4fbc751fe01")
+		)
+		(pin "9"
+			(uuid "7101cd24-ce90-4327-851e-6a1c97e67dcf")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "K303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 96.52 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fad6a535-18e6-43eb-b452-0b662e86ab28")
+		(property "Reference" "#PWR0133"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-GND"
+			(at 96.52 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 96.52 79.375 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58a57a5d-c8ca-420c-ad91-2112341d6036")
+		)
+		(instances
+			(project "pic8bit"
+				(path "/d431d485-8cd8-4e00-afcd-f39218d614ca/8cdf8b92-b881-481d-a85a-c0055e9a856b"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

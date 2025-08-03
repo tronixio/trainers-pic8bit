@@ -1,0 +1,13 @@
+.DS_Store
+Docs
+
+# Kicad.
+Kicad/*/*
+!Kicad/*/*kicad_pcb
+!Kicad/*/*kicad_pro
+!Kicad/*/*kicad_sch
+
+# MplabX.
+MplabX/*/*
+!MplabX/*/main.c
+!MplabX/*/main.s
