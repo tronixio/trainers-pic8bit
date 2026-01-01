@@ -2,10 +2,10 @@
 Docs
 
 # Kicad.
-Kicad/*
-!Kicad/*kicad_pcb
-!Kicad/*kicad_pro
-!Kicad/*kicad_sch
+Kicad/*/*
+!Kicad/*/*kicad_pcb
+!Kicad/*/*kicad_pro
+!Kicad/*/*kicad_sch
 
 # MplabX.
 MplabX/*/*
